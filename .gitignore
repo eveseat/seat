@@ -5,3 +5,5 @@ Homestead.yaml
 .idea/
 _ide_helper.php
 packages/
+storage/database.sqlite
+composer.lock
