@@ -144,6 +144,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * SeAT Service Providers
+         */
+        Seat\Console\ConsoleServiceProvider::class,
+        Seat\Eveapi\EveapiServiceProvider::class,
+
     ],
 
     /*
