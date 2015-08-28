@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: Seat
-        psr4_prefix: Seat
+        namespace: App
+        psr4_prefix: App
         src_path: app

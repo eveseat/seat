@@ -19,7 +19,7 @@
             "database"
         ],
         "psr-4": {
-            "Seat\\": "app/"
+            "App\\": "app/"
         }
     },
     "autoload-dev": {
