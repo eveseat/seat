@@ -33,5 +33,8 @@ class Kernel extends ConsoleKernel
 
         $schedule->command('eve:update-server-status')
             ->everyFiveMinutes()->withoutOverlapping();
+
+        $schedule->command('eve:update-eve')
+            ->daily()->withoutOverlapping();
     }
 }
