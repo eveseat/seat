@@ -36,5 +36,8 @@ class Kernel extends ConsoleKernel
 
         $schedule->command('eve:update-eve')
             ->daily()->withoutOverlapping();
+
+        $schedule->command('eve:update-map')
+            ->daily()->withoutOverlapping();
     }
 }
