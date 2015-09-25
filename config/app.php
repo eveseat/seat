@@ -149,6 +149,8 @@ return [
          */
         Seat\Console\ConsoleServiceProvider::class,
         Seat\Eveapi\EveapiServiceProvider::class,
+        Seat\Services\ServicesServiceProvider::class,
+        Seat\Web\WebServiceProvider::class,
 
     ],
 
