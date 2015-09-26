@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>503 | Service Unavailable</title>
+        <title>500 | Internal Error</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -40,8 +40,11 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Be right back.</div>
+                <div class="title">Sorry! Looks like it broke.</div>
             </div>
+            <br>
+            A critical error has occured. Please contact your administrator with full details
+            of how you got here.
         </div>
     </body>
 </html>
