@@ -8,10 +8,10 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
         "predis/predis": "~1.0",
-        "eveseat/eveapi": "dev-master",
-        "eveseat/console": "dev-master",
-        "eveseat/services": "dev-master",
-        "eveseat/web": "dev-master"
+        "eveseat/eveapi": "1.*",
+        "eveseat/console": "1.*",
+        "eveseat/services": "1.*",
+        "eveseat/web": "1.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
