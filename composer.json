@@ -32,6 +32,7 @@
             "tests/TestCase.php"
         ]
     },
+    "minimum-stability": "stable",
     "scripts": {
         "post-install-cmd": [
             "php artisan clear-compiled",
