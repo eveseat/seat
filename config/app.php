@@ -148,6 +148,7 @@ return [
         /*
          * SeAT Service Providers
          */
+        Seat\Api\ApiServiceProvider::class,
         Seat\Console\ConsoleServiceProvider::class,
         Seat\Eveapi\EveapiServiceProvider::class,
         Seat\Services\ServicesServiceProvider::class,
