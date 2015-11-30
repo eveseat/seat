@@ -8,6 +8,7 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
         "predis/predis": "~1.0",
+        "eveseat/api": "1.*",
         "eveseat/eveapi": "1.*",
         "eveseat/console": "1.*",
         "eveseat/services": "1.*",
