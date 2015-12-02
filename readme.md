@@ -23,6 +23,10 @@ Please refer to the [wiki](https://github.com/eveseat/seat/wiki) for documentati
 * Current Version: [![Latest Stable Version](https://poser.pugx.org/eveseat/eveapi/v/stable)](https://packagist.org/packages/eveseat/eveapi)
 * Repo Location: [https://github.com/eveseat/eveapi](https://github.com/eveseat/eveapi)
 
+#### eveseat/notifications
+* Current Version: [![Latest Stable Version](https://poser.pugx.org/eveseat/notifications/v/stable)](https://packagist.org/packages/eveseat/notifications)
+* Repo Location: [https://github.com/eveseat/notifications](https://github.com/eveseat/notifications)
+
 #### eveseat/web
 * Current Version: [![Latest Stable Version](https://poser.pugx.org/eveseat/web/v/stable)](https://packagist.org/packages/eveseat/web)
 * Repo Location: [https://github.com/eveseat/web](https://github.com/eveseat/web)
