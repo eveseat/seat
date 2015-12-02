@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'noreply@seat.local', 'name' => 'SeAT Administrator'],
 
     /*
     |--------------------------------------------------------------------------
