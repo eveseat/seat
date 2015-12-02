@@ -4,6 +4,7 @@ namespace App\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
+use Seat\Services\Models\Schedule as DBSchedule;
 
 /**
  * Class Kernel
@@ -31,13 +32,26 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
 
-        $schedule->command('eve:update-server-status')
-            ->everyFiveMinutes()->withoutOverlapping();
+        // Load the schedule from the database
+        foreach (DBSchedule::all() as $job) {
 
-        $schedule->command('eve:update-eve')
-            ->daily()->withoutOverlapping();
+            $command = $schedule->command($job['command'])
+                ->cron($job['expression']);
 
-        $schedule->command('eve:update-map')
-            ->daily()->withoutOverlapping();
+            // Check if overlapping is allowed
+            if (!$job['allow_overlap'])
+                $command = $command->withoutOverlapping();
+
+            // Check if maintenance mode is allowed
+            if ($job['allow_maintenance'])
+                $command = $command->evenInMaintenanceMode();
+
+            if ($job['ping_before'])
+                $command = $command->pingBefore($job['ping_before']);
+
+            if ($job['ping_after'])
+                $command->thenPing($job['ping_after']);
+
+        }
     }
 }
