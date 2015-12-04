@@ -2,8 +2,11 @@
 
 namespace App\Console;
 
+use DB;
+use Exception;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
+use Schema;
 use Seat\Services\Models\Schedule as DBSchedule;
 
 /**
@@ -31,6 +34,23 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
+
+        // Check that the schedules table exists. This
+        // could cause a fatal error if the app is
+        // still being setup or the db has not yet
+        // been configured. This is a relatively ugly
+        // hack as this schedule() method is core to
+        // the framework.
+        try {
+
+            DB::connection();
+            if (!Schema::hasTable('schedules'))
+                throw new Exception('Schema schedules does not exist');
+
+        } catch (Exception $e) {
+
+            return;
+        }
 
         // Load the schedule from the database
         foreach (DBSchedule::all() as $job) {
