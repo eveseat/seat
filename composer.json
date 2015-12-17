@@ -5,7 +5,7 @@
     "license": "GPL-2.0",
     "type": "project",
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=5.5.14",
         "laravel/framework": "5.1.*",
         "predis/predis": "~1.0",
         "eveseat/api": "1.*",
