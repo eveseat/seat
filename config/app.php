@@ -155,6 +155,14 @@ return [
         Seat\Services\ServicesServiceProvider::class,
         Seat\Web\WebServiceProvider::class,
 
+        /*
+         * Extra package Service Providers.
+         *
+         * Any extra packages that you add to SeAT should be
+         * defined below this comment block.
+         */
+        // Example\Pakage\ServiceProvider::class
+
     ],
 
     /*
