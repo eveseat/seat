@@ -5,6 +5,7 @@
 [![Latest Stable Version](https://poser.pugx.org/eveseat/seat/v/stable)](https://packagist.org/packages/eveseat/seat)
 [![Latest Unstable Version](https://poser.pugx.org/eveseat/seat/v/unstable)](https://packagist.org/packages/eveseat/seat)
 [![License](https://poser.pugx.org/eveseat/seat/license)](https://packagist.org/packages/eveseat/seat)
+[![Documentation Status](https://readthedocs.org/projects/seat-docs/badge/?version=latest)](http://seat-docs.readthedocs.org/en/latest/?badge=latest)
 
 This repository contains the main SeAT Repository. It can be seen as the 'glue' for all of the SeAT core packages.  
 SeAT is a EVE Online Corporation Management Tool written in PHP using the Laravel Framework driven by a MySQL database. SeAT itself is the result of a rewrite of the original Corporation Management Tool that I wrote for our corp and figured there may be others out there that may need similar tools.
