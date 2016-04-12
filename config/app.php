@@ -162,6 +162,7 @@ return [
          * defined below this comment block.
          */
         // Example\Pakage\ServiceProvider::class
+        Fideloper\Proxy\TrustedProxyServiceProvider::class,
 
     ],
 
