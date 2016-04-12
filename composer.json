@@ -13,7 +13,8 @@
         "eveseat/eveapi": "1.*",
         "eveseat/notifications": "1.*",
         "eveseat/services": "1.*",
-        "eveseat/web": "1.*"
+        "eveseat/web": "1.*",
+        "fideloper/proxy": "^3.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
