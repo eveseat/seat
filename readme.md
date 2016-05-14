@@ -11,7 +11,10 @@ This repository contains the main SeAT Repository. It can be seen as the 'glue' 
 SeAT is a EVE Online Corporation Management Tool written in PHP using the Laravel Framework driven by a MySQL database. SeAT itself is the result of a rewrite of the original Corporation Management Tool that I wrote for our corp and figured there may be others out there that may need similar tools.
 
 ## documentation & installation
-Please refer to the [wiki](https://github.com/eveseat/seat/wiki) for documentation and installation instructions.
+Please refer to the [documentation](http://seat-docs.rtfd.org) for installation instructions, upgrade guides and more.
+
+## donate
+If you like SeAT, please consider donating ISK ingame to [qu1ckkkk](https://gate.eveonline.com/Profile/qu1ckkkk).
 
 ## Core package statuses.
 
