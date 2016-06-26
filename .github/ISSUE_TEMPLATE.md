@@ -1,5 +1,7 @@
 **Please don't log issues for general discussions. Instead, join us on [Slack](http://seat-docs.readthedocs.io/en/latest/contact/) for a chat.**
 
+**For some help on where to find logs, put SeAT into DEBUG mode etc, please refer to the [following link](http://seat-docs.readthedocs.io/en/latest/reporting_bugs/).
+
 _Thanks for wanting to report an issue you've found in SeAT. Please delete
 this text and fill in the template below. If you are unsure about something,
 just do as best as you're able._
