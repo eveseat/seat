@@ -11,6 +11,10 @@ SeAT is a simple, EVE Online corporation management tool written in PHP using th
 
 This repository contains the main SeAT Repository. It can be seen as the 'glue' for all of the SeAT core packages.  
 
+## screenshots
+![character view](https://i.imgur.com/hxfcYll.png)
+![starbase view](https://i.imgur.com/qFX2lDS.png)
+
 ## documentation & installation
 Please refer to the [documentation](http://seat-docs.rtfd.org) for installation instructions, upgrade guides and more.
 
