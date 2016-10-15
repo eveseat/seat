@@ -2,17 +2,12 @@
 
 namespace App\Console;
 
-use DB;
-use Exception;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
-use Schema;
-use Seat\Services\Models\Schedule as DBSchedule;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Seat\Services\Models\Schedule as DbSchedule;
 
-/**
- * Class Kernel
- * @package App\Console
- */
 class Kernel extends ConsoleKernel
 {
 
@@ -53,7 +48,7 @@ class Kernel extends ConsoleKernel
         }
 
         // Load the schedule from the database
-        foreach (DBSchedule::all() as $job) {
+        foreach (DbSchedule::all() as $job) {
 
             $command = $schedule->command($job['command'])
                 ->cron($job['expression']);
@@ -73,5 +68,16 @@ class Kernel extends ConsoleKernel
                 $command->thenPing($job['ping_after']);
 
         }
+    }
+
+    /**
+     * Register the Closure based commands for the application.
+     *
+     * @return void
+     */
+    protected function commands()
+    {
+
+        require base_path('routes/console.php');
     }
 }

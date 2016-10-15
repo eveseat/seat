@@ -1,12 +1,9 @@
 <?php
 
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Seeder;
-use Seat\Services\database\seeds\NotificationTypesSeeder;
 
 class DatabaseSeeder extends Seeder
 {
-
     /**
      * Run the database seeds.
      *
@@ -14,11 +11,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-
-        Model::unguard();
-
-        //
-
-        Model::reguard();
+        // $this->call(UsersTableSeeder::class);
     }
 }
