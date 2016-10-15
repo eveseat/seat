@@ -1,15 +1,23 @@
 ![SeAT](http://i.imgur.com/aPPOxSK.png)
 
-## SeAT: A Simple, EVE Online API Tool and Corporation Manager
+<h2 align="center">
+SeAT: A Simple, EVE Online API Tool and Corporation Manager
 
-[![Latest Stable Version](https://poser.pugx.org/eveseat/seat/v/stable)](https://packagist.org/packages/eveseat/seat)
-[![Latest Unstable Version](https://poser.pugx.org/eveseat/seat/v/unstable)](https://packagist.org/packages/eveseat/seat)
-[![License](https://poser.pugx.org/eveseat/seat/license)](https://packagist.org/packages/eveseat/seat)
-[![Documentation Status](https://readthedocs.org/projects/seat-docs/badge/?version=latest)](http://seat-docs.readthedocs.org/en/latest/?badge=latest)
+<br>
+
+<a href="https://packagist.org/packages/eveseat/seat"><img src="https://poser.pugx.org/eveseat/seat/v/stable" /></a>
+<a href="https://packagist.org/packages/eveseat/seat"><img src="https://poser.pugx.org/eveseat/seat/v/unstable" /></a>
+<a href="https://packagist.org/packages/eveseat/seat"><img src="https://poser.pugx.org/eveseat/seat/license" /></a>
+<a href="http://seat-docs.readthedocs.org/en/latest/"><img src="https://readthedocs.org/projects/seat-docs/badge/?version=latest" /></a>
+
+</h2>
 
 SeAT is a simple, EVE Online corporation management tool written in PHP using the Laravel Framework driven by a MySQL database.
-
 This repository contains the main SeAT Repository. It can be seen as the 'glue' for all of the SeAT core packages.  
+
+## packages
+For the **actual** SeAT source, please refer to the following package repositories:  
+[api](https://github.com/eveseat/api) | [console](https://github.com/eveseat/console) | [eveapi](https://github.com/eveseat/eveapi) | [notifications](https://github.com/eveseat/notifications) | [web](https://github.com/eveseat/web) | [services](https://github.com/eveseat/services)
 
 ## screenshots
 ![character view](https://i.imgur.com/hxfcYll.png)
