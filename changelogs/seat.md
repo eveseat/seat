@@ -1,0 +1,72 @@
+171a650 (HEAD -> master, origin/master) Re-enable the ApiServiceProvider
+6791c38 Add flag to log queries to the log file
+2b9ade7 Disable `ONLY_FULL_GROUP_BY` constraint
+0eea8f0 Import Exception class
+21ab024 Update readme.md
+148a6b9 Upgrade to Laravel 5.3
+2940be7 Merge pull request #133 from warlof/config
+0c9b5b1 set log as daily log by default in order to make smaller file and help to track issues by time
+821ec7f Add screenshots
+13738be Remove erroneous [
+6fc7bfd Update README
+eaf83a3 Fix markdown syntax
+6872975 Add link to finding logs etc
+27b2b48 (tag: 1.0.12) Update readme.md
+b067bd3 Add configuration items for EVE SSO
+3c8e6cc Add link to contact info for general enquiries.
+bfde328 Update ISSUE_TEMPLATE to be cleaner
+c41637c (tag: 1.0.11) Fix eveseat/seat#80 by updating with upstream Laravel & Composer changes
+f8ee744 Add docs badge
+75ab31e Add ISSUE_TEMPLATE
+f50c26f (tag: 1.0.10) Give Redis a day before moving form `reserved` to `main`
+45b491f (tag: 1.0.9) Add comment block to help placing package service providers
+9c5bcd6 Default to Redis cache driver
+0a91d38 (tag: 1.0.8) Bump PHP version requirement due to PHP Late Static Binding Bug
+82e486c (tag: 1.0.7) Default to redis Queue driver
+35acb28 Ship with debug mode disabled
+45c31c1 (tag: 1.0.6) Include pheal cache dir
+3eb6883 Update favico
+15c2a70 Update readme.md
+018dc9d (tag: 1.0.5) Ensure the sde storage directory is available
+496a73f (tag: 1.0.4) Fix #2
+782f543 (tag: 1.0.3) Update readme
+29f1993 Add notifications
+a712bfc Set a default from
+e53e723 Load command schedules from the DB
+67fa32b Remove the hardcoded seeder
+650c7de (tag: 1.0.2) Update readme
+8b158d4 Add API repo
+d854c33 Exclude auth from Csrf checks
+4c0ea1e Bypass Csrf checks for API calls
+f646309 Bootstrap the SeAT API Service Provider
+ab10f46 (tag: 1.0.1) Update with minimum stability
+cb617ba (tag: 1.0.0) Set dependencies to 1.* versions
+822fbc1 (tag: 1.0-pre-alpha) Add the Notification Seeder
+e412f6c Set default queue driver
+c14940e Set session cookie name
+ca43fc5 Redirect home to start SeAT Web UI
+be3fac7 Override to allow requests
+5071eb8 ADD README
+f559e3e Set password reset email view
+523f4cb Include eveseat/web dependency
+364c57a Update config to make use of the Use model in eveseat/web
+6af6aac Add friendly error messages
+6d4bb73 Apply framework changes for Laravel 5.1.11+
+dd81d71 Add new dependencies
+24da1b1 Add new service providers
+3d3c649 Prepare for packagist publish
+5976bf9 Add Console and API Updater packages as dependencies
+973b6d5 Add Map Updater Schedule
+7fcf178 Schedule eve:update-eve daily
+a56d3ad Schedule the eve:update-server-status command
+c2812cf Set a few defaults
+c0bf82e Remove unused command
+58ff3c6 Remove composer.lock
+aea4c7c Rename back to artisan
+9806f4a Update gitignore
+5658a92 Revert to App namespace
+3424caf Ignore packages/
+c8a5b6e Move namespace from App -> Seat
+57487e8 Update .gitignore
+644f3a9 Add license and update .gitignore
+0bba931 first commit

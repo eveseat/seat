@@ -1,0 +1,17 @@
+6caa863 (HEAD -> master, origin/master) Update PHP & Laravel dependencies. Remove psr/log dependency.
+624e13c Apply new global web middleware
+c115945 (tag: 1.0.4) Version Bump
+7b0cd6f Update copyright
+23e89b1 Code style fix
+d47b267 (tag: 1.0.3) Version Bump
+e0a5b53 Specify Versions with ~
+aedd78a (tag: 1.0.2) Version Bump
+a2e7ddf Add suport for lacalization
+6594754 (tag: 1.0.1) Version Bump
+ccf7596 Update README.md
+70994aa Add more complete message
+15b1175 (tag: 1.0.0) Add views to see notifications
+fd76941 Fix typo
+a5f93e7 Update README
+c22a837 First iteration of the notification package
+032bebf first commit
