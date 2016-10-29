@@ -1,4 +1,5 @@
-171a650 (HEAD -> master, origin/master) Re-enable the ApiServiceProvider
+591a96c (HEAD -> master, origin/master) Add changelogs
+171a650 Re-enable the ApiServiceProvider
 6791c38 Add flag to log queries to the log file
 2b9ade7 Disable `ONLY_FULL_GROUP_BY` constraint
 0eea8f0 Import Exception class
