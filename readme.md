@@ -17,13 +17,15 @@ This repository contains the main SeAT Repository. It can be seen as the 'glue' 
 
 ## packages
 For the **actual** SeAT source, please refer to the following package repositories:  
-[![Latest Stable Version](https://poser.pugx.org/eveseat/api/v/stable)](https://packagist.org/packages/eveseat/api) [api](https://github.com/eveseat/api) |
-[![Latest Stable Version](https://poser.pugx.org/eveseat/console/v/stable)](https://packagist.org/packages/eveseat/console) [console](https://github.com/eveseat/console) |
-[![Latest Stable Version](https://poser.pugx.org/eveseat/eveapi/v/stable)](https://packagist.org/packages/eveseat/eveapi) [eveapi](https://github.com/eveseat/eveapi) |
-[![Latest Stable Version](https://poser.pugx.org/eveseat/notifications/v/stable)](https://packagist.org/packages/eveseat/notifications) [notifications](https://github.com/eveseat/notifications) |
-[![Latest Stable Version](https://poser.pugx.org/eveseat/services/v/stable)](https://packagist.org/packages/eveseat/services) [services](https://github.com/eveseat/services) |
-[![Latest Stable Version](https://poser.pugx.org/eveseat/web/v/stable)](https://packagist.org/packages/eveseat/web) [web](https://github.com/eveseat/web)
 
+| Package Name   | Version        |
+|----------------|:-------------:|
+| [api](https://github.com/eveseat/api) | [![Latest Stable Version](https://poser.pugx.org/eveseat/api/v/stable)](https://packagist.org/packages/eveseat/api) |
+| [console](https://github.com/eveseat/console) | [![Latest Stable Version](https://poser.pugx.org/eveseat/console/v/stable)](https://packagist.org/packages/eveseat/console) |
+| [eveapi](https://github.com/eveseat/eveapi) | [![Latest Stable Version](https://poser.pugx.org/eveseat/eveapi/v/stable)](https://packagist.org/packages/eveseat/eveapi) |
+| [notifications](https://github.com/eveseat/notifications) | [![Latest Stable Version](https://poser.pugx.org/eveseat/notifications/v/stable)](https://packagist.org/packages/eveseat/notifications) |
+| [services](https://github.com/eveseat/services) | [![Latest Stable Version](https://poser.pugx.org/eveseat/services/v/stable)](https://packagist.org/packages/eveseat/services) |
+| [web](https://github.com/eveseat/web) | [![Latest Stable Version](https://poser.pugx.org/eveseat/web/v/stable)](https://packagist.org/packages/eveseat/web) |
 
 ## screenshots
 ![character view](https://i.imgur.com/hxfcYll.png)
@@ -34,15 +36,3 @@ Please refer to the [documentation](http://seat-docs.rtfd.org) for installation 
 
 ## donate
 If you like SeAT, please consider donating ISK in game to [qu1ckkkk](https://gate.eveonline.com/Profile/qu1ckkkk).
-
-## package versions
-The following table shows the core SeAT packages and their respective versions.
-
-| Package Name   | Source        | Version  |
-|----------------|:-------------:| --------|
-| eveseat/api | [https://github.com/eveseat/api](https://github.com/eveseat/api) | [![Latest Stable Version](https://poser.pugx.org/eveseat/api/v/stable)](https://packagist.org/packages/eveseat/api) |
-| eveseat/console | [https://github.com/eveseat/console](https://github.com/eveseat/console) | [![Latest Stable Version](https://poser.pugx.org/eveseat/console/v/stable)](https://packagist.org/packages/eveseat/console) |
-| eveseat/eveapi | [https://github.com/eveseat/eveapi](https://github.com/eveseat/eveapi) | [![Latest Stable Version](https://poser.pugx.org/eveseat/eveapi/v/stable)](https://packagist.org/packages/eveseat/eveapi) |
-| eveseat/notifications | [https://github.com/eveseat/notifications](https://github.com/eveseat/notifications) | [![Latest Stable Version](https://poser.pugx.org/eveseat/notifications/v/stable)](https://packagist.org/packages/eveseat/notifications) |
-| eveseat/web | [https://github.com/eveseat/web](https://github.com/eveseat/web) | [![Latest Stable Version](https://poser.pugx.org/eveseat/web/v/stable)](https://packagist.org/packages/eveseat/web) |
-| eveseat/services | [https://github.com/eveseat/services](https://github.com/eveseat/services) | [![Latest Stable Version](https://poser.pugx.org/eveseat/services/v/stable)](https://packagist.org/packages/eveseat/services) |
