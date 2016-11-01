@@ -1,4 +1,7 @@
-591a96c (HEAD -> master, origin/master) Add changelogs
+f0ae9f2 (HEAD -> master, origin/master) Update README
+a85b609 Update README to include versions
+a1aa28e Format changelogs as txt files
+591a96c Add changelogs
 171a650 Re-enable the ApiServiceProvider
 6791c38 Add flag to log queries to the log file
 2b9ade7 Disable `ONLY_FULL_GROUP_BY` constraint

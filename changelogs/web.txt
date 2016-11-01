@@ -1,4 +1,6 @@
-2d73c70 (HEAD -> master, origin/master, origin/HEAD) Update to match new class names in eveapi repo
+86ade0b (HEAD -> master, origin/master, origin/HEAD) Add the AuthorizationController and fix the KeyBouncer
+d8a412f Update bouncers to return a redirect instead of view
+2d73c70 Update to match new class names in eveapi repo
 249c5af Fix language string
 038ba4d Update to make use of new Corp repository classes
 fb129f9 Update to make use of new Character repository classes

@@ -1,4 +1,5 @@
-d13d650 (HEAD -> master, origin/master, origin/HEAD) Refactor Corporation repo to use structured classes
+d1d46cf (HEAD -> master, origin/master, origin/HEAD) Remove return type as it can be null
+d13d650 Refactor Corporation repo to use structured classes
 ab9f039 Refactor the Character repository to use seperate classes
 3f7a1f9 Return a single value instead of array
 6b0aa6c Remove usage of `collect()`. Collections are returned by default

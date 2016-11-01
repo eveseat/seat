@@ -1,4 +1,7 @@
-591a96c (HEAD -> master, origin/master) Add changelogs
+f0ae9f2 (HEAD -> master, origin/master) Update README
+a85b609 Update README to include versions
+a1aa28e Format changelogs as txt files
+591a96c Add changelogs
 171a650 Re-enable the ApiServiceProvider
 6791c38 Add flag to log queries to the log file
 2b9ade7 Disable `ONLY_FULL_GROUP_BY` constraint
@@ -459,7 +462,8 @@ fd76941 Fix typo
 a5f93e7 Update README
 c22a837 First iteration of the notification package
 032bebf first commit
-d13d650 (HEAD -> master, origin/master, origin/HEAD) Refactor Corporation repo to use structured classes
+d1d46cf (HEAD -> master, origin/master, origin/HEAD) Remove return type as it can be null
+d13d650 Refactor Corporation repo to use structured classes
 ab9f039 Refactor the Character repository to use seperate classes
 3f7a1f9 Return a single value instead of array
 6b0aa6c Remove usage of `collect()`. Collections are returned by default
@@ -619,7 +623,9 @@ ea84fb0 Add Queue Data Source
 467fb42 Update badges
 5779eff Prepare repository for packagist
 a46f437 Initial commit
-2d73c70 (HEAD -> master, origin/master, origin/HEAD) Update to match new class names in eveapi repo
+86ade0b (HEAD -> master, origin/master, origin/HEAD) Add the AuthorizationController and fix the KeyBouncer
+d8a412f Update bouncers to return a redirect instead of view
+2d73c70 Update to match new class names in eveapi repo
 249c5af Fix language string
 038ba4d Update to make use of new Corp repository classes
 fb129f9 Update to make use of new Character repository classes
