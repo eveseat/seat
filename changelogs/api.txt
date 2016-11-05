@@ -1,4 +1,5 @@
-4f74325 (HEAD -> master, origin/master) Update to make use of new corp repository classes
+6d28aff (HEAD -> master, origin/master) Extend new core controllers instead of base in App namespace
+4f74325 Update to make use of new corp repository classes
 39237e8 Update to use new classes from the the repository
 db6db82 Fix middleware to include new `web` middleware.
 ba92bd6 Update PHP & Laravel dependencies

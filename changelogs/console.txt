@@ -1,4 +1,5 @@
-cebd0ef (HEAD -> master, origin/master) Update to match new class names in eveapi repo
+9d189dc (HEAD -> master, origin/master) Rename Pillow to AccessManager and update calls argument list
+cebd0ef Update to match new class names in eveapi repo
 e1a95e9 Correctly identify the current user running the command.
 e83fb0e Use `dispatch()` helper instead of Trait
 953d790 Update PHP, Laravel & Guzzle dependencies

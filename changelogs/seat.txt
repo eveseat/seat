@@ -1,4 +1,6 @@
-f0ae9f2 (HEAD -> master, origin/master) Update README
+f5277c7 (HEAD -> master, origin/master) Remove base controller as we can exterd straigh out of core now.
+46c9f42 Update Changelogs
+f0ae9f2 Update README
 a85b609 Update README to include versions
 a1aa28e Format changelogs as txt files
 591a96c Add changelogs

@@ -1,4 +1,15 @@
-86ade0b (HEAD -> master, origin/master, origin/HEAD) Add the AuthorizationController and fix the KeyBouncer
+b5e6f9f (HEAD -> master, origin/master, origin/HEAD) Extend new core controllers instead of base in App namespace
+1890f8a Redirect to the newly created role
+e38c7ba Add ability to wildcard corporation and character access
+5d8ccca Simply validation using form array validation.
+231ea86 Remove `insteadof` as repository refactor removed the need for this
+ce1bd67 Change Action to route home
+f6fb5f9 Fix translation strings
+27bd2c2 Implement Inverse access checking
+48160d5 Rename Pillow to AccessManager and add typing
+7042418 Fix translation key
+896592c Add support for storing inverse permissions
+86ade0b Add the AuthorizationController and fix the KeyBouncer
 d8a412f Update bouncers to return a redirect instead of view
 2d73c70 Update to match new class names in eveapi repo
 249c5af Fix language string

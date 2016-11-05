@@ -1,4 +1,5 @@
-34ac286 (HEAD -> master, origin/master, origin/HEAD) Extract some error handling up to the base abstract class
+79e30bd (HEAD -> master, origin/master, origin/HEAD) Use logger() helper
+34ac286 Extract some error handling up to the base abstract class
 77172ec Cleanup methods, add type hints and remove unused code
 f4af243 Make the integer migration a little more understandable.
 66c6bba Add more contact related fields to the integer fixes

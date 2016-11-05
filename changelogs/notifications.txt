@@ -1,4 +1,5 @@
-6caa863 (HEAD -> master, origin/master) Update PHP & Laravel dependencies. Remove psr/log dependency.
+353d04c (HEAD -> master, origin/master) Extend new core controllers instead of base in App namespace
+6caa863 Update PHP & Laravel dependencies. Remove psr/log dependency.
 624e13c Apply new global web middleware
 c115945 (tag: 1.0.4) Version Bump
 7b0cd6f Update copyright
