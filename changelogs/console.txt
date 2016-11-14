@@ -1,4 +1,5 @@
-9d189dc (HEAD -> master, origin/master) Rename Pillow to AccessManager and update calls argument list
+2952e40 (HEAD -> master, origin/master) Code formatting fixes
+9d189dc Rename Pillow to AccessManager and update calls argument list
 cebd0ef Update to match new class names in eveapi repo
 e1a95e9 Correctly identify the current user running the command.
 e83fb0e Use `dispatch()` helper instead of Trait

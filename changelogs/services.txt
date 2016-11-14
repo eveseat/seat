@@ -1,4 +1,10 @@
-720e5cb (HEAD -> master, origin/master, origin/HEAD) Use logger() helper
+c62da72 (HEAD -> master, origin/master, origin/HEAD) Remove stale usages of the old `Filterable` trait.
+68e28c9 Allow for repo queries to return unresolved.
+5ae8c91 Add flag to return unresolved queries for datatables.
+bdb2ba0 Add Intel repository
+f65548e Code formatting fixes
+6ccfb97 Paginate market orders
+720e5cb Use logger() helper
 1ad9cfb Remove `array_flatten()` as collections are returned
 d8ddbb0 Fix column ambiguity
 d1d46cf Remove return type as it can be null

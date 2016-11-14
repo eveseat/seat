@@ -1,4 +1,5 @@
-f5277c7 (HEAD -> master, origin/master) Remove base controller as we can exterd straigh out of core now.
+e320997 (HEAD -> master, origin/master) Update Changelogs
+f5277c7 Remove base controller as we can exterd straigh out of core now.
 46c9f42 Update Changelogs
 f0ae9f2 Update README
 a85b609 Update README to include versions
@@ -76,7 +77,8 @@ c8a5b6e Move namespace from App -> Seat
 57487e8 Update .gitignore
 644f3a9 Add license and update .gitignore
 0bba931 first commit
-6d28aff (HEAD -> master, origin/master) Extend new core controllers instead of base in App namespace
+80c3d0e (HEAD -> master, origin/master) Code formatting fixes
+6d28aff Extend new core controllers instead of base in App namespace
 4f74325 Update to make use of new corp repository classes
 39237e8 Update to use new classes from the the repository
 db6db82 Fix middleware to include new `web` middleware.
@@ -131,7 +133,8 @@ dda7cbb Add endpoint to validate credentials
 6905c26 Compelte the EVE API Key API
 32d17cf First preperations for the SeAT API
 57f8c6d first commit
-9d189dc (HEAD -> master, origin/master) Rename Pillow to AccessManager and update calls argument list
+2952e40 (HEAD -> master, origin/master) Code formatting fixes
+9d189dc Rename Pillow to AccessManager and update calls argument list
 cebd0ef Update to match new class names in eveapi repo
 e1a95e9 Correctly identify the current user running the command.
 e83fb0e Use `dispatch()` helper instead of Trait
@@ -208,7 +211,11 @@ b9b7545 Add the EveUpdateServerStatus command
 c978b94 Add the add:job command for testing
 c01ddd9 Start the Console package
 f42ac27 first commit
-79e30bd (HEAD -> master, origin/master, origin/HEAD) Use logger() helper
+271aa73 (HEAD -> master) Fix type hint to an int instead of string
+59a83e5 (origin/master, origin/HEAD) Move the `Affiliation` updater to a character specific class.
+12b0999 Add CharacterAffiliation updater. This is prep for the intel module.
+b68cd19 Code formatting fixes
+79e30bd Use logger() helper
 34ac286 Extract some error handling up to the base abstract class
 77172ec Cleanup methods, add type hints and remove unused code
 f4af243 Make the integer migration a little more understandable.
@@ -450,7 +457,8 @@ ca0a6d7 Add generated docblocks
 b6991b9 Start a few things to test job workers
 40d4948 Start composer package
 af4f12f first commit
-353d04c (HEAD -> master, origin/master) Extend new core controllers instead of base in App namespace
+d1614c8 (HEAD -> master, origin/master) Code formatting fixes
+353d04c Extend new core controllers instead of base in App namespace
 6caa863 Update PHP & Laravel dependencies. Remove psr/log dependency.
 624e13c Apply new global web middleware
 c115945 (tag: 1.0.4) Version Bump
@@ -468,7 +476,13 @@ fd76941 Fix typo
 a5f93e7 Update README
 c22a837 First iteration of the notification package
 032bebf first commit
-720e5cb (HEAD -> master, origin/master, origin/HEAD) Use logger() helper
+c62da72 (HEAD -> master, origin/master, origin/HEAD) Remove stale usages of the old `Filterable` trait.
+68e28c9 Allow for repo queries to return unresolved.
+5ae8c91 Add flag to return unresolved queries for datatables.
+bdb2ba0 Add Intel repository
+f65548e Code formatting fixes
+6ccfb97 Paginate market orders
+720e5cb Use logger() helper
 1ad9cfb Remove `array_flatten()` as collections are returned
 d8ddbb0 Fix column ambiguity
 d1d46cf Remove return type as it can be null
@@ -632,7 +646,40 @@ ea84fb0 Add Queue Data Source
 467fb42 Update badges
 5779eff Prepare repository for packagist
 a46f437 Initial commit
-b5e6f9f (HEAD -> master, origin/master, origin/HEAD) Extend new core controllers instead of base in App namespace
+8712398 (HEAD -> master, origin/master, origin/HEAD) Fix typo from `read` to `ready`.
+441a612 Sort the character list correctly
+debd68e Do not include the old filter config file
+6146dca Remove state config file of the old `Filterable` trait
+5445360 Convert character tables to datatables.
+abb48be Fix Mail menu entry name
+94a6c32 Correctly sort by default
+f485c03 Include external providers in a seperate method.
+fdfd922 Fix indenting
+4bae275 Hide registration link if registration is disabled (#46)
+7a0cfcb Fix searching on corporation killboard
+4c04af9 Indenting fixes
+a5125e3 Add two low fuel warning on starbase list (#45)
+de8b88c Convert Corporation tables to data tables.
+34c6bc9 Sort Datatables columns by default on fist column
+d13c96f Allow for name resolution to be called by function
+f9b0962 Covert Corporation View to use Datatables
+e7bd080 Make datatables responsive by default
+09714e0 Use the new data tables helper to make search & sorting work
+a5e8cbe Add a JS version of the `human_readable` helper
+51340f8 Add javascript using `push` & format fixes
+bcc35e0 Redesign queue dashboard to use a dynamic table (#41)
+142bb8a Add scripts using a `stack` instead of `section`.
+a99aeb6 Add yajra/laravel-datatables and convert api key list to datatables
+e7d8e07 Start the intel journal detail view.
+6dd6312 First rough commit of character intel module! 👾
+d7aa864 Formatting fixes
+3369f0b Add ability to mark label as a plural
+6dcb3de refactoring a bit menu composer in order to define a menu composer type and use config file instead hard coded entry (#44)
+ea656b5 Code formatting fixes.
+869e26c Explode the Corporation\ViewController into seperate controllers
+e19b350 Paginate market orders
+0933c79 Explode Character\ViewController into better managed controllers
+b5e6f9f Extend new core controllers instead of base in App namespace
 1890f8a Redirect to the newly created role
 e38c7ba Add ability to wildcard corporation and character access
 5d8ccca Simply validation using form array validation.

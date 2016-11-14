@@ -1,4 +1,5 @@
-f5277c7 (HEAD -> master, origin/master) Remove base controller as we can exterd straigh out of core now.
+e320997 (HEAD -> master, origin/master) Update Changelogs
+f5277c7 Remove base controller as we can exterd straigh out of core now.
 46c9f42 Update Changelogs
 f0ae9f2 Update README
 a85b609 Update README to include versions

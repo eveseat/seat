@@ -1,4 +1,5 @@
-6d28aff (HEAD -> master, origin/master) Extend new core controllers instead of base in App namespace
+80c3d0e (HEAD -> master, origin/master) Code formatting fixes
+6d28aff Extend new core controllers instead of base in App namespace
 4f74325 Update to make use of new corp repository classes
 39237e8 Update to use new classes from the the repository
 db6db82 Fix middleware to include new `web` middleware.

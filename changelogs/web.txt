@@ -1,4 +1,37 @@
-b5e6f9f (HEAD -> master, origin/master, origin/HEAD) Extend new core controllers instead of base in App namespace
+8712398 (HEAD -> master, origin/master, origin/HEAD) Fix typo from `read` to `ready`.
+441a612 Sort the character list correctly
+debd68e Do not include the old filter config file
+6146dca Remove state config file of the old `Filterable` trait
+5445360 Convert character tables to datatables.
+abb48be Fix Mail menu entry name
+94a6c32 Correctly sort by default
+f485c03 Include external providers in a seperate method.
+fdfd922 Fix indenting
+4bae275 Hide registration link if registration is disabled (#46)
+7a0cfcb Fix searching on corporation killboard
+4c04af9 Indenting fixes
+a5125e3 Add two low fuel warning on starbase list (#45)
+de8b88c Convert Corporation tables to data tables.
+34c6bc9 Sort Datatables columns by default on fist column
+d13c96f Allow for name resolution to be called by function
+f9b0962 Covert Corporation View to use Datatables
+e7bd080 Make datatables responsive by default
+09714e0 Use the new data tables helper to make search & sorting work
+a5e8cbe Add a JS version of the `human_readable` helper
+51340f8 Add javascript using `push` & format fixes
+bcc35e0 Redesign queue dashboard to use a dynamic table (#41)
+142bb8a Add scripts using a `stack` instead of `section`.
+a99aeb6 Add yajra/laravel-datatables and convert api key list to datatables
+e7d8e07 Start the intel journal detail view.
+6dd6312 First rough commit of character intel module! 👾
+d7aa864 Formatting fixes
+3369f0b Add ability to mark label as a plural
+6dcb3de refactoring a bit menu composer in order to define a menu composer type and use config file instead hard coded entry (#44)
+ea656b5 Code formatting fixes.
+869e26c Explode the Corporation\ViewController into seperate controllers
+e19b350 Paginate market orders
+0933c79 Explode Character\ViewController into better managed controllers
+b5e6f9f Extend new core controllers instead of base in App namespace
 1890f8a Redirect to the newly created role
 e38c7ba Add ability to wildcard corporation and character access
 5d8ccca Simply validation using form array validation.
