@@ -1,4 +1,5 @@
-e320997 (HEAD -> master, origin/master) Update Changelogs
+0e7c5ca (HEAD -> master, origin/master) Update Changelogs
+e320997 Update Changelogs
 f5277c7 Remove base controller as we can exterd straigh out of core now.
 46c9f42 Update Changelogs
 f0ae9f2 Update README
@@ -77,7 +78,8 @@ c8a5b6e Move namespace from App -> Seat
 57487e8 Update .gitignore
 644f3a9 Add license and update .gitignore
 0bba931 first commit
-80c3d0e (HEAD -> master, origin/master) Code formatting fixes
+2485046 (HEAD -> master, origin/master) Remove unused precedence rule
+80c3d0e Code formatting fixes
 6d28aff Extend new core controllers instead of base in App namespace
 4f74325 Update to make use of new corp repository classes
 39237e8 Update to use new classes from the the repository
@@ -476,7 +478,15 @@ fd76941 Fix typo
 a5f93e7 Update README
 c22a837 First iteration of the notification package
 032bebf first commit
-c62da72 (HEAD -> master, origin/master, origin/HEAD) Remove stale usages of the old `Filterable` trait.
+2cbaf0f (HEAD -> master, origin/master, origin/HEAD) Allow carbon helper to be called without an argument.
+41a9b07 Add `updateNote` method.
+a1c72d6 Add Trait that allows adding notes to any model.
+dc81167 Return an unresolved query for datatables to work with.
+e3437ca Join invTypes to get the contact type
+d804d7e Return raw query builder objects for use with datatables
+3b1cc16 Prevent overriding existing functions.
+eca05dd Alloe setting settings values using the helper.
+c62da72 Remove stale usages of the old `Filterable` trait.
 68e28c9 Allow for repo queries to return unresolved.
 5ae8c91 Add flag to return unresolved queries for datatables.
 bdb2ba0 Add Intel repository
@@ -646,7 +656,34 @@ ea84fb0 Add Queue Data Source
 467fb42 Update badges
 5779eff Prepare repository for packagist
 a46f437 Initial commit
-8712398 (HEAD -> master, origin/master, origin/HEAD) Fix typo from `read` to `ready`.
+b82aa7d (HEAD -> master, origin/master, origin/HEAD) Use select2 for character selection
+db20434 Set main character ID & name on SSO login
+7c4868f Allow for sub menus to be pluralized
+685b96d Add localization for email verification.
+5ea1f72 Remove unessesary file
+85ad7de Add email verification to account creation.
+6cc2854 Update EVE API status to match new style.
+32641e0 Move supervisor status to a panel.
+99ae5b6 Prepare status response from a collection instead of a raw array.
+241c9a9 Use process group name from config file.
+70bb0ff Bind 'supervisor' as a singleton into the IoC to remove code clutter.
+5b88e1b Move supervisor config ot its own file.
+c40bf89 Move available languages to its own config
+d3879ac Improve queue dashboard by adding supervisor information (#43)
+f09384a Add ability to edit existing notes.
+4c30a48 Remove character specific notes model and use services model note trait.
+56f316c First iteration adding notes to the intel section
+cf30e2f Remove intel journal detail
+f1f4a17 Allow standings profiles to be built by importing char/corp contacts 👍
+0f6c11c Inject the affected id from the request.
+40f2b65 Allow for a standings profile to be deleted.
+aed53aa Move People Groups to the Tools section
+a50a741 Remove ajax responses and return json for datatables.
+5d55b47 Move the last summaries to datatables
+e8813d7 Convert top transactions to datatables view
+9b6f2b8 Fix alliance name images
+6bb770f Load mail interactions using datatables.
+8712398 Fix typo from `read` to `ready`.
 441a612 Sort the character list correctly
 debd68e Do not include the old filter config file
 6146dca Remove state config file of the old `Filterable` trait

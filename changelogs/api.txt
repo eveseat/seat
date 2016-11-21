@@ -1,4 +1,5 @@
-80c3d0e (HEAD -> master, origin/master) Code formatting fixes
+2485046 (HEAD -> master, origin/master) Remove unused precedence rule
+80c3d0e Code formatting fixes
 6d28aff Extend new core controllers instead of base in App namespace
 4f74325 Update to make use of new corp repository classes
 39237e8 Update to use new classes from the the repository

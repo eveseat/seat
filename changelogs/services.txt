@@ -1,4 +1,12 @@
-c62da72 (HEAD -> master, origin/master, origin/HEAD) Remove stale usages of the old `Filterable` trait.
+2cbaf0f (HEAD -> master, origin/master, origin/HEAD) Allow carbon helper to be called without an argument.
+41a9b07 Add `updateNote` method.
+a1c72d6 Add Trait that allows adding notes to any model.
+dc81167 Return an unresolved query for datatables to work with.
+e3437ca Join invTypes to get the contact type
+d804d7e Return raw query builder objects for use with datatables
+3b1cc16 Prevent overriding existing functions.
+eca05dd Alloe setting settings values using the helper.
+c62da72 Remove stale usages of the old `Filterable` trait.
 68e28c9 Allow for repo queries to return unresolved.
 5ae8c91 Add flag to return unresolved queries for datatables.
 bdb2ba0 Add Intel repository
