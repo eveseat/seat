@@ -34,5 +34,8 @@ For the **actual** SeAT source, please refer to the following package repositori
 ## documentation & installation
 Please refer to the [documentation](http://seat-docs.rtfd.org) for installation instructions, upgrade guides and more.
 
+## security
+If you find any security vulnerabilities within SeAT, please send an email to theninjabag@gmail.com to address instead of creating a public Github issue.
+
 ## donate
 If you like SeAT, please consider donating ISK in game to [qu1ckkkk](https://gate.eveonline.com/Profile/qu1ckkkk).
