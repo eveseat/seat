@@ -18,14 +18,14 @@ This repository contains the main SeAT Repository. It can be seen as the 'glue' 
 ## packages
 For the **actual** SeAT source, please refer to the following package repositories:  
 
-| Package Name   | Version        |
-|----------------|:-------------:|
-| [api](https://github.com/eveseat/api) | [![Latest Stable Version](https://poser.pugx.org/eveseat/api/v/stable)](https://packagist.org/packages/eveseat/api) |
-| [console](https://github.com/eveseat/console) | [![Latest Stable Version](https://poser.pugx.org/eveseat/console/v/stable)](https://packagist.org/packages/eveseat/console) |
-| [eveapi](https://github.com/eveseat/eveapi) | [![Latest Stable Version](https://poser.pugx.org/eveseat/eveapi/v/stable)](https://packagist.org/packages/eveseat/eveapi) |
-| [notifications](https://github.com/eveseat/notifications) | [![Latest Stable Version](https://poser.pugx.org/eveseat/notifications/v/stable)](https://packagist.org/packages/eveseat/notifications) |
-| [services](https://github.com/eveseat/services) | [![Latest Stable Version](https://poser.pugx.org/eveseat/services/v/stable)](https://packagist.org/packages/eveseat/services) |
-| [web](https://github.com/eveseat/web) | [![Latest Stable Version](https://poser.pugx.org/eveseat/web/v/stable)](https://packagist.org/packages/eveseat/web) |
+| Package Name   | Version       | Downloads | Code Climate |
+|----------------|:--------------|:----------|:-------------|
+| [api](https://github.com/eveseat/api) | [![Latest Stable Version](https://poser.pugx.org/eveseat/api/v/stable)](https://packagist.org/packages/eveseat/api) | [![Total Downloads](https://poser.pugx.org/eveseat/api/downloads)](https://packagist.org/packages/eveseat/api) | [![Code Climate](https://codeclimate.com/github/eveseat/api/badges/gpa.svg)](https://codeclimate.com/github/eveseat/api) |
+| [console](https://github.com/eveseat/console) | [![Latest Stable Version](https://poser.pugx.org/eveseat/console/v/stable)](https://packagist.org/packages/eveseat/console) | [![Total Downloads](https://poser.pugx.org/eveseat/console/downloads)](https://packagist.org/packages/eveseat/console) | [![Code Climate](https://codeclimate.com/github/eveseat/console/badges/gpa.svg)](https://codeclimate.com/github/eveseat/console) |
+| [eveapi](https://github.com/eveseat/eveapi) | [![Latest Stable Version](https://poser.pugx.org/eveseat/eveapi/v/stable)](https://packagist.org/packages/eveseat/eveapi) | [![Total Downloads](https://poser.pugx.org/eveseat/eveapi/downloads)](https://packagist.org/packages/eveseat/eveapi) | [![Code Climate](https://codeclimate.com/github/eveseat/eveapi/badges/gpa.svg)](https://codeclimate.com/github/eveseat/eveapi) |
+| [notifications](https://github.com/eveseat/notifications) | [![Latest Stable Version](https://poser.pugx.org/eveseat/notifications/v/stable)](https://packagist.org/packages/eveseat/notifications) | [![Total Downloads](https://poser.pugx.org/eveseat/notifications/downloads)](https://packagist.org/packages/eveseat/notifications) | [![Code Climate](https://codeclimate.com/github/eveseat/notifications/badges/gpa.svg)](https://codeclimate.com/github/eveseat/notifications) |
+| [services](https://github.com/eveseat/services) | [![Latest Stable Version](https://poser.pugx.org/eveseat/services/v/stable)](https://packagist.org/packages/eveseat/services) | [![Total Downloads](https://poser.pugx.org/eveseat/services/downloads)](https://packagist.org/packages/eveseat/services) | [![Code Climate](https://codeclimate.com/github/eveseat/services/badges/gpa.svg)](https://codeclimate.com/github/eveseat/services) |
+| [web](https://github.com/eveseat/web) | [![Latest Stable Version](https://poser.pugx.org/eveseat/web/v/stable)](https://packagist.org/packages/eveseat/web) | [![Total Downloads](https://poser.pugx.org/eveseat/web/downloads)](https://packagist.org/packages/eveseat/web) | [![Code Climate](https://codeclimate.com/github/eveseat/web/badges/gpa.svg)](https://codeclimate.com/github/eveseat/web) |
 
 ## screenshots
 ![character view](https://i.imgur.com/hxfcYll.png)
