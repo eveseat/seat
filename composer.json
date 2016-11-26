@@ -4,6 +4,8 @@
     "keywords": ["eve", "online", "corporation", "management", "api"],
     "license": "GPL-2.0",
     "type": "project",
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
     "require": {
         "php": ">=7.0",
         "laravel/framework": "5.3.*",
