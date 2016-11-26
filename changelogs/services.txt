@@ -1,4 +1,8 @@
-2cbaf0f (HEAD -> master, origin/master, origin/HEAD) Allow carbon helper to be called without an argument.
+3367168 (HEAD -> master, origin/master, origin/HEAD) Add more data sources for the dashboard.
+0da12f3 Allow specifying which tags to exclude when cleaning html.
+e87cb20 Fix member tracking counts by using a leftJoin.
+f70db5f Dont override existing schedules when seeding the database.
+2cbaf0f Allow carbon helper to be called without an argument.
 41a9b07 Add `updateNote` method.
 a1c72d6 Add Trait that allows adding notes to any model.
 dc81167 Return an unresolved query for datatables to work with.

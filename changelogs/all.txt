@@ -1,4 +1,5 @@
-0e7c5ca (HEAD -> master, origin/master) Update Changelogs
+92b1c7c (HEAD -> master, origin/master) Update Changelogs
+0e7c5ca Update Changelogs
 e320997 Update Changelogs
 f5277c7 Remove base controller as we can exterd straigh out of core now.
 46c9f42 Update Changelogs
@@ -213,8 +214,10 @@ b9b7545 Add the EveUpdateServerStatus command
 c978b94 Add the add:job command for testing
 c01ddd9 Start the Console package
 f42ac27 first commit
-271aa73 (HEAD -> master) Fix type hint to an int instead of string
-59a83e5 (origin/master, origin/HEAD) Move the `Affiliation` updater to a character specific class.
+edb45bd (HEAD -> master, origin/master, origin/HEAD) Add a relationship between message headers and bodies.
+9983367 Allow for notification on the character sheet
+271aa73 Fix type hint to an int instead of string
+59a83e5 Move the `Affiliation` updater to a character specific class.
 12b0999 Add CharacterAffiliation updater. This is prep for the intel module.
 b68cd19 Code formatting fixes
 79e30bd Use logger() helper
@@ -459,7 +462,29 @@ ca0a6d7 Add generated docblocks
 b6991b9 Start a few things to test job workers
 40d4948 Start composer package
 af4f12f first commit
-d1614c8 (HEAD -> master, origin/master) Code formatting fixes
+9a7af30 (HEAD -> master, origin/master) Add character mail alert.
+e72475f Add new api key added alert.
+5c72ad8 Add member api state change alert.
+177b12e Add a starbase state change alert.
+d415584 Give alerts pretty names.
+0a6f74a Style fixes
+de0b6cb Add a command handler & schedule for alerts.
+b444b41 Add localization strings
+cd4a801 Add notifications history to prevent duplicate notifications.
+a37a62b Add alert for starbase fuel levels.
+c75715f Apply affiliation rules to Notification Groups that have them set.
+d4ade00 Add Inactive Corp Member notification.
+88f5d8f Only fire alerts to groups with the actual alert configured.
+d2cd290 Add time to player count notification
+858f4e8 Ensure that only a single integration of a type can be added
+bd0443c Add ability to delete a notifications group.
+8678921 Add ability to modify notification groups.
+895e510 Allow for integrations to be deleted.
+784f040 Add a player count notification to test.
+aae1201 Add missing docblocks
+474dd80 Restore the old structure on `down()`
+3ab8b06 Major notifications refactor to support L5.3 features.
+d1614c8 Code formatting fixes
 353d04c Extend new core controllers instead of base in App namespace
 6caa863 Update PHP & Laravel dependencies. Remove psr/log dependency.
 624e13c Apply new global web middleware
@@ -478,7 +503,11 @@ fd76941 Fix typo
 a5f93e7 Update README
 c22a837 First iteration of the notification package
 032bebf first commit
-2cbaf0f (HEAD -> master, origin/master, origin/HEAD) Allow carbon helper to be called without an argument.
+3367168 (HEAD -> master, origin/master, origin/HEAD) Add more data sources for the dashboard.
+0da12f3 Allow specifying which tags to exclude when cleaning html.
+e87cb20 Fix member tracking counts by using a leftJoin.
+f70db5f Dont override existing schedules when seeding the database.
+2cbaf0f Allow carbon helper to be called without an argument.
 41a9b07 Add `updateNote` method.
 a1c72d6 Add Trait that allows adding notes to any model.
 dc81167 Return an unresolved query for datatables to work with.
@@ -656,7 +685,10 @@ ea84fb0 Add Queue Data Source
 467fb42 Update badges
 5779eff Prepare repository for packagist
 a46f437 Initial commit
-b82aa7d (HEAD -> master, origin/master, origin/HEAD) Use select2 for character selection
+a408ddf (HEAD -> master, origin/master, origin/HEAD) Add a character wallet spend graph.
+ff13f32 Introduce ChartJS and add more dashboard elements.
+21067c6 Allow packages to set a permission required for a menu item.
+b82aa7d Use select2 for character selection
 db20434 Set main character ID & name on SSO login
 7c4868f Allow for sub menus to be pluralized
 685b96d Add localization for email verification.

@@ -1,4 +1,7 @@
-b82aa7d (HEAD -> master, origin/master, origin/HEAD) Use select2 for character selection
+a408ddf (HEAD -> master, origin/master, origin/HEAD) Add a character wallet spend graph.
+ff13f32 Introduce ChartJS and add more dashboard elements.
+21067c6 Allow packages to set a permission required for a menu item.
+b82aa7d Use select2 for character selection
 db20434 Set main character ID & name on SSO login
 7c4868f Allow for sub menus to be pluralized
 685b96d Add localization for email verification.

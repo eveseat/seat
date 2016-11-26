@@ -1,4 +1,26 @@
-d1614c8 (HEAD -> master, origin/master) Code formatting fixes
+9a7af30 (HEAD -> master, origin/master) Add character mail alert.
+e72475f Add new api key added alert.
+5c72ad8 Add member api state change alert.
+177b12e Add a starbase state change alert.
+d415584 Give alerts pretty names.
+0a6f74a Style fixes
+de0b6cb Add a command handler & schedule for alerts.
+b444b41 Add localization strings
+cd4a801 Add notifications history to prevent duplicate notifications.
+a37a62b Add alert for starbase fuel levels.
+c75715f Apply affiliation rules to Notification Groups that have them set.
+d4ade00 Add Inactive Corp Member notification.
+88f5d8f Only fire alerts to groups with the actual alert configured.
+d2cd290 Add time to player count notification
+858f4e8 Ensure that only a single integration of a type can be added
+bd0443c Add ability to delete a notifications group.
+8678921 Add ability to modify notification groups.
+895e510 Allow for integrations to be deleted.
+784f040 Add a player count notification to test.
+aae1201 Add missing docblocks
+474dd80 Restore the old structure on `down()`
+3ab8b06 Major notifications refactor to support L5.3 features.
+d1614c8 Code formatting fixes
 353d04c Extend new core controllers instead of base in App namespace
 6caa863 Update PHP & Laravel dependencies. Remove psr/log dependency.
 624e13c Apply new global web middleware
