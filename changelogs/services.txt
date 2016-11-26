@@ -1,4 +1,5 @@
-3367168 (HEAD -> master, origin/master, origin/HEAD) Add more data sources for the dashboard.
+95f0453 (HEAD -> master, tag: 2.0.0-alpha1, origin/master, origin/HEAD) Update composer for 2.0 packages and version 2.0.0-alpha1
+3367168 Add more data sources for the dashboard.
 0da12f3 Allow specifying which tags to exclude when cleaning html.
 e87cb20 Fix member tracking counts by using a leftJoin.
 f70db5f Dont override existing schedules when seeding the database.

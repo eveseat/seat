@@ -1,4 +1,5 @@
-edb45bd (HEAD -> master, origin/master, origin/HEAD) Add a relationship between message headers and bodies.
+53a181a (HEAD -> master, tag: 2.0.0-alpha1, origin/master, origin/HEAD) Update composer for 2.0 packages and version 2.0.0-alpha1
+edb45bd Add a relationship between message headers and bodies.
 9983367 Allow for notification on the character sheet
 271aa73 Fix type hint to an int instead of string
 59a83e5 Move the `Affiliation` updater to a character specific class.

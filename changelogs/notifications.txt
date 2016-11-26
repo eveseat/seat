@@ -1,4 +1,5 @@
-9a7af30 (HEAD -> master, origin/master) Add character mail alert.
+8d631d0 (HEAD -> master, tag: 2.0.0-alpha1, origin/master) Update composer for 2.0 packages and version 2.0.0-alpha1
+9a7af30 Add character mail alert.
 e72475f Add new api key added alert.
 5c72ad8 Add member api state change alert.
 177b12e Add a starbase state change alert.

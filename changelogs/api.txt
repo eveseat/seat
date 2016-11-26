@@ -1,4 +1,6 @@
-2485046 (HEAD -> master, origin/master) Remove unused precedence rule
+2d66b64 (HEAD -> master, tag: 2.0.0-alpha1, origin/master) Update composer for 2.0 packages and version 2.0.0-alpha1
+92a189e (tag: 2.0.0-dev) Bump to 2.0.0-dev
+2485046 Remove unused precedence rule
 80c3d0e Code formatting fixes
 6d28aff Extend new core controllers instead of base in App namespace
 4f74325 Update to make use of new corp repository classes

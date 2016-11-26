@@ -1,4 +1,5 @@
-2952e40 (HEAD -> master, origin/master) Code formatting fixes
+81c6385 (HEAD -> master, tag: 2.0.0-alpha1, origin/master) Update composer for 2.0 packages and version 2.0.0-alpha1
+2952e40 Code formatting fixes
 9d189dc Rename Pillow to AccessManager and update calls argument list
 cebd0ef Update to match new class names in eveapi repo
 e1a95e9 Correctly identify the current user running the command.
