@@ -8,12 +8,12 @@
         "php": ">=7.0",
         "laravel/framework": "5.3.*",
         "predis/predis": "^1.1",
-        "eveseat/api": "1.*",
-        "eveseat/console": "1.*",
-        "eveseat/eveapi": "1.*",
-        "eveseat/notifications": "1.*",
-        "eveseat/services": "1.*",
-        "eveseat/web": "1.*"
+        "eveseat/api": "2.0.*",
+        "eveseat/console": "2.0.*",
+        "eveseat/eveapi": "2.0.*",
+        "eveseat/notifications": "2.0.*",
+        "eveseat/services": "2.0.*",
+        "eveseat/web": "2.0.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
