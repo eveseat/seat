@@ -1,6 +1,7 @@
-05ec623 (HEAD -> master, origin/master) Formatting and style fixes.
+6f57fa6 (HEAD -> master, tag: 2.0.0, origin/master) Version Bump! 2.0.0! ⚡️
+05ec623 Formatting and style fixes.
 e5eee71 Ensure the admin user is enabled when resetting the password.
-a01282a Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+a01282a (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
 81c6385 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 2952e40 Code formatting fixes
 9d189dc Rename Pillow to AccessManager and update calls argument list

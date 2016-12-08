@@ -1,4 +1,5 @@
-c49b0f1 (HEAD -> master, tag: 2.0.0-alpha2, origin/master) Drop minimum stability and add prefer-stable
+37e71f7 (HEAD -> master, origin/master) Update changelogs
+c49b0f1 (tag: 2.0.0-alpha2) Drop minimum stability and add prefer-stable
 521d361 (tag: 2.0.0-alpha1) Update changelogs
 15711ad Update composer for 2.0 packages.
 bde9ab2 Update description

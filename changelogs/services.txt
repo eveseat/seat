@@ -1,4 +1,6 @@
-95eee16 (HEAD -> master, origin/master, origin/HEAD) Allow longer values in the global settings.
+b3fdb7a (HEAD -> master, tag: 2.0.0, origin/master, origin/HEAD) Version Bump! 2.0.0! ⚡️
+cdde3d0 Format and style fixes.
+95eee16 Allow longer values in the global settings.
 b64e55b Add default for api_constraint
 77822f5 Formatting and style fixes.
 ae73811 Add methods for searching.

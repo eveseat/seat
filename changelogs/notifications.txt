@@ -1,4 +1,5 @@
-88ac259 (HEAD -> master, origin/master) Codestyle fixes.
+125db68 (HEAD -> master, tag: 2.0.0, origin/master) Version Bump! 2.0.0! ⚡️
+88ac259 Codestyle fixes.
 e9b2b42 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
 8d631d0 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 9a7af30 Add character mail alert.

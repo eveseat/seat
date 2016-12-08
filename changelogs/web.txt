@@ -1,4 +1,6 @@
-f7ad9a6 (HEAD -> master, origin/master, origin/HEAD) add disable key function (#50)
+e648d7e (HEAD -> master, tag: 2.0.0, origin/master, origin/HEAD) Version Bump! 2.0.0! ⚡️
+690f1be Format and style fixes.
+f7ad9a6 add disable key function (#50)
 48069d6 Add a check for cases where api keys may have `null` constraints.
 82f1bbb Move the Validation namespace to Seat\Web\Http\Validation.
 55436eb Allow constraints to be set on specific API keys.
