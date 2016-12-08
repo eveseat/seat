@@ -1,4 +1,5 @@
-2d66b64 (HEAD -> master, tag: 2.0.0-alpha1, origin/master) Update composer for 2.0 packages and version 2.0.0-alpha1
+cd107a5 (HEAD -> master, origin/master) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+2d66b64 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 92a189e (tag: 2.0.0-dev) Bump to 2.0.0-dev
 2485046 Remove unused precedence rule
 80c3d0e Code formatting fixes

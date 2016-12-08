@@ -1,4 +1,11 @@
-53a181a (HEAD -> master, tag: 2.0.0-alpha1, origin/master, origin/HEAD) Update composer for 2.0 packages and version 2.0.0-alpha1
+0227052 (HEAD -> master, origin/master, origin/HEAD) Update fields to bigInt in light of the recent CCP announcement.
+6d62a2d Fix typos and remove ambogous __CLASS__ reference
+3123010 Lazily utf8 encode mail bodies
+8496356 Add doctrine/dbal as needed by some migrations.
+f4ad084 First iteration of adding worker constraints.
+92e2d5d Improve generic error logging to be aware of the fact that no longer have context of the job_tracker.
+cd7b4f8 Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+53a181a (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 edb45bd Add a relationship between message headers and bodies.
 9983367 Allow for notification on the character sheet
 271aa73 Fix type hint to an int instead of string

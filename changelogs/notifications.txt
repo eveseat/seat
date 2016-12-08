@@ -1,4 +1,6 @@
-8d631d0 (HEAD -> master, tag: 2.0.0-alpha1, origin/master) Update composer for 2.0 packages and version 2.0.0-alpha1
+88ac259 (HEAD -> master, origin/master) Codestyle fixes.
+e9b2b42 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+8d631d0 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 9a7af30 Add character mail alert.
 e72475f Add new api key added alert.
 5c72ad8 Add member api state change alert.

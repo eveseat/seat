@@ -1,4 +1,6 @@
-15711ad (HEAD -> master, origin/master) Update composer for 2.0 packages.
+c49b0f1 (HEAD -> master, tag: 2.0.0-alpha2, origin/master) Drop minimum stability and add prefer-stable
+521d361 (tag: 2.0.0-alpha1) Update changelogs
+15711ad Update composer for 2.0 packages.
 bde9ab2 Update description
 54c78f2 Update with more package badges
 13638f0 Update readme with security notice

@@ -1,4 +1,14 @@
-95f0453 (HEAD -> master, tag: 2.0.0-alpha1, origin/master, origin/HEAD) Update composer for 2.0 packages and version 2.0.0-alpha1
+95eee16 (HEAD -> master, origin/master, origin/HEAD) Allow longer values in the global settings.
+b64e55b Add default for api_constraint
+77822f5 Formatting and style fixes.
+ae73811 Add methods for searching.
+dcc872f Return a unresolved query.
+ac10ed1 Rename getAllCharactersWithAffiliations method.
+0277069 Move character skills graph info from the Stats to Character repo.
+7a2ca83 add skills related chart (#10)
+5f2f09f Fix where clause for PI (#11)
+69ad918 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+95f0453 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 3367168 Add more data sources for the dashboard.
 0da12f3 Allow specifying which tags to exclude when cleaning html.
 e87cb20 Fix member tracking counts by using a leftJoin.

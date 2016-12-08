@@ -1,4 +1,6 @@
-15711ad (HEAD -> master, origin/master) Update composer for 2.0 packages.
+c49b0f1 (HEAD -> master, tag: 2.0.0-alpha2, origin/master) Drop minimum stability and add prefer-stable
+521d361 (tag: 2.0.0-alpha1) Update changelogs
+15711ad Update composer for 2.0 packages.
 bde9ab2 Update description
 54c78f2 Update with more package badges
 13638f0 Update readme with security notice
@@ -84,7 +86,8 @@ c8a5b6e Move namespace from App -> Seat
 57487e8 Update .gitignore
 644f3a9 Add license and update .gitignore
 0bba931 first commit
-2d66b64 (HEAD -> master, tag: 2.0.0-alpha1, origin/master) Update composer for 2.0 packages and version 2.0.0-alpha1
+cd107a5 (HEAD -> master, origin/master) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+2d66b64 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 92a189e (tag: 2.0.0-dev) Bump to 2.0.0-dev
 2485046 Remove unused precedence rule
 80c3d0e Code formatting fixes
@@ -143,7 +146,10 @@ dda7cbb Add endpoint to validate credentials
 6905c26 Compelte the EVE API Key API
 32d17cf First preperations for the SeAT API
 57f8c6d first commit
-81c6385 (HEAD -> master, tag: 2.0.0-alpha1, origin/master) Update composer for 2.0 packages and version 2.0.0-alpha1
+05ec623 (HEAD -> master, origin/master) Formatting and style fixes.
+e5eee71 Ensure the admin user is enabled when resetting the password.
+a01282a Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+81c6385 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 2952e40 Code formatting fixes
 9d189dc Rename Pillow to AccessManager and update calls argument list
 cebd0ef Update to match new class names in eveapi repo
@@ -222,7 +228,14 @@ b9b7545 Add the EveUpdateServerStatus command
 c978b94 Add the add:job command for testing
 c01ddd9 Start the Console package
 f42ac27 first commit
-53a181a (HEAD -> master, tag: 2.0.0-alpha1, origin/master, origin/HEAD) Update composer for 2.0 packages and version 2.0.0-alpha1
+0227052 (HEAD -> master, origin/master, origin/HEAD) Update fields to bigInt in light of the recent CCP announcement.
+6d62a2d Fix typos and remove ambogous __CLASS__ reference
+3123010 Lazily utf8 encode mail bodies
+8496356 Add doctrine/dbal as needed by some migrations.
+f4ad084 First iteration of adding worker constraints.
+92e2d5d Improve generic error logging to be aware of the fact that no longer have context of the job_tracker.
+cd7b4f8 Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+53a181a (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 edb45bd Add a relationship between message headers and bodies.
 9983367 Allow for notification on the character sheet
 271aa73 Fix type hint to an int instead of string
@@ -471,7 +484,9 @@ ca0a6d7 Add generated docblocks
 b6991b9 Start a few things to test job workers
 40d4948 Start composer package
 af4f12f first commit
-8d631d0 (HEAD -> master, tag: 2.0.0-alpha1, origin/master) Update composer for 2.0 packages and version 2.0.0-alpha1
+88ac259 (HEAD -> master, origin/master) Codestyle fixes.
+e9b2b42 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+8d631d0 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 9a7af30 Add character mail alert.
 e72475f Add new api key added alert.
 5c72ad8 Add member api state change alert.
@@ -513,7 +528,17 @@ fd76941 Fix typo
 a5f93e7 Update README
 c22a837 First iteration of the notification package
 032bebf first commit
-95f0453 (HEAD -> master, tag: 2.0.0-alpha1, origin/master, origin/HEAD) Update composer for 2.0 packages and version 2.0.0-alpha1
+95eee16 (HEAD -> master, origin/master, origin/HEAD) Allow longer values in the global settings.
+b64e55b Add default for api_constraint
+77822f5 Formatting and style fixes.
+ae73811 Add methods for searching.
+dcc872f Return a unresolved query.
+ac10ed1 Rename getAllCharactersWithAffiliations method.
+0277069 Move character skills graph info from the Stats to Character repo.
+7a2ca83 add skills related chart (#10)
+5f2f09f Fix where clause for PI (#11)
+69ad918 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+95f0453 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 3367168 Add more data sources for the dashboard.
 0da12f3 Allow specifying which tags to exclude when cleaning html.
 e87cb20 Fix member tracking counts by using a leftJoin.
@@ -696,7 +721,26 @@ ea84fb0 Add Queue Data Source
 467fb42 Update badges
 5779eff Prepare repository for packagist
 a46f437 Initial commit
-dd76e24 (HEAD -> master, tag: 2.0.0-alpha1, origin/master, origin/HEAD) Update composer for 2.0 packages and version 2.0.0-alpha1
+f7ad9a6 (HEAD -> master, origin/master, origin/HEAD) add disable key function (#50)
+48069d6 Add a check for cases where api keys may have `null` constraints.
+82f1bbb Move the Validation namespace to Seat\Web\Http\Validation.
+55436eb Allow constraints to be set on specific API keys.
+1ab8153 Add message that all workers will run without a constraint set.
+d2faf43 First iteration of adding worker constraints.
+893f9a9 Formatting and style fixes.
+946578d Change method visibility to private.
+f65286c Small refactoring and code cleanup for the SSO upgrade option.
+8583a5c fix multiple user creation when user is already owning an account and authenticate with SSO (#49)
+c2d4cc7 Correctly sort first search results.
+0da3bf0 Add character skills and assets search.
+fa2a4fd Remove return type as there is more than one
+8892a83 Show security logs using datatables.
+bc2b8f2 Convert Search results to use Datatables.
+e259c38 Add skills graphs to character skills view.
+26bbed0 Move character skills graphing routes the the CharacterController.
+29f8614 add skills related chart (#48)
+680e4a3 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+dd76e24 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 a408ddf Add a character wallet spend graph.
 ff13f32 Introduce ChartJS and add more dashboard elements.
 21067c6 Allow packages to set a permission required for a menu item.
@@ -920,7 +964,7 @@ dae1719 Merge pull request #5 from warlof/french
 6e827ae (origin/pr/5) Translate SeAT in french according to 1.0.9
 9e4cd79 (tag: 1.0.9) Add account info check and Version Bump
 bfaabe2 Merge pull request #4 from freedenizen/master
-d802b98 (origin/pr/4) add updated_at timestamps to Character and Corporation Sheet summary
+d802b98 (origin/pr/4, pr/4) add updated_at timestamps to Character and Corporation Sheet summary
 0ece0ce (tag: 1.0.8) Version Bump
 616067c Check if we have data before attempting to display
 99c14a3 Fix eveseat/seat#10

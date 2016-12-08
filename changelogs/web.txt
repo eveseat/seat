@@ -1,4 +1,23 @@
-dd76e24 (HEAD -> master, tag: 2.0.0-alpha1, origin/master, origin/HEAD) Update composer for 2.0 packages and version 2.0.0-alpha1
+f7ad9a6 (HEAD -> master, origin/master, origin/HEAD) add disable key function (#50)
+48069d6 Add a check for cases where api keys may have `null` constraints.
+82f1bbb Move the Validation namespace to Seat\Web\Http\Validation.
+55436eb Allow constraints to be set on specific API keys.
+1ab8153 Add message that all workers will run without a constraint set.
+d2faf43 First iteration of adding worker constraints.
+893f9a9 Formatting and style fixes.
+946578d Change method visibility to private.
+f65286c Small refactoring and code cleanup for the SSO upgrade option.
+8583a5c fix multiple user creation when user is already owning an account and authenticate with SSO (#49)
+c2d4cc7 Correctly sort first search results.
+0da3bf0 Add character skills and assets search.
+fa2a4fd Remove return type as there is more than one
+8892a83 Show security logs using datatables.
+bc2b8f2 Convert Search results to use Datatables.
+e259c38 Add skills graphs to character skills view.
+26bbed0 Move character skills graphing routes the the CharacterController.
+29f8614 add skills related chart (#48)
+680e4a3 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+dd76e24 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 a408ddf Add a character wallet spend graph.
 ff13f32 Introduce ChartJS and add more dashboard elements.
 21067c6 Allow packages to set a permission required for a menu item.
@@ -222,7 +241,7 @@ dae1719 Merge pull request #5 from warlof/french
 6e827ae (origin/pr/5) Translate SeAT in french according to 1.0.9
 9e4cd79 (tag: 1.0.9) Add account info check and Version Bump
 bfaabe2 Merge pull request #4 from freedenizen/master
-d802b98 (origin/pr/4) add updated_at timestamps to Character and Corporation Sheet summary
+d802b98 (origin/pr/4, pr/4) add updated_at timestamps to Character and Corporation Sheet summary
 0ece0ce (tag: 1.0.8) Version Bump
 616067c Check if we have data before attempting to display
 99c14a3 Fix eveseat/seat#10
