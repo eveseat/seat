@@ -1,4 +1,5 @@
-37e71f7 (HEAD -> master, origin/master) Update changelogs
+b8e51d9 (HEAD -> master, tag: 2.0.0, origin/master) Update changelogs
+37e71f7 Update changelogs
 c49b0f1 (tag: 2.0.0-alpha2) Drop minimum stability and add prefer-stable
 521d361 (tag: 2.0.0-alpha1) Update changelogs
 15711ad Update composer for 2.0 packages.
@@ -231,7 +232,10 @@ b9b7545 Add the EveUpdateServerStatus command
 c978b94 Add the add:job command for testing
 c01ddd9 Start the Console package
 f42ac27 first commit
-06810af (HEAD -> master, tag: 2.0.0, origin/master, origin/HEAD) Version Bump! 2.0.0! ⚡️
+59f7f5f (HEAD -> master, tag: 2.0.1, origin/master, origin/HEAD) Version Bump
+199741d Fix eveseat/seat#153 by casting the string to an int.
+0ea98a4 Update Travis to only allow PHP 7 now.
+06810af (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 0227052 Update fields to bigInt in light of the recent CCP announcement.
 6d62a2d Fix typos and remove ambogous __CLASS__ reference
 3123010 Lazily utf8 encode mail bodies
@@ -488,7 +492,13 @@ ca0a6d7 Add generated docblocks
 b6991b9 Start a few things to test job workers
 40d4948 Start composer package
 af4f12f first commit
-125db68 (HEAD -> master, tag: 2.0.0, origin/master) Version Bump! 2.0.0! ⚡️
+070c7c3 (HEAD -> master, tag: 2.0.2, origin/master) Version Bump
+4101a77 Format security status number and specify if killmail is a loss.
+c7d6a05 Improve performace by reducing mail scope to 1 week
+0c3b224 Correctly affiliate by ownerID instead of corporationID
+acdaa9d (tag: 2.0.1) Version bump
+ec3a05f Add corporation killmails notification.
+125db68 (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 88ac259 Codestyle fixes.
 e9b2b42 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
 8d631d0 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
@@ -728,7 +738,17 @@ ea84fb0 Add Queue Data Source
 467fb42 Update badges
 5779eff Prepare repository for packagist
 a46f437 Initial commit
-e648d7e (HEAD -> master, tag: 2.0.0, origin/master, origin/HEAD) Version Bump! 2.0.0! ⚡️
+00536d7 (HEAD -> master, tag: 2.0.1, origin/master, origin/HEAD) Version Bump
+41cc905 Remove trailing brace
+b8ed06b Only display graphs when there is data.
+14c547e Small layout refactor and removal of self account deletion.
+d07639f Log impersonation events.
+158b141 Improve impersonation by adding an easy revert option.
+5f8ea64 Allow sorting by key status and show disabled reason in details.
+986541c Fix global worker constraints view.
+536880c Update datatables version constraint as newer versions are broken.
+edb4f27 Fix eveseat/seat#152 by instantiating with `moment.utc`.
+e648d7e (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 690f1be Format and style fixes.
 f7ad9a6 add disable key function (#50)
 48069d6 Add a check for cases where api keys may have `null` constraints.

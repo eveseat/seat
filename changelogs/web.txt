@@ -1,4 +1,14 @@
-e648d7e (HEAD -> master, tag: 2.0.0, origin/master, origin/HEAD) Version Bump! 2.0.0! ⚡️
+00536d7 (HEAD -> master, tag: 2.0.1, origin/master, origin/HEAD) Version Bump
+41cc905 Remove trailing brace
+b8ed06b Only display graphs when there is data.
+14c547e Small layout refactor and removal of self account deletion.
+d07639f Log impersonation events.
+158b141 Improve impersonation by adding an easy revert option.
+5f8ea64 Allow sorting by key status and show disabled reason in details.
+986541c Fix global worker constraints view.
+536880c Update datatables version constraint as newer versions are broken.
+edb4f27 Fix eveseat/seat#152 by instantiating with `moment.utc`.
+e648d7e (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 690f1be Format and style fixes.
 f7ad9a6 add disable key function (#50)
 48069d6 Add a check for cases where api keys may have `null` constraints.

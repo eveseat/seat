@@ -1,4 +1,7 @@
-06810af (HEAD -> master, tag: 2.0.0, origin/master, origin/HEAD) Version Bump! 2.0.0! ⚡️
+59f7f5f (HEAD -> master, tag: 2.0.1, origin/master, origin/HEAD) Version Bump
+199741d Fix eveseat/seat#153 by casting the string to an int.
+0ea98a4 Update Travis to only allow PHP 7 now.
+06810af (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 0227052 Update fields to bigInt in light of the recent CCP announcement.
 6d62a2d Fix typos and remove ambogous __CLASS__ reference
 3123010 Lazily utf8 encode mail bodies

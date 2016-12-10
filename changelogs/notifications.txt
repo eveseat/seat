@@ -1,4 +1,10 @@
-125db68 (HEAD -> master, tag: 2.0.0, origin/master) Version Bump! 2.0.0! ⚡️
+070c7c3 (HEAD -> master, tag: 2.0.2, origin/master) Version Bump
+4101a77 Format security status number and specify if killmail is a loss.
+c7d6a05 Improve performace by reducing mail scope to 1 week
+0c3b224 Correctly affiliate by ownerID instead of corporationID
+acdaa9d (tag: 2.0.1) Version bump
+ec3a05f Add corporation killmails notification.
+125db68 (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 88ac259 Codestyle fixes.
 e9b2b42 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
 8d631d0 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
