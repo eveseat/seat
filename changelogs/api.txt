@@ -1,4 +1,8 @@
-a1ef4d3 (HEAD -> master, tag: 2.0.0, origin/master) Version Bump! 2.0.0! ⚡️
+5a115a0 (HEAD -> master, tag: 2.0.2, origin/master) Version Bump
+ca57ce6 Set a user_id if one is not given.
+9a5b152 (tag: 2.0.1) Version Bump
+d457eeb Fix namespace for Validator
+a1ef4d3 (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 cd107a5 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
 2d66b64 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 92a189e (tag: 2.0.0-dev) Bump to 2.0.0-dev

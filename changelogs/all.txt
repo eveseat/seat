@@ -1,4 +1,5 @@
-b8e51d9 (HEAD -> master, tag: 2.0.0, origin/master) Update changelogs
+6e1b222 (HEAD -> master, origin/master) Update Changelogs
+b8e51d9 (tag: 2.0.0) Update changelogs
 37e71f7 Update changelogs
 c49b0f1 (tag: 2.0.0-alpha2) Drop minimum stability and add prefer-stable
 521d361 (tag: 2.0.0-alpha1) Update changelogs
@@ -88,7 +89,11 @@ c8a5b6e Move namespace from App -> Seat
 57487e8 Update .gitignore
 644f3a9 Add license and update .gitignore
 0bba931 first commit
-a1ef4d3 (HEAD -> master, tag: 2.0.0, origin/master) Version Bump! 2.0.0! ⚡️
+5a115a0 (HEAD -> master, tag: 2.0.2, origin/master) Version Bump
+ca57ce6 Set a user_id if one is not given.
+9a5b152 (tag: 2.0.1) Version Bump
+d457eeb Fix namespace for Validator
+a1ef4d3 (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 cd107a5 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
 2d66b64 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
 92a189e (tag: 2.0.0-dev) Bump to 2.0.0-dev
@@ -232,7 +237,9 @@ b9b7545 Add the EveUpdateServerStatus command
 c978b94 Add the add:job command for testing
 c01ddd9 Start the Console package
 f42ac27 first commit
-59f7f5f (HEAD -> master, tag: 2.0.1, origin/master, origin/HEAD) Version Bump
+c11c64a (HEAD -> master, tag: 2.0.2, origin/master, origin/HEAD) Version bump
+c62c2ed Increase the reason field length for corp_member_medals.
+59f7f5f (tag: 2.0.1) Version Bump
 199741d Fix eveseat/seat#153 by casting the string to an int.
 0ea98a4 Update Travis to only allow PHP 7 now.
 06810af (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
@@ -543,7 +550,11 @@ fd76941 Fix typo
 a5f93e7 Update README
 c22a837 First iteration of the notification package
 032bebf first commit
-b3fdb7a (HEAD -> master, tag: 2.0.0, origin/master, origin/HEAD) Version Bump! 2.0.0! ⚡️
+e51c35d (HEAD -> master, tag: 2.0.1, origin/master, origin/HEAD) Version Bump
+2209e71 Remove return type as it can be null too
+eb58671 Fix member tracking query to return correct key statuses.
+22f1d42 Add default value for require_activation
+b3fdb7a (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 cdde3d0 Format and style fixes.
 95eee16 Allow longer values in the global settings.
 b64e55b Add default for api_constraint
@@ -738,7 +749,14 @@ ea84fb0 Add Queue Data Source
 467fb42 Update badges
 5779eff Prepare repository for packagist
 a46f437 Initial commit
-00536d7 (HEAD -> master, tag: 2.0.1, origin/master, origin/HEAD) Version Bump
+e960118 (HEAD -> master, tag: 2.0.3, origin/master, origin/HEAD) Version Bump
+d30202a Update view to check new key status field
+3f826f8 Add option to disable email activation requirement.
+a388a5d Use `setting()` helper instead of static Class method
+55cfca3 fixing possible issue with Supervisor Monitor setting (#51)
+e7590c3 (tag: 2.0.2) Version Bump
+7d00d54 Limit keys returned based on permissions
+00536d7 (tag: 2.0.1) Version Bump
 41cc905 Remove trailing brace
 b8ed06b Only display graphs when there is data.
 14c547e Small layout refactor and removal of self account deletion.

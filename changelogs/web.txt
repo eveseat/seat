@@ -1,4 +1,11 @@
-00536d7 (HEAD -> master, tag: 2.0.1, origin/master, origin/HEAD) Version Bump
+e960118 (HEAD -> master, tag: 2.0.3, origin/master, origin/HEAD) Version Bump
+d30202a Update view to check new key status field
+3f826f8 Add option to disable email activation requirement.
+a388a5d Use `setting()` helper instead of static Class method
+55cfca3 fixing possible issue with Supervisor Monitor setting (#51)
+e7590c3 (tag: 2.0.2) Version Bump
+7d00d54 Limit keys returned based on permissions
+00536d7 (tag: 2.0.1) Version Bump
 41cc905 Remove trailing brace
 b8ed06b Only display graphs when there is data.
 14c547e Small layout refactor and removal of self account deletion.

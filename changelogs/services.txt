@@ -1,4 +1,8 @@
-b3fdb7a (HEAD -> master, tag: 2.0.0, origin/master, origin/HEAD) Version Bump! 2.0.0! ⚡️
+e51c35d (HEAD -> master, tag: 2.0.1, origin/master, origin/HEAD) Version Bump
+2209e71 Remove return type as it can be null too
+eb58671 Fix member tracking query to return correct key statuses.
+22f1d42 Add default value for require_activation
+b3fdb7a (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 cdde3d0 Format and style fixes.
 95eee16 Allow longer values in the global settings.
 b64e55b Add default for api_constraint

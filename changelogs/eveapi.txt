@@ -1,4 +1,6 @@
-59f7f5f (HEAD -> master, tag: 2.0.1, origin/master, origin/HEAD) Version Bump
+c11c64a (HEAD -> master, tag: 2.0.2, origin/master, origin/HEAD) Version bump
+c62c2ed Increase the reason field length for corp_member_medals.
+59f7f5f (tag: 2.0.1) Version Bump
 199741d Fix eveseat/seat#153 by casting the string to an int.
 0ea98a4 Update Travis to only allow PHP 7 now.
 06810af (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
