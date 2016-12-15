@@ -1,4 +1,7 @@
-e51c35d (HEAD -> master, tag: 2.0.1, origin/master, origin/HEAD) Version Bump
+aaec7d7 (HEAD -> master, origin/master, origin/HEAD) Formatting fixes.
+0bde264 implement a custom method dedicated to search for ApiKey (#12)
+8203f69 Add function to parse evemail threads.
+e51c35d (tag: 2.0.1) Version Bump
 2209e71 Remove return type as it can be null too
 eb58671 Fix member tracking query to return correct key statuses.
 22f1d42 Add default value for require_activation

@@ -1,4 +1,6 @@
-6e1b222 (HEAD -> master, origin/master) Update Changelogs
+0a02e12 (HEAD -> master, origin/master) Add slack badge
+8ef0e57 Update changelogs
+6e1b222 Update Changelogs
 b8e51d9 (tag: 2.0.0) Update changelogs
 37e71f7 Update changelogs
 c49b0f1 (tag: 2.0.0-alpha2) Drop minimum stability and add prefer-stable
@@ -89,7 +91,9 @@ c8a5b6e Move namespace from App -> Seat
 57487e8 Update .gitignore
 644f3a9 Add license and update .gitignore
 0bba931 first commit
-5a115a0 (HEAD -> master, tag: 2.0.2, origin/master) Version Bump
+3b90fea (HEAD -> master, tag: 2.0.3, origin/master) Version Bump
+8cd58b1 Fix eveseat/seat#156 by adding the optional starbase_id param.
+5a115a0 (tag: 2.0.2) Version Bump
 ca57ce6 Set a user_id if one is not given.
 9a5b152 (tag: 2.0.1) Version Bump
 d457eeb Fix namespace for Validator
@@ -154,7 +158,8 @@ dda7cbb Add endpoint to validate credentials
 6905c26 Compelte the EVE API Key API
 32d17cf First preperations for the SeAT API
 57f8c6d first commit
-6f57fa6 (HEAD -> master, tag: 2.0.0, origin/master) Version Bump! 2.0.0! ⚡️
+868adc3 (HEAD -> master, origin/master) Make clearing the pheal cache require a flag.
+6f57fa6 (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 05ec623 Formatting and style fixes.
 e5eee71 Ensure the admin user is enabled when resetting the password.
 a01282a (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
@@ -237,7 +242,12 @@ b9b7545 Add the EveUpdateServerStatus command
 c978b94 Add the add:job command for testing
 c01ddd9 Start the Console package
 f42ac27 first commit
-c11c64a (HEAD -> master, tag: 2.0.2, origin/master, origin/HEAD) Version bump
+40d5a34 (HEAD -> master, tag: 2.0.4, origin/master, origin/HEAD) Version Bump
+737f28c Experimental performance patch by making the PhealFetcher a singleton.
+f00190d Remove the Pheal Rate limit setting and use the defaults.
+b6000b7 (tag: 2.0.3) Version Bump
+ec9368b Fix eveseat/seat#155 by increasing column size.
+c11c64a (tag: 2.0.2) Version bump
 c62c2ed Increase the reason field length for corp_member_medals.
 59f7f5f (tag: 2.0.1) Version Bump
 199741d Fix eveseat/seat#153 by casting the string to an int.
@@ -499,7 +509,19 @@ ca0a6d7 Add generated docblocks
 b6991b9 Start a few things to test job workers
 40d4948 Start composer package
 af4f12f first commit
-070c7c3 (HEAD -> master, tag: 2.0.2, origin/master) Version Bump
+cfb4fdc (HEAD -> master, tag: 2.0.4, origin/master) Version Bump
+5e66f49 Throttle notifications to prevent HTTP 429's.
+cf8541b Small refactor of siphon detection `getData` method to use collections.
+72f7d13 Merge pull request #3 from karbowiak/master
+595db6c Remove sleep again.. replace with token bucket or something similar at a later point
+af2d7c1 Fix chmod
+effc7a8 Add Siphon Alerts
+c9038d6 Add sleep(1) to the slack notifications, to make it sleep for a full second before sending out each message.. To stop Slack/Discord from 429'ing..
+69bdf77 Merge pull request #1 from warlof/typo
+f0157c7 fix typo on notification message
+452a409 (tag: 2.0.3) Version Bump
+02ce790 Temporarily Disable the Member API State Alert
+070c7c3 (tag: 2.0.2) Version Bump
 4101a77 Format security status number and specify if killmail is a loss.
 c7d6a05 Improve performace by reducing mail scope to 1 week
 0c3b224 Correctly affiliate by ownerID instead of corporationID
@@ -550,7 +572,10 @@ fd76941 Fix typo
 a5f93e7 Update README
 c22a837 First iteration of the notification package
 032bebf first commit
-e51c35d (HEAD -> master, tag: 2.0.1, origin/master, origin/HEAD) Version Bump
+aaec7d7 (HEAD -> master, origin/master, origin/HEAD) Formatting fixes.
+0bde264 implement a custom method dedicated to search for ApiKey (#12)
+8203f69 Add function to parse evemail threads.
+e51c35d (tag: 2.0.1) Version Bump
 2209e71 Remove return type as it can be null too
 eb58671 Fix member tracking query to return correct key statuses.
 22f1d42 Add default value for require_activation
@@ -749,7 +774,23 @@ ea84fb0 Add Queue Data Source
 467fb42 Update badges
 5779eff Prepare repository for packagist
 a46f437 Initial commit
-e960118 (HEAD -> master, tag: 2.0.3, origin/master, origin/HEAD) Version Bump
+a00f236 (HEAD -> master, tag: 2.0.6, origin/master, origin/HEAD) Version Bump
+4637e88 Style fixes
+829b93b fix issue related to permission when an object owner get all permission, including system permission. (#54)
+e31f19e Apply threaded view to mail timeline
+9532c87 Code style and formatting fixes.
+8b640ba Key list search (#56)
+df176ba Add a threaded view to the mail read view.
+06fe0ac fixing issue introduce on #52 (#55)
+799a7b9 add the ability to search on keyID field from ApiKey (#52)
+ed9901b (tag: 2.0.5) Version Bump
+617670b Finally, add the favico.
+a9f3aa4 Help prevent users from accidently disabling themselves.
+786a4ed Fix eveseat/seat#158 by checking if Email Activation is required.
+3d2f6b3 (tag: 2.0.4) Version Bump
+00c3bf2 Grant first time SSO login opportinity to set an email.
+aa62453 Return a response instead of a just a view.
+e960118 (tag: 2.0.3) Version Bump
 d30202a Update view to check new key status field
 3f826f8 Add option to disable email activation requirement.
 a388a5d Use `setting()` helper instead of static Class method

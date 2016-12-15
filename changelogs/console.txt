@@ -1,4 +1,5 @@
-6f57fa6 (HEAD -> master, tag: 2.0.0, origin/master) Version Bump! 2.0.0! ⚡️
+868adc3 (HEAD -> master, origin/master) Make clearing the pheal cache require a flag.
+6f57fa6 (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 05ec623 Formatting and style fixes.
 e5eee71 Ensure the admin user is enabled when resetting the password.
 a01282a (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.

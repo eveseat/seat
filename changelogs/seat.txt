@@ -1,4 +1,6 @@
-6e1b222 (HEAD -> master, origin/master) Update Changelogs
+0a02e12 (HEAD -> master, origin/master) Add slack badge
+8ef0e57 Update changelogs
+6e1b222 Update Changelogs
 b8e51d9 (tag: 2.0.0) Update changelogs
 37e71f7 Update changelogs
 c49b0f1 (tag: 2.0.0-alpha2) Drop minimum stability and add prefer-stable

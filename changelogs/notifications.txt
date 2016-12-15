@@ -1,4 +1,16 @@
-070c7c3 (HEAD -> master, tag: 2.0.2, origin/master) Version Bump
+cfb4fdc (HEAD -> master, tag: 2.0.4, origin/master) Version Bump
+5e66f49 Throttle notifications to prevent HTTP 429's.
+cf8541b Small refactor of siphon detection `getData` method to use collections.
+72f7d13 Merge pull request #3 from karbowiak/master
+595db6c Remove sleep again.. replace with token bucket or something similar at a later point
+af2d7c1 Fix chmod
+effc7a8 Add Siphon Alerts
+c9038d6 Add sleep(1) to the slack notifications, to make it sleep for a full second before sending out each message.. To stop Slack/Discord from 429'ing..
+69bdf77 Merge pull request #1 from warlof/typo
+f0157c7 fix typo on notification message
+452a409 (tag: 2.0.3) Version Bump
+02ce790 Temporarily Disable the Member API State Alert
+070c7c3 (tag: 2.0.2) Version Bump
 4101a77 Format security status number and specify if killmail is a loss.
 c7d6a05 Improve performace by reducing mail scope to 1 week
 0c3b224 Correctly affiliate by ownerID instead of corporationID

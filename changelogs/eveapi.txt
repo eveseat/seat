@@ -1,4 +1,9 @@
-c11c64a (HEAD -> master, tag: 2.0.2, origin/master, origin/HEAD) Version bump
+40d5a34 (HEAD -> master, tag: 2.0.4, origin/master, origin/HEAD) Version Bump
+737f28c Experimental performance patch by making the PhealFetcher a singleton.
+f00190d Remove the Pheal Rate limit setting and use the defaults.
+b6000b7 (tag: 2.0.3) Version Bump
+ec9368b Fix eveseat/seat#155 by increasing column size.
+c11c64a (tag: 2.0.2) Version bump
 c62c2ed Increase the reason field length for corp_member_medals.
 59f7f5f (tag: 2.0.1) Version Bump
 199741d Fix eveseat/seat#153 by casting the string to an int.

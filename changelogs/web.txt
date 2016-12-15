@@ -1,4 +1,20 @@
-e960118 (HEAD -> master, tag: 2.0.3, origin/master, origin/HEAD) Version Bump
+a00f236 (HEAD -> master, tag: 2.0.6, origin/master, origin/HEAD) Version Bump
+4637e88 Style fixes
+829b93b fix issue related to permission when an object owner get all permission, including system permission. (#54)
+e31f19e Apply threaded view to mail timeline
+9532c87 Code style and formatting fixes.
+8b640ba Key list search (#56)
+df176ba Add a threaded view to the mail read view.
+06fe0ac fixing issue introduce on #52 (#55)
+799a7b9 add the ability to search on keyID field from ApiKey (#52)
+ed9901b (tag: 2.0.5) Version Bump
+617670b Finally, add the favico.
+a9f3aa4 Help prevent users from accidently disabling themselves.
+786a4ed Fix eveseat/seat#158 by checking if Email Activation is required.
+3d2f6b3 (tag: 2.0.4) Version Bump
+00c3bf2 Grant first time SSO login opportinity to set an email.
+aa62453 Return a response instead of a just a view.
+e960118 (tag: 2.0.3) Version Bump
 d30202a Update view to check new key status field
 3f826f8 Add option to disable email activation requirement.
 a388a5d Use `setting()` helper instead of static Class method
