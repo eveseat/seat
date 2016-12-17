@@ -20,11 +20,11 @@ SeAT is a simple, [EVE Online](https://www.eveonline.com/) Corporation and API m
 ![starbase view](https://i.imgur.com/qFX2lDS.png)
 
 ## demo
-It is possible to have a free (2 hour limit) demo of SeAT using [https://dply.co](https://dply.co/b/0HrXxCg2). All you need is a valid [Github](github.com) account with an SSH key.
+It is possible to have a free (2 hour limit) demo of SeAT using [https://dply.co](https://dply.co/b/hN6lzMWo). All you need is a valid [Github](github.com) account with an SSH key.
 
 To start a demo, simply click the **dply** button below, signing with your [Github](github.com) account and give the server a name. Then, just hit *Create Server*.
 
-[![Dply](https://dply.co/b.svg)](https://dply.co/b/0HrXxCg2)
+[![Dply](https://dply.co/b.svg)](https://dply.co/b/hN6lzMWo)
 
 Setup can take a few minutes. Check the logfile at `/var/log/cloud-init-output.log` for when it says *[OK] Installation complete!*, then reset the admin password using `php /var/www/seat/artisan seat:admin:reset` and browse to the IP of your server!
 
