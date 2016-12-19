@@ -1,4 +1,8 @@
-aaec7d7 (HEAD -> master, origin/master, origin/HEAD) Formatting fixes.
+33be7aa (HEAD -> master, tag: 2.0.3, origin/master, origin/HEAD) Version Bump
+17fcaec Add new mail_threads option
+d966f59 Add method to remove job tracking items
+de658a8 (tag: 2.0.2) Version Bump
+aaec7d7 Formatting fixes.
 0bde264 implement a custom method dedicated to search for ApiKey (#12)
 8203f69 Add function to parse evemail threads.
 e51c35d (tag: 2.0.1) Version Bump

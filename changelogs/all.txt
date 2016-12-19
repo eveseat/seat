@@ -1,4 +1,8 @@
-0a02e12 (HEAD -> master, origin/master) Add slack badge
+0d5137f (HEAD -> master, origin/master) Update readme with installer repo
+239cfb3 Update dply link
+286ece4 Add dply button
+c8829b8 Update changelogs
+0a02e12 Add slack badge
 8ef0e57 Update changelogs
 6e1b222 Update Changelogs
 b8e51d9 (tag: 2.0.0) Update changelogs
@@ -572,7 +576,11 @@ fd76941 Fix typo
 a5f93e7 Update README
 c22a837 First iteration of the notification package
 032bebf first commit
-aaec7d7 (HEAD -> master, origin/master, origin/HEAD) Formatting fixes.
+33be7aa (HEAD -> master, tag: 2.0.3, origin/master, origin/HEAD) Version Bump
+17fcaec Add new mail_threads option
+d966f59 Add method to remove job tracking items
+de658a8 (tag: 2.0.2) Version Bump
+aaec7d7 Formatting fixes.
 0bde264 implement a custom method dedicated to search for ApiKey (#12)
 8203f69 Add function to parse evemail threads.
 e51c35d (tag: 2.0.1) Version Bump
@@ -774,7 +782,14 @@ ea84fb0 Add Queue Data Source
 467fb42 Update badges
 5779eff Prepare repository for packagist
 a46f437 Initial commit
-a00f236 (HEAD -> master, tag: 2.0.6, origin/master, origin/HEAD) Version Bump
+63adffb (HEAD -> master, tag: 2.0.7, origin/master, origin/HEAD) Version Bump
+d4c6988 Mail characterName clickable.
+92bf30b Make mail view as threads configurable.
+915eb64 Ensure require_activation is validated.
+40b1263 Allow jobs to be manually killed/removed.
+c26f501 Fix typo
+99c5c3f Fix typo
+a00f236 (tag: 2.0.6) Version Bump
 4637e88 Style fixes
 829b93b fix issue related to permission when an object owner get all permission, including system permission. (#54)
 e31f19e Apply threaded view to mail timeline

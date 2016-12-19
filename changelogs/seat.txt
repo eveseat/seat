@@ -1,4 +1,8 @@
-0a02e12 (HEAD -> master, origin/master) Add slack badge
+0d5137f (HEAD -> master, origin/master) Update readme with installer repo
+239cfb3 Update dply link
+286ece4 Add dply button
+c8829b8 Update changelogs
+0a02e12 Add slack badge
 8ef0e57 Update changelogs
 6e1b222 Update Changelogs
 b8e51d9 (tag: 2.0.0) Update changelogs

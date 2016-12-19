@@ -1,4 +1,11 @@
-a00f236 (HEAD -> master, tag: 2.0.6, origin/master, origin/HEAD) Version Bump
+63adffb (HEAD -> master, tag: 2.0.7, origin/master, origin/HEAD) Version Bump
+d4c6988 Mail characterName clickable.
+92bf30b Make mail view as threads configurable.
+915eb64 Ensure require_activation is validated.
+40b1263 Allow jobs to be manually killed/removed.
+c26f501 Fix typo
+99c5c3f Fix typo
+a00f236 (tag: 2.0.6) Version Bump
 4637e88 Style fixes
 829b93b fix issue related to permission when an object owner get all permission, including system permission. (#54)
 e31f19e Apply threaded view to mail timeline
