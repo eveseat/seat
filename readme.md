@@ -48,4 +48,4 @@ Please refer to the [documentation](http://seat-docs.rtfd.org) for installation 
 If you find any security vulnerabilities within SeAT, please send an email to theninjabag@gmail.com to address instead of creating a public Github issue.
 
 ## donate
-If you like SeAT, please consider donating ISK in game to [qu1ckkkk](https://gate.eveonline.com/Profile/qu1ckkkk).
+If you like SeAT, please consider donating ISK in game to [qu1ckkkk](https://gate.eveonline.com/Profile/qu1ckkkk) or via [paypal](https://www.paypal.me/leonjza).
