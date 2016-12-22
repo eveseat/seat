@@ -1,4 +1,14 @@
-63adffb (HEAD -> master, tag: 2.0.7, origin/master, origin/HEAD) Version Bump
+b7ecacd (HEAD -> master, tag: 2.0.8, origin/master, origin/HEAD) Version Bump
+4b7a4af Give manually submitted update jobs some priority
+8740878 Fix bug where new keys wont show in API key list
+6d28de8 Fix comment
+3ebcf67 update permission system in order to have a faster discover (#57)
+5881ab5 Show if the joblog is disabled.
+22cb093 Fix language string
+6a01a76 Fix column names
+3bca775 Add ability to view joblogs.
+02bc02c Add bz2 as an extention requirement
+63adffb (tag: 2.0.7) Version Bump
 d4c6988 Mail characterName clickable.
 92bf30b Make mail view as threads configurable.
 915eb64 Ensure require_activation is validated.

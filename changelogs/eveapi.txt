@@ -1,4 +1,13 @@
-40d5a34 (HEAD -> master, tag: 2.0.4, origin/master, origin/HEAD) Version Bump
+fe3fd7a (HEAD -> master, tag: 2.0.6, origin/master, origin/HEAD) Version Bump
+0f6cb57 Log constraints to the joblog
+d1658a3 (tag: 2.0.5) Version Bump
+4072f01 Update travis yaml with root package version
+70b4f66 Remove useless log entry
+60af828 Formatting & typo fixes.
+8f3ce57 Allow for the joblog to be disabled via a config setting.
+1c8516f Fix typo
+826f3cf Add update worker job logging
+40d5a34 (tag: 2.0.4) Version Bump
 737f28c Experimental performance patch by making the PhealFetcher a singleton.
 f00190d Remove the Pheal Rate limit setting and use the defaults.
 b6000b7 (tag: 2.0.3) Version Bump

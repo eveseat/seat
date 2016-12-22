@@ -1,4 +1,9 @@
-868adc3 (HEAD -> master, origin/master) Make clearing the pheal cache require a flag.
+9c80eee (HEAD -> master, tag: 2.0.2, origin/master) Version bump
+ca24d69 Give the server status call priority
+352d6ae (tag: 2.0.1) Version Bump
+4112603 Slightly increase wait time
+7cba4f1 Add `seat:keys:tail` command
+868adc3 Make clearing the pheal cache require a flag.
 6f57fa6 (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 05ec623 Formatting and style fixes.
 e5eee71 Ensure the admin user is enabled when resetting the password.

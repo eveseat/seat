@@ -1,4 +1,7 @@
-cfb4fdc (HEAD -> master, tag: 2.0.4, origin/master) Version Bump
+de3ba6b (HEAD -> master, tag: 2.0.5, origin/master) Version Bump
+fa312ca Fix typo
+f0e928b Fix email notifications for StarbaseSiphon detection
+cfb4fdc (tag: 2.0.4) Version Bump
 5e66f49 Throttle notifications to prevent HTTP 429's.
 cf8541b Small refactor of siphon detection `getData` method to use collections.
 72f7d13 Merge pull request #3 from karbowiak/master

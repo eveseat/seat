@@ -1,4 +1,6 @@
-33be7aa (HEAD -> master, tag: 2.0.3, origin/master, origin/HEAD) Version Bump
+9e68e86 (HEAD -> master, tag: 2.0.4, origin/master, origin/HEAD) Version Bump
+9041297 Dont prefix cache keys with the session_id
+33be7aa (tag: 2.0.3) Version Bump
 17fcaec Add new mail_threads option
 d966f59 Add method to remove job tracking items
 de658a8 (tag: 2.0.2) Version Bump

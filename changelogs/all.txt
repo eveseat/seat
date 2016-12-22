@@ -1,4 +1,6 @@
-0d5137f (HEAD -> master, origin/master) Update readme with installer repo
+a69864b (HEAD -> master, origin/master) Update readme
+380e12a Update changelogs
+0d5137f Update readme with installer repo
 239cfb3 Update dply link
 286ece4 Add dply button
 c8829b8 Update changelogs
@@ -162,7 +164,12 @@ dda7cbb Add endpoint to validate credentials
 6905c26 Compelte the EVE API Key API
 32d17cf First preperations for the SeAT API
 57f8c6d first commit
-868adc3 (HEAD -> master, origin/master) Make clearing the pheal cache require a flag.
+9c80eee (HEAD -> master, tag: 2.0.2, origin/master) Version bump
+ca24d69 Give the server status call priority
+352d6ae (tag: 2.0.1) Version Bump
+4112603 Slightly increase wait time
+7cba4f1 Add `seat:keys:tail` command
+868adc3 Make clearing the pheal cache require a flag.
 6f57fa6 (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
 05ec623 Formatting and style fixes.
 e5eee71 Ensure the admin user is enabled when resetting the password.
@@ -246,7 +253,16 @@ b9b7545 Add the EveUpdateServerStatus command
 c978b94 Add the add:job command for testing
 c01ddd9 Start the Console package
 f42ac27 first commit
-40d5a34 (HEAD -> master, tag: 2.0.4, origin/master, origin/HEAD) Version Bump
+fe3fd7a (HEAD -> master, tag: 2.0.6, origin/master, origin/HEAD) Version Bump
+0f6cb57 Log constraints to the joblog
+d1658a3 (tag: 2.0.5) Version Bump
+4072f01 Update travis yaml with root package version
+70b4f66 Remove useless log entry
+60af828 Formatting & typo fixes.
+8f3ce57 Allow for the joblog to be disabled via a config setting.
+1c8516f Fix typo
+826f3cf Add update worker job logging
+40d5a34 (tag: 2.0.4) Version Bump
 737f28c Experimental performance patch by making the PhealFetcher a singleton.
 f00190d Remove the Pheal Rate limit setting and use the defaults.
 b6000b7 (tag: 2.0.3) Version Bump
@@ -513,7 +529,10 @@ ca0a6d7 Add generated docblocks
 b6991b9 Start a few things to test job workers
 40d4948 Start composer package
 af4f12f first commit
-cfb4fdc (HEAD -> master, tag: 2.0.4, origin/master) Version Bump
+de3ba6b (HEAD -> master, tag: 2.0.5, origin/master) Version Bump
+fa312ca Fix typo
+f0e928b Fix email notifications for StarbaseSiphon detection
+cfb4fdc (tag: 2.0.4) Version Bump
 5e66f49 Throttle notifications to prevent HTTP 429's.
 cf8541b Small refactor of siphon detection `getData` method to use collections.
 72f7d13 Merge pull request #3 from karbowiak/master
@@ -576,7 +595,9 @@ fd76941 Fix typo
 a5f93e7 Update README
 c22a837 First iteration of the notification package
 032bebf first commit
-33be7aa (HEAD -> master, tag: 2.0.3, origin/master, origin/HEAD) Version Bump
+9e68e86 (HEAD -> master, tag: 2.0.4, origin/master, origin/HEAD) Version Bump
+9041297 Dont prefix cache keys with the session_id
+33be7aa (tag: 2.0.3) Version Bump
 17fcaec Add new mail_threads option
 d966f59 Add method to remove job tracking items
 de658a8 (tag: 2.0.2) Version Bump
@@ -782,7 +803,17 @@ ea84fb0 Add Queue Data Source
 467fb42 Update badges
 5779eff Prepare repository for packagist
 a46f437 Initial commit
-63adffb (HEAD -> master, tag: 2.0.7, origin/master, origin/HEAD) Version Bump
+b7ecacd (HEAD -> master, tag: 2.0.8, origin/master, origin/HEAD) Version Bump
+4b7a4af Give manually submitted update jobs some priority
+8740878 Fix bug where new keys wont show in API key list
+6d28de8 Fix comment
+3ebcf67 update permission system in order to have a faster discover (#57)
+5881ab5 Show if the joblog is disabled.
+22cb093 Fix language string
+6a01a76 Fix column names
+3bca775 Add ability to view joblogs.
+02bc02c Add bz2 as an extention requirement
+63adffb (tag: 2.0.7) Version Bump
 d4c6988 Mail characterName clickable.
 92bf30b Make mail view as threads configurable.
 915eb64 Ensure require_activation is validated.

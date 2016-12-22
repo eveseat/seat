@@ -1,4 +1,6 @@
-0d5137f (HEAD -> master, origin/master) Update readme with installer repo
+a69864b (HEAD -> master, origin/master) Update readme
+380e12a Update changelogs
+0d5137f Update readme with installer repo
 239cfb3 Update dply link
 286ece4 Add dply button
 c8829b8 Update changelogs
