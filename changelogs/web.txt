@@ -1,4 +1,16 @@
-b7ecacd (HEAD -> master, tag: 2.0.8, origin/master, origin/HEAD) Version Bump
+ba7118d (HEAD -> master, tag: 2.0.9, origin/master, origin/HEAD) Version Bump
+507caf2 Show corporation assets contents
+6929851 Update message about job that git pushed to the queue
+ec1b412 Hide update button if key is not enabled
+d08077f Check that key info exists before attempting to set it
+4ea98ac Dont consider affiliations for menu item check
+e3740e9 Add filter to clean out null menu entries.
+30f5826 Update sidebar menu loader to sort menu items alphabetically.
+5d1d860 Add corporation contracts view
+11e3cb0 Add contract items view for characters
+fa511ba Code style tweaks and color tweaks for asset contents view.
+eb4c37b Web portion of character nested asset view (#58)
+b7ecacd (tag: 2.0.8) Version Bump
 4b7a4af Give manually submitted update jobs some priority
 8740878 Fix bug where new keys wont show in API key list
 6d28de8 Fix comment

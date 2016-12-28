@@ -1,4 +1,6 @@
-3b90fea (HEAD -> master, tag: 2.0.3, origin/master) Version Bump
+6fb753f (HEAD -> master, tag: 2.0.4, origin/master) Version Bump
+619d48d Update internal menu name
+3b90fea (tag: 2.0.3) Version Bump
 8cd58b1 Fix eveseat/seat#156 by adding the optional starbase_id param.
 5a115a0 (tag: 2.0.2) Version Bump
 ca57ce6 Set a user_id if one is not given.

@@ -1,4 +1,11 @@
-9e68e86 (HEAD -> master, tag: 2.0.4, origin/master, origin/HEAD) Version Bump
+318fc64 (HEAD -> master, tag: 2.0.6, origin/master, origin/HEAD) Version Bump
+637e566 Add methods to get contract items
+bc09a37 Formatting and code style fixes
+84dfae6 Add assetContents collection for Character Assets view (#14)
+2efc1ff including level in skill coverage chart (#13)
+fc82256 (tag: 2.0.5) Version Bump
+1a56751 Only prefix user keys with the session_id
+9e68e86 (tag: 2.0.4) Version Bump
 9041297 Dont prefix cache keys with the session_id
 33be7aa (tag: 2.0.3) Version Bump
 17fcaec Add new mail_threads option

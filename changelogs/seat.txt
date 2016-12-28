@@ -1,4 +1,5 @@
-a69864b (HEAD -> master, origin/master) Update readme
+61dbd45 (HEAD -> master, origin/master) Update changelogs
+a69864b Update readme
 380e12a Update changelogs
 0d5137f Update readme with installer repo
 239cfb3 Update dply link

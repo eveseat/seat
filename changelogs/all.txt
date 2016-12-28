@@ -1,4 +1,5 @@
-a69864b (HEAD -> master, origin/master) Update readme
+61dbd45 (HEAD -> master, origin/master) Update changelogs
+a69864b Update readme
 380e12a Update changelogs
 0d5137f Update readme with installer repo
 239cfb3 Update dply link
@@ -97,7 +98,9 @@ c8a5b6e Move namespace from App -> Seat
 57487e8 Update .gitignore
 644f3a9 Add license and update .gitignore
 0bba931 first commit
-3b90fea (HEAD -> master, tag: 2.0.3, origin/master) Version Bump
+6fb753f (HEAD -> master, tag: 2.0.4, origin/master) Version Bump
+619d48d Update internal menu name
+3b90fea (tag: 2.0.3) Version Bump
 8cd58b1 Fix eveseat/seat#156 by adding the optional starbase_id param.
 5a115a0 (tag: 2.0.2) Version Bump
 ca57ce6 Set a user_id if one is not given.
@@ -253,7 +256,13 @@ b9b7545 Add the EveUpdateServerStatus command
 c978b94 Add the add:job command for testing
 c01ddd9 Start the Console package
 f42ac27 first commit
-fe3fd7a (HEAD -> master, tag: 2.0.6, origin/master, origin/HEAD) Version Bump
+7ba4970 (HEAD -> master, tag: 2.0.7, origin/master, origin/HEAD) Version Bump
+d370866 Use the same queue priority as the parent job.
+260b854 Update reason for disabling key.
+e05a24a Add a grace error count before disabling API keys
+296e24f Dont update Courier ContractsItems
+2fae54f Add link to docs for more information.
+fe3fd7a (tag: 2.0.6) Version Bump
 0f6cb57 Log constraints to the joblog
 d1658a3 (tag: 2.0.5) Version Bump
 4072f01 Update travis yaml with root package version
@@ -529,7 +538,9 @@ ca0a6d7 Add generated docblocks
 b6991b9 Start a few things to test job workers
 40d4948 Start composer package
 af4f12f first commit
-de3ba6b (HEAD -> master, tag: 2.0.5, origin/master) Version Bump
+4738228 (HEAD -> master, tag: 2.0.6, origin/master) Version Bump
+9bebd32 Update siphon detection to use # of items and not volume.
+de3ba6b (tag: 2.0.5) Version Bump
 fa312ca Fix typo
 f0e928b Fix email notifications for StarbaseSiphon detection
 cfb4fdc (tag: 2.0.4) Version Bump
@@ -595,7 +606,14 @@ fd76941 Fix typo
 a5f93e7 Update README
 c22a837 First iteration of the notification package
 032bebf first commit
-9e68e86 (HEAD -> master, tag: 2.0.4, origin/master, origin/HEAD) Version Bump
+318fc64 (HEAD -> master, tag: 2.0.6, origin/master, origin/HEAD) Version Bump
+637e566 Add methods to get contract items
+bc09a37 Formatting and code style fixes
+84dfae6 Add assetContents collection for Character Assets view (#14)
+2efc1ff including level in skill coverage chart (#13)
+fc82256 (tag: 2.0.5) Version Bump
+1a56751 Only prefix user keys with the session_id
+9e68e86 (tag: 2.0.4) Version Bump
 9041297 Dont prefix cache keys with the session_id
 33be7aa (tag: 2.0.3) Version Bump
 17fcaec Add new mail_threads option
@@ -803,7 +821,19 @@ ea84fb0 Add Queue Data Source
 467fb42 Update badges
 5779eff Prepare repository for packagist
 a46f437 Initial commit
-b7ecacd (HEAD -> master, tag: 2.0.8, origin/master, origin/HEAD) Version Bump
+ba7118d (HEAD -> master, tag: 2.0.9, origin/master, origin/HEAD) Version Bump
+507caf2 Show corporation assets contents
+6929851 Update message about job that git pushed to the queue
+ec1b412 Hide update button if key is not enabled
+d08077f Check that key info exists before attempting to set it
+4ea98ac Dont consider affiliations for menu item check
+e3740e9 Add filter to clean out null menu entries.
+30f5826 Update sidebar menu loader to sort menu items alphabetically.
+5d1d860 Add corporation contracts view
+11e3cb0 Add contract items view for characters
+fa511ba Code style tweaks and color tweaks for asset contents view.
+eb4c37b Web portion of character nested asset view (#58)
+b7ecacd (tag: 2.0.8) Version Bump
 4b7a4af Give manually submitted update jobs some priority
 8740878 Fix bug where new keys wont show in API key list
 6d28de8 Fix comment

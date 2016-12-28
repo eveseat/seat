@@ -1,4 +1,6 @@
-de3ba6b (HEAD -> master, tag: 2.0.5, origin/master) Version Bump
+4738228 (HEAD -> master, tag: 2.0.6, origin/master) Version Bump
+9bebd32 Update siphon detection to use # of items and not volume.
+de3ba6b (tag: 2.0.5) Version Bump
 fa312ca Fix typo
 f0e928b Fix email notifications for StarbaseSiphon detection
 cfb4fdc (tag: 2.0.4) Version Bump
