@@ -1,4 +1,7 @@
-ba7118d (HEAD -> master, tag: 2.0.9, origin/master, origin/HEAD) Version Bump
+ae5b3b2 (HEAD -> master, origin/master, origin/HEAD) Style fixes
+46d14d9 (tag: 2.0.10) Version Bump
+32be7a5 Rename configuration to settings.
+ba7118d (tag: 2.0.9) Version Bump
 507caf2 Show corporation assets contents
 6929851 Update message about job that git pushed to the queue
 ec1b412 Hide update button if key is not enabled

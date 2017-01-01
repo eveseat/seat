@@ -1,4 +1,5 @@
-9c80eee (HEAD -> master, tag: 2.0.2, origin/master) Version bump
+429b084 (HEAD -> master, origin/master) Style fixes
+9c80eee (tag: 2.0.2) Version bump
 ca24d69 Give the server status call priority
 352d6ae (tag: 2.0.1) Version Bump
 4112603 Slightly increase wait time

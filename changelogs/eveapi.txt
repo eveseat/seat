@@ -1,4 +1,7 @@
-7ba4970 (HEAD -> master, tag: 2.0.7, origin/master, origin/HEAD) Version Bump
+93b2124 (HEAD -> master, origin/master, origin/HEAD) Style fixes
+aa25f97 (tag: 2.0.8) Version Bump
+3cad74d Fix eveseat/seat#159 by checking if the titles isset first.
+7ba4970 (tag: 2.0.7) Version Bump
 d370866 Use the same queue priority as the parent job.
 260b854 Update reason for disabling key.
 e05a24a Add a grace error count before disabling API keys

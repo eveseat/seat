@@ -1,4 +1,5 @@
-61dbd45 (HEAD -> master, origin/master) Update changelogs
+254f355 (HEAD -> master, origin/master) Update changelogs
+61dbd45 Update changelogs
 a69864b Update readme
 380e12a Update changelogs
 0d5137f Update readme with installer repo
@@ -167,7 +168,8 @@ dda7cbb Add endpoint to validate credentials
 6905c26 Compelte the EVE API Key API
 32d17cf First preperations for the SeAT API
 57f8c6d first commit
-9c80eee (HEAD -> master, tag: 2.0.2, origin/master) Version bump
+429b084 (HEAD -> master, origin/master) Style fixes
+9c80eee (tag: 2.0.2) Version bump
 ca24d69 Give the server status call priority
 352d6ae (tag: 2.0.1) Version Bump
 4112603 Slightly increase wait time
@@ -256,7 +258,10 @@ b9b7545 Add the EveUpdateServerStatus command
 c978b94 Add the add:job command for testing
 c01ddd9 Start the Console package
 f42ac27 first commit
-7ba4970 (HEAD -> master, tag: 2.0.7, origin/master, origin/HEAD) Version Bump
+93b2124 (HEAD -> master, origin/master, origin/HEAD) Style fixes
+aa25f97 (tag: 2.0.8) Version Bump
+3cad74d Fix eveseat/seat#159 by checking if the titles isset first.
+7ba4970 (tag: 2.0.7) Version Bump
 d370866 Use the same queue priority as the parent job.
 260b854 Update reason for disabling key.
 e05a24a Add a grace error count before disabling API keys
@@ -606,7 +611,8 @@ fd76941 Fix typo
 a5f93e7 Update README
 c22a837 First iteration of the notification package
 032bebf first commit
-318fc64 (HEAD -> master, tag: 2.0.6, origin/master, origin/HEAD) Version Bump
+4a232d1 (HEAD -> master, origin/master, origin/HEAD) Style fixes
+318fc64 (tag: 2.0.6) Version Bump
 637e566 Add methods to get contract items
 bc09a37 Formatting and code style fixes
 84dfae6 Add assetContents collection for Character Assets view (#14)
@@ -821,7 +827,10 @@ ea84fb0 Add Queue Data Source
 467fb42 Update badges
 5779eff Prepare repository for packagist
 a46f437 Initial commit
-ba7118d (HEAD -> master, tag: 2.0.9, origin/master, origin/HEAD) Version Bump
+ae5b3b2 (HEAD -> master, origin/master, origin/HEAD) Style fixes
+46d14d9 (tag: 2.0.10) Version Bump
+32be7a5 Rename configuration to settings.
+ba7118d (tag: 2.0.9) Version Bump
 507caf2 Show corporation assets contents
 6929851 Update message about job that git pushed to the queue
 ec1b412 Hide update button if key is not enabled

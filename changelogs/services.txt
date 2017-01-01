@@ -1,4 +1,5 @@
-318fc64 (HEAD -> master, tag: 2.0.6, origin/master, origin/HEAD) Version Bump
+4a232d1 (HEAD -> master, origin/master, origin/HEAD) Style fixes
+318fc64 (tag: 2.0.6) Version Bump
 637e566 Add methods to get contract items
 bc09a37 Formatting and code style fixes
 84dfae6 Add assetContents collection for Character Assets view (#14)
