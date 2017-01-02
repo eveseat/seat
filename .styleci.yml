@@ -1,0 +1,20 @@
+preset: laravel
+
+risky: false
+
+enabled:
+  - alpha_ordered_imports
+  - concat_with_spaces
+  - no_empty_comment
+
+disabled:
+  - braces
+  - phpdoc_no_package
+  - concat_without_spaces
+  - length_ordered_imports
+  
+finder:
+  exclude:
+    - "tests"
+  name:
+    - "*.php"
