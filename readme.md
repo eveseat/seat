@@ -10,6 +10,7 @@ SeAT: A Simple, EVE Online API Tool and Corporation Manager
 <a href="https://packagist.org/packages/eveseat/seat"><img src="https://poser.pugx.org/eveseat/seat/license" /></a>
 <a href="http://seat-docs.readthedocs.org/en/latest/"><img src="https://readthedocs.org/projects/seat-docs/badge/?version=latest" /></a>
 <a href="https://eveseat-slack.herokuapp.com/"><img src="https://eveseat-slack.herokuapp.com/badge.svg" /></a>
+<a href="https://styleci.io/repos/41199860"><img src="https://styleci.io/repos/41199860/shield?branch=master" alt="StyleCI"></a>
 
 </h2>
 
