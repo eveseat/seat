@@ -16,5 +16,12 @@ disabled:
 finder:
   exclude:
     - "tests"
+    - "app.php"
+    - "ModelFactory.php"
+    - "index.php"
+    - "api.php"
+    - "console.php"
+    - "web.php"
+    - "server.php"
   name:
     - "*.php"
