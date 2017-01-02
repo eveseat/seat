@@ -11,14 +11,13 @@ use Seat\Services\Models\Schedule as DbSchedule;
 
 class Kernel extends ConsoleKernel
 {
-
     /**
      * The Artisan commands provided by your application.
      *
      * @var array
      */
     protected $commands = [
-        //
+
     ];
 
     /**
@@ -40,9 +39,8 @@ class Kernel extends ConsoleKernel
         try {
 
             DB::connection();
-            if (!Schema::hasTable('schedules'))
+            if (! Schema::hasTable('schedules'))
                 throw new Exception('Schema schedules does not exist');
-
         } catch (Exception $e) {
 
             return;
@@ -55,7 +53,7 @@ class Kernel extends ConsoleKernel
                 ->cron($job['expression']);
 
             // Check if overlapping is allowed
-            if (!$job['allow_overlap'])
+            if (! $job['allow_overlap'])
                 $command = $command->withoutOverlapping();
 
             // Check if maintenance mode is allowed
