@@ -1,4 +1,9 @@
-6fb753f (HEAD -> master, tag: 2.0.4, origin/master) Version Bump
+7b91b04 (HEAD -> master, tag: 2.0.5, origin/master) Version Bump
+8c3004d Update styleci config
+44dbb59 Add StyleCI badge.
+b11d5c5 Apply fixes from StyleCI (#2)
+7f7674d Add StyleCI configuration
+6fb753f (tag: 2.0.4) Version Bump
 619d48d Update internal menu name
 3b90fea (tag: 2.0.3) Version Bump
 8cd58b1 Fix eveseat/seat#156 by adding the optional starbase_id param.

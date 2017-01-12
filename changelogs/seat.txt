@@ -1,4 +1,11 @@
-254f355 (HEAD -> master, origin/master) Update changelogs
+460bc00 (HEAD -> master, origin/master) Update StyleCI configuration
+70a0654 Update StyleCI configuration
+ec4e966 Update StyleCI configuration
+a901501 Add StyleCI badge
+3258e06 Apply fixes from StyleCI (#167)
+3e36722 Add StyleCI configuration.
+1513ed1 Update changelogs
+254f355 Update changelogs
 61dbd45 Update changelogs
 a69864b Update readme
 380e12a Update changelogs

@@ -1,4 +1,9 @@
-429b084 (HEAD -> master, origin/master) Style fixes
+5e0fd35 (HEAD -> master, tag: 2.0.3, origin/master) Version Bump
+a0dc02d Update styleci config
+197d773 Apply fixes from StyleCI (#2)
+3774d3f Add StyleCI badge
+aa138a7 Add StyleCI Configuration
+429b084 Style fixes
 9c80eee (tag: 2.0.2) Version bump
 ca24d69 Give the server status call priority
 352d6ae (tag: 2.0.1) Version Bump

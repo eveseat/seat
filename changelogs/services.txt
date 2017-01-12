@@ -1,4 +1,9 @@
-4a232d1 (HEAD -> master, origin/master, origin/HEAD) Style fixes
+462fd5c (HEAD -> master, tag: 2.0.7, origin/master, origin/HEAD) Version Bump
+0be2e39 Character assets (#16)
+44c6db5 Update styleci config
+e36d874 Apply fixes from StyleCI (#15)
+2ecf750 Add StyleCI configuration & badge
+4a232d1 Style fixes
 318fc64 (tag: 2.0.6) Version Bump
 637e566 Add methods to get contract items
 bc09a37 Formatting and code style fixes

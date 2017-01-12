@@ -1,4 +1,13 @@
-ae5b3b2 (HEAD -> master, origin/master, origin/HEAD) Style fixes
+0b890f6 (HEAD -> master, tag: 2.0.11, origin/master, origin/HEAD) Version Bump
+aa88df0 Fix eveseat/seat#173 by adding a unique constriant to emails
+183389f Characterassets update (#60)
+a3c4d52 Update ms to s
+aab1aae Improve readability
+0e92e5e Update styleci config
+45dd47f Fix eveseat/seat#171 by using `Laravel\Socialite\Two\InvalidStateException`
+cf5c8e0 Apply fixes from StyleCI (#59)
+5ad0d85 Add StyleCI configuration & badge
+ae5b3b2 Style fixes
 46d14d9 (tag: 2.0.10) Version Bump
 32be7a5 Rename configuration to settings.
 ba7118d (tag: 2.0.9) Version Bump

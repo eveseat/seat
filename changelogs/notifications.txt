@@ -1,4 +1,9 @@
-4738228 (HEAD -> master, tag: 2.0.6, origin/master) Version Bump
+b7a8ed2 (HEAD -> master, tag: 2.0.7, origin/master) Version Bump
+b5126d3 Update styleci config
+b95d799 Apply fixes from StyleCI (#4)
+04caec8 Add StyleCI badge
+7f5c4a2 Add StyleCI configuration
+4738228 (tag: 2.0.6) Version Bump
 9bebd32 Update siphon detection to use # of items and not volume.
 de3ba6b (tag: 2.0.5) Version Bump
 fa312ca Fix typo

@@ -1,4 +1,13 @@
-93b2124 (HEAD -> master, origin/master, origin/HEAD) Style fixes
+73a778f (HEAD -> master, tag: 2.0.9, origin/master, origin/HEAD) Version Bump
+f7b9b8e Character Assets are now pulled recursively (#12)
+91508da Style fix
+fb68a10 Improve queue job handling.
+6d945c0 Remove queue tries check.
+54b8297 Update styleci config
+7d513eb Apply fixes from StyleCI (#10)
+4577068 Add StyleCI configuration & badge
+f1a93d2 avoid primary key duplication if more than a worker is working on the same characterID (#9)
+93b2124 Style fixes
 aa25f97 (tag: 2.0.8) Version Bump
 3cad74d Fix eveseat/seat#159 by checking if the titles isset first.
 7ba4970 (tag: 2.0.7) Version Bump

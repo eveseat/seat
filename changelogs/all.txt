@@ -1,4 +1,11 @@
-254f355 (HEAD -> master, origin/master) Update changelogs
+460bc00 (HEAD -> master, origin/master) Update StyleCI configuration
+70a0654 Update StyleCI configuration
+ec4e966 Update StyleCI configuration
+a901501 Add StyleCI badge
+3258e06 Apply fixes from StyleCI (#167)
+3e36722 Add StyleCI configuration.
+1513ed1 Update changelogs
+254f355 Update changelogs
 61dbd45 Update changelogs
 a69864b Update readme
 380e12a Update changelogs
@@ -99,7 +106,12 @@ c8a5b6e Move namespace from App -> Seat
 57487e8 Update .gitignore
 644f3a9 Add license and update .gitignore
 0bba931 first commit
-6fb753f (HEAD -> master, tag: 2.0.4, origin/master) Version Bump
+7b91b04 (HEAD -> master, tag: 2.0.5, origin/master) Version Bump
+8c3004d Update styleci config
+44dbb59 Add StyleCI badge.
+b11d5c5 Apply fixes from StyleCI (#2)
+7f7674d Add StyleCI configuration
+6fb753f (tag: 2.0.4) Version Bump
 619d48d Update internal menu name
 3b90fea (tag: 2.0.3) Version Bump
 8cd58b1 Fix eveseat/seat#156 by adding the optional starbase_id param.
@@ -168,7 +180,12 @@ dda7cbb Add endpoint to validate credentials
 6905c26 Compelte the EVE API Key API
 32d17cf First preperations for the SeAT API
 57f8c6d first commit
-429b084 (HEAD -> master, origin/master) Style fixes
+5e0fd35 (HEAD -> master, tag: 2.0.3, origin/master) Version Bump
+a0dc02d Update styleci config
+197d773 Apply fixes from StyleCI (#2)
+3774d3f Add StyleCI badge
+aa138a7 Add StyleCI Configuration
+429b084 Style fixes
 9c80eee (tag: 2.0.2) Version bump
 ca24d69 Give the server status call priority
 352d6ae (tag: 2.0.1) Version Bump
@@ -258,7 +275,16 @@ b9b7545 Add the EveUpdateServerStatus command
 c978b94 Add the add:job command for testing
 c01ddd9 Start the Console package
 f42ac27 first commit
-93b2124 (HEAD -> master, origin/master, origin/HEAD) Style fixes
+73a778f (HEAD -> master, tag: 2.0.9, origin/master, origin/HEAD) Version Bump
+f7b9b8e Character Assets are now pulled recursively (#12)
+91508da Style fix
+fb68a10 Improve queue job handling.
+6d945c0 Remove queue tries check.
+54b8297 Update styleci config
+7d513eb Apply fixes from StyleCI (#10)
+4577068 Add StyleCI configuration & badge
+f1a93d2 avoid primary key duplication if more than a worker is working on the same characterID (#9)
+93b2124 Style fixes
 aa25f97 (tag: 2.0.8) Version Bump
 3cad74d Fix eveseat/seat#159 by checking if the titles isset first.
 7ba4970 (tag: 2.0.7) Version Bump
@@ -543,7 +569,12 @@ ca0a6d7 Add generated docblocks
 b6991b9 Start a few things to test job workers
 40d4948 Start composer package
 af4f12f first commit
-4738228 (HEAD -> master, tag: 2.0.6, origin/master) Version Bump
+b7a8ed2 (HEAD -> master, tag: 2.0.7, origin/master) Version Bump
+b5126d3 Update styleci config
+b95d799 Apply fixes from StyleCI (#4)
+04caec8 Add StyleCI badge
+7f5c4a2 Add StyleCI configuration
+4738228 (tag: 2.0.6) Version Bump
 9bebd32 Update siphon detection to use # of items and not volume.
 de3ba6b (tag: 2.0.5) Version Bump
 fa312ca Fix typo
@@ -611,7 +642,12 @@ fd76941 Fix typo
 a5f93e7 Update README
 c22a837 First iteration of the notification package
 032bebf first commit
-4a232d1 (HEAD -> master, origin/master, origin/HEAD) Style fixes
+462fd5c (HEAD -> master, tag: 2.0.7, origin/master, origin/HEAD) Version Bump
+0be2e39 Character assets (#16)
+44c6db5 Update styleci config
+e36d874 Apply fixes from StyleCI (#15)
+2ecf750 Add StyleCI configuration & badge
+4a232d1 Style fixes
 318fc64 (tag: 2.0.6) Version Bump
 637e566 Add methods to get contract items
 bc09a37 Formatting and code style fixes
@@ -827,7 +863,16 @@ ea84fb0 Add Queue Data Source
 467fb42 Update badges
 5779eff Prepare repository for packagist
 a46f437 Initial commit
-ae5b3b2 (HEAD -> master, origin/master, origin/HEAD) Style fixes
+0b890f6 (HEAD -> master, tag: 2.0.11, origin/master, origin/HEAD) Version Bump
+aa88df0 Fix eveseat/seat#173 by adding a unique constriant to emails
+183389f Characterassets update (#60)
+a3c4d52 Update ms to s
+aab1aae Improve readability
+0e92e5e Update styleci config
+45dd47f Fix eveseat/seat#171 by using `Laravel\Socialite\Two\InvalidStateException`
+cf5c8e0 Apply fixes from StyleCI (#59)
+5ad0d85 Add StyleCI configuration & badge
+ae5b3b2 Style fixes
 46d14d9 (tag: 2.0.10) Version Bump
 32be7a5 Rename configuration to settings.
 ba7118d (tag: 2.0.9) Version Bump
