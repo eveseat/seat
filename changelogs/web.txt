@@ -1,458 +1,458 @@
-0b890f6 (HEAD -> master, tag: 2.0.11, origin/master, origin/HEAD) Version Bump
-aa88df0 Fix eveseat/seat#173 by adding a unique constriant to emails
-183389f Characterassets update (#60)
-a3c4d52 Update ms to s
-aab1aae Improve readability
-0e92e5e Update styleci config
-45dd47f Fix eveseat/seat#171 by using `Laravel\Socialite\Two\InvalidStateException`
-cf5c8e0 Apply fixes from StyleCI (#59)
-5ad0d85 Add StyleCI configuration & badge
-ae5b3b2 Style fixes
-46d14d9 (tag: 2.0.10) Version Bump
-32be7a5 Rename configuration to settings.
-ba7118d (tag: 2.0.9) Version Bump
-507caf2 Show corporation assets contents
-6929851 Update message about job that git pushed to the queue
-ec1b412 Hide update button if key is not enabled
-d08077f Check that key info exists before attempting to set it
-4ea98ac Dont consider affiliations for menu item check
-e3740e9 Add filter to clean out null menu entries.
-30f5826 Update sidebar menu loader to sort menu items alphabetically.
-5d1d860 Add corporation contracts view
-11e3cb0 Add contract items view for characters
-fa511ba Code style tweaks and color tweaks for asset contents view.
-eb4c37b Web portion of character nested asset view (#58)
-b7ecacd (tag: 2.0.8) Version Bump
-4b7a4af Give manually submitted update jobs some priority
-8740878 Fix bug where new keys wont show in API key list
-6d28de8 Fix comment
-3ebcf67 update permission system in order to have a faster discover (#57)
-5881ab5 Show if the joblog is disabled.
-22cb093 Fix language string
-6a01a76 Fix column names
-3bca775 Add ability to view joblogs.
-02bc02c Add bz2 as an extention requirement
-63adffb (tag: 2.0.7) Version Bump
-d4c6988 Mail characterName clickable.
-92bf30b Make mail view as threads configurable.
-915eb64 Ensure require_activation is validated.
-40b1263 Allow jobs to be manually killed/removed.
-c26f501 Fix typo
-99c5c3f Fix typo
-a00f236 (tag: 2.0.6) Version Bump
-4637e88 Style fixes
-829b93b fix issue related to permission when an object owner get all permission, including system permission. (#54)
-e31f19e Apply threaded view to mail timeline
-9532c87 Code style and formatting fixes.
-8b640ba Key list search (#56)
-df176ba Add a threaded view to the mail read view.
-06fe0ac fixing issue introduce on #52 (#55)
-799a7b9 add the ability to search on keyID field from ApiKey (#52)
-ed9901b (tag: 2.0.5) Version Bump
-617670b Finally, add the favico.
-a9f3aa4 Help prevent users from accidently disabling themselves.
-786a4ed Fix eveseat/seat#158 by checking if Email Activation is required.
-3d2f6b3 (tag: 2.0.4) Version Bump
-00c3bf2 Grant first time SSO login opportinity to set an email.
-aa62453 Return a response instead of a just a view.
-e960118 (tag: 2.0.3) Version Bump
-d30202a Update view to check new key status field
-3f826f8 Add option to disable email activation requirement.
-a388a5d Use `setting()` helper instead of static Class method
-55cfca3 fixing possible issue with Supervisor Monitor setting (#51)
-e7590c3 (tag: 2.0.2) Version Bump
-7d00d54 Limit keys returned based on permissions
-00536d7 (tag: 2.0.1) Version Bump
-41cc905 Remove trailing brace
-b8ed06b Only display graphs when there is data.
-14c547e Small layout refactor and removal of self account deletion.
-d07639f Log impersonation events.
-158b141 Improve impersonation by adding an easy revert option.
-5f8ea64 Allow sorting by key status and show disabled reason in details.
-986541c Fix global worker constraints view.
-536880c Update datatables version constraint as newer versions are broken.
-edb4f27 Fix eveseat/seat#152 by instantiating with `moment.utc`.
-e648d7e (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
-690f1be Format and style fixes.
-f7ad9a6 add disable key function (#50)
-48069d6 Add a check for cases where api keys may have `null` constraints.
-82f1bbb Move the Validation namespace to Seat\Web\Http\Validation.
-55436eb Allow constraints to be set on specific API keys.
-1ab8153 Add message that all workers will run without a constraint set.
-d2faf43 First iteration of adding worker constraints.
-893f9a9 Formatting and style fixes.
-946578d Change method visibility to private.
-f65286c Small refactoring and code cleanup for the SSO upgrade option.
-8583a5c fix multiple user creation when user is already owning an account and authenticate with SSO (#49)
-c2d4cc7 Correctly sort first search results.
-0da3bf0 Add character skills and assets search.
-fa2a4fd Remove return type as there is more than one
-8892a83 Show security logs using datatables.
-bc2b8f2 Convert Search results to use Datatables.
-e259c38 Add skills graphs to character skills view.
-26bbed0 Move character skills graphing routes the the CharacterController.
-29f8614 add skills related chart (#48)
-680e4a3 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
-dd76e24 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
-a408ddf Add a character wallet spend graph.
-ff13f32 Introduce ChartJS and add more dashboard elements.
-21067c6 Allow packages to set a permission required for a menu item.
-b82aa7d Use select2 for character selection
-db20434 Set main character ID & name on SSO login
-7c4868f Allow for sub menus to be pluralized
-685b96d Add localization for email verification.
-5ea1f72 Remove unessesary file
-85ad7de Add email verification to account creation.
-6cc2854 Update EVE API status to match new style.
-32641e0 Move supervisor status to a panel.
-99ae5b6 Prepare status response from a collection instead of a raw array.
-241c9a9 Use process group name from config file.
-70bb0ff Bind 'supervisor' as a singleton into the IoC to remove code clutter.
-5b88e1b Move supervisor config ot its own file.
-c40bf89 Move available languages to its own config
-d3879ac Improve queue dashboard by adding supervisor information (#43)
-f09384a Add ability to edit existing notes.
-4c30a48 Remove character specific notes model and use services model note trait.
-56f316c First iteration adding notes to the intel section
-cf30e2f Remove intel journal detail
-f1f4a17 Allow standings profiles to be built by importing char/corp contacts 👍
-0f6c11c Inject the affected id from the request.
-40f2b65 Allow for a standings profile to be deleted.
-aed53aa Move People Groups to the Tools section
-a50a741 Remove ajax responses and return json for datatables.
-5d55b47 Move the last summaries to datatables
-e8813d7 Convert top transactions to datatables view
-9b6f2b8 Fix alliance name images
-6bb770f Load mail interactions using datatables.
-8712398 Fix typo from `read` to `ready`.
-441a612 Sort the character list correctly
-debd68e Do not include the old filter config file
-6146dca Remove state config file of the old `Filterable` trait
-5445360 Convert character tables to datatables.
-abb48be Fix Mail menu entry name
-94a6c32 Correctly sort by default
-f485c03 Include external providers in a seperate method.
-fdfd922 Fix indenting
-4bae275 Hide registration link if registration is disabled (#46)
-7a0cfcb Fix searching on corporation killboard
-4c04af9 Indenting fixes
-a5125e3 Add two low fuel warning on starbase list (#45)
-de8b88c Convert Corporation tables to data tables.
-34c6bc9 Sort Datatables columns by default on fist column
-d13c96f Allow for name resolution to be called by function
-f9b0962 Covert Corporation View to use Datatables
-e7bd080 Make datatables responsive by default
-09714e0 Use the new data tables helper to make search & sorting work
-a5e8cbe Add a JS version of the `human_readable` helper
-51340f8 Add javascript using `push` & format fixes
-bcc35e0 Redesign queue dashboard to use a dynamic table (#41)
-142bb8a Add scripts using a `stack` instead of `section`.
-a99aeb6 Add yajra/laravel-datatables and convert api key list to datatables
-e7d8e07 Start the intel journal detail view.
-6dd6312 First rough commit of character intel module! 👾
-d7aa864 Formatting fixes
-3369f0b Add ability to mark label as a plural
-6dcb3de refactoring a bit menu composer in order to define a menu composer type and use config file instead hard coded entry (#44)
-ea656b5 Code formatting fixes.
-869e26c Explode the Corporation\ViewController into seperate controllers
-e19b350 Paginate market orders
-0933c79 Explode Character\ViewController into better managed controllers
-b5e6f9f Extend new core controllers instead of base in App namespace
-1890f8a Redirect to the newly created role
-e38c7ba Add ability to wildcard corporation and character access
-5d8ccca Simply validation using form array validation.
-231ea86 Remove `insteadof` as repository refactor removed the need for this
-ce1bd67 Change Action to route home
-f6fb5f9 Fix translation strings
-27bd2c2 Implement Inverse access checking
-48160d5 Rename Pillow to AccessManager and add typing
-7042418 Fix translation key
-896592c Add support for storing inverse permissions
-86ade0b Add the AuthorizationController and fix the KeyBouncer
-d8a412f Update bouncers to return a redirect instead of view
-2d73c70 Update to match new class names in eveapi repo
-249c5af Fix language string
-038ba4d Update to make use of new Corp repository classes
-fb129f9 Update to make use of new Character repository classes
-799fdee Update distrib JS/CSS
-74752d2 Upgrade to AdminLTE 2.3.7
-735279c Remove usages of `collect()`. All queries return a collection by default
-ee461fb Upgrade `pragmarx/google2fa` & `league/csv` dependencies
-e414ecb Updpate Form Request validation to extend new base class
-fe0606d Show icon of actual ship instead of a generic one
-e4821ca fix paid-until issue in detail api key view due to possible missing status (#40)
-2bef52c Move logout to a POST method as the new Laravel default
-abea1b1 Rename `lists()` to `pluck()`
-c215f78 Update Authentication Scaffolding for Laravel 5.3
-97fdc4d Add Notifiable trait introduced in L5.3
-6366ccc Update Events to use new Class based events for L5.3
-c45ac15 Update composer to require PHP7 and Laravel 5.3
-9fdea41 (tag: 1.0.31) Version Bump
-8d1f8fd Formatting and style fixes
-360e76c add SDE version into both footer and settings page (#39)
-1db0265 Add alliance name filter to character list
-770044c Fix permission issues (#38)
-7c935df add alliance icon and name into character list. fixes eveseat/seat#134
-2ad376f Rename EveonlineProvider.php to EveOnlineProvider.php (#36)
-edb6543 Fix formatting
-584c9e6 Add collateral amount into contract list (#33)
-433f10a Fix formatting and restore min_access_mask language string
-60b7cd6 Create a new minimum required mask dedicated for corporation (#34)
-22c4209 Add paid-until in Key Details view (depends on PR paid-until branch from eveseat/eveapi) (#32)
-bc1f5ac (tag: 1.0.30) Version Bump
-33b0e03 Update full api mask (#31)
-ec19039 Add link to analytics doc
-ccd332d Add ability to disable tracking completely.
-c7372e9 Add corporation titles to character sheet
-b527652 Add contact tracking links into character and corporation contact list (#30)
-bc76609 (tag: 1.0.29) Version Bump
-12a1229 Resolve names of affiliations.
-e1c82e3 Paginate character contracts and all killmails
-91a5e98 Fix eveseat/seat#111 by paginating the results
-3ac3699 Fix eveseat/seat#121 by adding a button to re-enable all keys
-a6a8897 Add warning about a autogenerated email from sso
-c66c68e Fix spacing
-4aa702d Small codestyle related fixes
-1cca04d Provide a way for user to change their email address (#27)
-e27d545 Adjusted setting (#26)
-4e5225e (tag: 1.0.28) Version Bump
-5b2443b FIx indentation
-f9b6ee8 Added total values to the Bounty Prizes and PI monthly ledgers. (#25)
-21fc0d9 Remove logic that is now in the service repository.
-7689032 (tag: 1.0.27) Version Bump
-c036c44 Update Provider with new method name.
-981ccc4 (tag: 1.0.26) Version Bump
-0796b2c Allow SSO to be enabled/disabled via the web interface.
-7a605be Give accounts a temp email address and flag Sso created accounts
-6efc9bf Add first support for the EVE Online SSO
-168bb3e (tag: 1.0.25) Version Bump
-aee17af Add ability to force a minimum API access mask.
-5101767 Start adding search functionality
-b8ac4fb Remove accountid as it is not useful data
-8604036 Fix eveseat/seat#81 by validating for numeric instead of integers
-e1cd641 Fix eveseat/seat#78 by adding a link to view one mail only
-60727e4 Warn if the default admin contact is still set. Ref eveseat/seat#77
-a5d1f8f Fix eveseat/seat#65 by setting the key_id in the model
-9884772 fix reinforcement time using API stateTimeStamp (#24)
-c20194b (tag: 1.0.24) Version Bump
-eac101f CS Fixes
-f6e3186 Small refactoring and CS fixes
-9997914 Adding Corporation Wallet Ledger (#23)
-954c178 (tag: 1.0.23) Version Bump
-498b868 Fix eveseat/seat#70 by ignoring the current users email in the constraint
-8422602 Fix eveseat/seat#57 by adding missing language strings
-cc8019a (tag: 1.0.22) Version Bump
-0f02f88 Fix eveseat/seat#59 by adding a unique validation constraint
-c69fa2f Add button to easily re-enable keys
-70783d8 (tag: 1.0.21) Version Bump
-c9188b7 Fix eveseat/seat#60 by using `firstOrNew` instead of create
-98b9679 Fix eveseat/seat#51 by always showing the pagination
-e2056a1 (tag: 1.0.20) Version Bump
-92986b7 Remove pcntl requirement
-ad5f515 Merge pull request #21 from warlof/french
-642a832 (origin/pr/21) New french translation according to 1.0.19
-f212c78 (tag: 1.0.19) Version Bump
-d5376f9 Update Copyright
-39c8243 Subclass the bouncers
-afb0be5 Add a People Groups feature
-17c4f3e Set queue status update time via configuration
-5d30ff0 Fix eveseat/seat#48 by adding data-order attributes
-530c268 Add a check for loaded modules and php version
-c84baaa Merge pull request #18 from warlof/ticket38
-e4e1fd0 Merge pull request #20 from warlof/ticket43
-94e470d (origin/pr/18) Fix wishlist #38 eveseat/seat#38
-21a3bb3 (origin/pr/20) Fix issue eveseat/seat issues#43 - Update calc formula - Adding ceil in order to get round item unit (ccp like)
-274409b Use league/csv to parse CSV's instead of the homebrew
-741755d Remove unnecessary re-fetch of model data
-b7ff1a2 Fix eveseat/seat#39 by changing ownership of an existing key.
-8fcc13e Remove footer. Datatables will count the keys
-b357826 Code formatting fixes
-d5f58de Merge pull request #19 from Cynabal/master
-7a78e2f Merge pull request #17 from warlof/french
-9d2ab0f (origin/pr/19) Update seat.php
-86da25f (origin/pr/17) New translation according to v1.0.18
-69239bf (tag: 1.0.18) Version Bump
-33470ce Allow packages to hook into corporation menus
-24c9f1d Only attempt to read package menus if they are defined
-3b7ecad Allow packages to hook into character menus
-bac4a6e Add Datatables to starbase summary
-ec9d5c8 (tag: 1.0.17) Version Bump
-aaaac36 Fix eveseat/seat#29
-6de7e1e Add Datatables for tables.
-075784c (tag: 1.0.16) Version Bump
-b688c4f Add planet type icons
-54ccdec Add corporation Pocos view
-bbede7b (tag: 1.0.15) Version Bump
-63f308a Load starbase modules via Ajax calls
-c0f48df Display page render time
-3f8587c (tag: 1.0.14) Version Bump
-14d87b4 Merge pull request #13 from warlof/ticket5
-d412b7e Excluse Towers themselves from module views
-98a8e19 Use a macro for progressbar generation
-c0e9ce3 Remove unused variables
-22932b4 Refactor Starbase views mostly for performance reasons
-0cefaac (origin/pr/13) fix issue #5 about labels display on neutral and negative standing
-936e8b8 (tag: 1.0.13) Fix a assets check, add missing string and Version Bump
-7bdbf10 (tag: 1.0.12) Version Bump
-6c365ad Specify versions with ~
-3f604e2 Merge pull request #11 from warlof/french
-c1f4657 (origin/pr/11) add new translations according to recent commits (for 1.0.12)
-ed485b3 Move strontium usage to its own string for easier translation
-64a6f86 Take into account bonusses silo/coupling array capacities
-488fd3b Merge pull request #8 from warlof/unknown-item
-cd66a8a Add Starbase details views
-f9dc521 (origin/pr/8) fix issue #9
-9f74d1c Add more details about starbases
-7e67371 First pass at adding starbase views
-9496188 Merge pull request #6 from warlof/french
-2491e69 (origin/pr/6) Translate SeAT in french according to 1.0.11
-f5fa4e3 Show timestampts and paginate wallet info
-c6b4311 Fix eveseat/seat#15
-ca67d0a (tag: 1.0.11) Version Bump
-78da260 Add ability to view corporation bookmarks
-eda1260 Add ability to view character bookmarks
-8e1285e Add ability to view character channels
-5aebf1e (tag: 1.0.10) Allow French to be chosen and Version Bump
-dae1719 Merge pull request #5 from warlof/french
-6e827ae (origin/pr/5) Translate SeAT in french according to 1.0.9
-9e4cd79 (tag: 1.0.9) Add account info check and Version Bump
-bfaabe2 Merge pull request #4 from freedenizen/master
-d802b98 (origin/pr/4, pr/4) add updated_at timestamps to Character and Corporation Sheet summary
-0ece0ce (tag: 1.0.8) Version Bump
-616067c Check if we have data before attempting to display
-99c14a3 Fix eveseat/seat#10
-660b6fa (tag: 1.0.7) Version Bump
-b65aa7e Remove URI scheme
-639b3fb Add missing language definition for view
-2042098 (tag: 1.0.6) Version Bump
-83a7ea8 Add Afrikaans language support
-0039045 Add ability to select a preferred language
-30a71e6 Update langauge strings
-2956a15 Resolve contract issuerID's to names
-36ea925 Apply number() to a few values
-40e5c24 Add ability to view profile login/logout history
-a8e93d7 Add for user password resets
-81682c4 Add recipient info into the mail timeline
-cc141c8 Add id-to-name helper
-6999007 Add X-CSRF Token for ajax calls
-6915fec Add the mail timeline view
-5ade565 Add ability to view character email
-df6ddae (tag: 1.0.5) Version Bump
-14bc397 Add ability to set an admin contact
-5e6498b Add links to external services
-f819124 Show output of jobs
-070c232 Show eveapi errors status
-80775e2 Allows superusers to transfer keys to other owners
-4aab9b8 (tag: 1.0.4) Version Bump
-bc8e6eb (tag: 1.0.3) Start something for a dashboard
-0238e32 Update README.md
-73d415d Add optional Google Two-Factor TOTP support.
-84723ff Merge pull request #3 from Cynabal/patch-1
-2d98ead (origin/pr/3) Update add.blade.php
-7fcac57 (tag: 1.0.2) Version Bump
-020c885 Add notifications version
-f9fdaf6 Dont force packages to set a permission
-5d1bb8c Add email notifications setting and new email templates
-4bade0d Auto update copyright year
-9eba303 Add WebUI to manage schedules
-4598815 (tag: 1.0.1) Version Bump
-2c683ba Dont force a package to have a sub-menu
-6c13e32 Resolve menu routes in the sidebar view.
-e8f3237 Add api version display
-0f6d4ec First pass in allowing packages to add menu items
-fe117ce Add hasRole() method
-be056a9 Fix #2
-e885f07 (tag: 1.0.0) Style fixes and version Bump
-fddc5ba Add SeAT Settings Page with registration toggle
-30b2b9c Add more settings options
-bb6e8ed Add ability to change SeAT theme.
-8dbb713 Read skin ccs filename from settings()
-67d823c Read some values from settings
-91872a1 Remove unused HTML and fix brand route
-3ec66f3 Reduce icon size and add corp icons
-e78c62f Add more complete corp security views
-13f6c9d Add ability to view corp member tracking
-6332cd7 (tag: 1.0-pre-alpha) Update README
-a48340a Login using names instead of emails
-2dfdc27 Add ability to view corp wallet transactions
-06c4741 Add ability to view corp wallet journals
-97547a7 Add ability to view corp standings
-1a825e0 Add ability to view corp market orders
-bab5d6a Add ability to view corp killmails
-26923cc Add ability to view corporation industry jobs
-fc43803 Add ability to view corporation contracts
-a386881 Add ability to view corp contacts
-110b142 Add ability to view corporation assets
-2b9dd85 Add ability to view corp summary
-0bf5bdc First work on corporation views.
-5114d4f Resolve a trait method conflict
-5eaffdc Add ability to mass import keys via CSV files
-17feb08 Add ability to view character standings
-797c9f0 Add ability to view character research info
-771ee34 Add ability to view character PI
-0fcb7de Add ability to view character market orders
-a6b7ac6 Add ability to view character industry
-c020c36 Small UI refactor to make it cleaner
-0d5e18a Add character contract view
-f36e34b Add ability to view character killmails
-45e8dd5 Link to character details
-08d1d48 Add character contacts view
-dc3a396 Add character calendar view
-085368f Add character notifications view
-04ca0ee Add filter rules.
-ccc5ad2 Add Character Assets View
-c748d29 Add table-responsive
-9aaa7ae Add Character Mail View
-f046272 Add Character Wallet Transaction View
-1ae69e0 Add Character Wallet Journal View
-814a95d Rename method from EveRepository
-5d9cfc1 Add Implants, Jump Fatigue and Clone info
-ac83d39 Minor formatting changes
-3631b89 Re-arrange character details layout
-e23a153 Add more character sheet info and shuffle a few things around
-c414bb2 Create a base view for character detail views
-d3fc448 Add Character Skills view
-51caf72 Add Security logging and viewing abilities
-7debd56 Start the Character Viewer
-5bfbed0 Small responsive fixes
-4cf03ed Add All Characters View
-51ccf46 Add hasAny()
-12e05de Split permissions into categories
-50a68ab Add a view into the Job Queue as well as some management
-0da342b Add live queue status updates
-b9df4c4 Fix cases where keys with missing info would throw errors
-9faffab Remove usage of the Redirect Facade
-2250508 Add ability to manually start a job update
-3e34b3e Add key detail viewer and introduce the keybouncer
-85bf567 Add ability ti list and delete API keys
-2fe3d76 Add lazy image loading support
-ee21c49 Style fixes
-1de991a Add ability to add new Api Keys
-358ba7f Make sidebar permissions aware
-41190e6 Introduce the Bouncer and hes Clipboard 🚪
-c2edc6b Use auth() helper instead of Auth Facade
-2a864dc Fix some inconsistency with edit/updater user lang
-e473bba Swap input for has to read better
-5e65509 Allow for users to be quick added
-89ca4e1 Allow for the account status to be filled
-05e6019 Resize grid to match other configuration views
-fdeb2cc Rename menu entry to match page title
-7a03e34 Complete the impersonation feature
-6195979 Add ability to delete users
-0675ef9 Cleanup when a user is deleted
-4c58659 Allow for users to be modified
-a3f1882 Add a basic summary of user roles and affiliations
-f03f872 Localize flash messages on perm/role changes
-679b020 Fix typo in affiliation form request validator
-2e656a8 First iteration of Acl methods and web structuring.
-e8c4343 Highlight submenu items based on URL match
-b6cd2b9 Have the sidebar honor the Locale
-1f91ef0 Add view composer to build the sidebar menu
-3425769 Add a User view composer
-3e72326 Restructure Service Provider
-4aa96f5 Fix duplicate 'reset' translation key
-1160deb Use class property
-22c7747 Add password reset functionality
-9377f67 Add README
-f16a71d Start web interface
-3f15794 Initial commit
+0b890f6	Leon Jacobs	Thu Jan 12 21:56:26 2017 +0200	Version Bump
+aa88df0	Leon Jacobs	Thu Jan 12 21:31:30 2017 +0200	Fix eveseat/seat#173 by adding a unique constriant to emails
+183389f	freedenizen	Thu Jan 12 11:27:09 2017 -0800	Characterassets update (#60)
+a3c4d52	Leon Jacobs	Fri Jan 6 06:54:40 2017 +0200	Update ms to s
+aab1aae	Leon Jacobs	Wed Jan 4 08:42:14 2017 +0200	Improve readability
+0e92e5e	Leon Jacobs	Wed Jan 4 08:41:27 2017 +0200	Update styleci config
+45dd47f	Leon Jacobs	Wed Jan 4 08:35:53 2017 +0200	Fix eveseat/seat#171 by using `Laravel\Socialite\Two\InvalidStateException`
+cf5c8e0	Leon Jacobs	Mon Jan 2 14:11:44 2017 +0200	Apply fixes from StyleCI (#59)
+5ad0d85	Leon Jacobs	Mon Jan 2 14:10:35 2017 +0200	Add StyleCI configuration & badge
+ae5b3b2	Leon Jacobs	Sun Jan 1 16:24:27 2017 +0200	Style fixes
+46d14d9	Leon Jacobs	Sun Jan 1 16:17:58 2017 +0200	Version Bump
+32be7a5	Leon Jacobs	Sun Jan 1 16:14:54 2017 +0200	Rename configuration to settings.
+ba7118d	Leon Jacobs	Wed Dec 28 11:08:19 2016 +0200	Version Bump
+507caf2	Leon Jacobs	Wed Dec 28 10:51:28 2016 +0200	Show corporation assets contents
+6929851	Leon Jacobs	Wed Dec 28 10:00:16 2016 +0200	Update message about job that git pushed to the queue
+ec1b412	Leon Jacobs	Wed Dec 28 09:59:40 2016 +0200	Hide update button if key is not enabled
+d08077f	Leon Jacobs	Wed Dec 28 07:43:17 2016 +0200	Check that key info exists before attempting to set it
+4ea98ac	Leon Jacobs	Tue Dec 27 15:41:41 2016 +0200	Dont consider affiliations for menu item check
+e3740e9	Leon Jacobs	Tue Dec 27 15:38:37 2016 +0200	Add filter to clean out null menu entries.
+30f5826	Leon Jacobs	Mon Dec 26 21:57:31 2016 +0200	Update sidebar menu loader to sort menu items alphabetically.
+5d1d860	Leon Jacobs	Mon Dec 26 21:16:22 2016 +0200	Add corporation contracts view
+11e3cb0	Leon Jacobs	Mon Dec 26 20:39:38 2016 +0200	Add contract items view for characters
+fa511ba	Leon Jacobs	Mon Dec 26 14:42:47 2016 +0200	Code style tweaks and color tweaks for asset contents view.
+eb4c37b	freedenizen	Mon Dec 26 04:26:38 2016 -0800	Web portion of character nested asset view (#58)
+b7ecacd	Leon Jacobs	Wed Dec 21 10:55:23 2016 +0200	Version Bump
+4b7a4af	Leon Jacobs	Wed Dec 21 10:21:33 2016 +0200	Give manually submitted update jobs some priority
+8740878	Leon Jacobs	Wed Dec 21 10:19:02 2016 +0200	Fix bug where new keys wont show in API key list
+6d28de8	Leon Jacobs	Wed Dec 21 08:48:53 2016 +0200	Fix comment
+3ebcf67	Loïc LEUILLIOT	Wed Dec 21 07:43:06 2016 +0100	update permission system in order to have a faster discover (#57)
+5881ab5	Leon Jacobs	Wed Dec 21 08:23:05 2016 +0200	Show if the joblog is disabled.
+22cb093	Leon Jacobs	Wed Dec 21 08:13:51 2016 +0200	Fix language string
+6a01a76	Leon Jacobs	Wed Dec 21 08:12:58 2016 +0200	Fix column names
+3bca775	Leon Jacobs	Wed Dec 21 00:14:07 2016 +0200	Add ability to view joblogs.
+02bc02c	Leon Jacobs	Mon Dec 19 15:31:02 2016 +0200	Add bz2 as an extention requirement
+63adffb	Leon Jacobs	Fri Dec 16 10:48:49 2016 +0200	Version Bump
+d4c6988	Leon Jacobs	Fri Dec 16 10:42:47 2016 +0200	Mail characterName clickable.
+92bf30b	Leon Jacobs	Fri Dec 16 10:39:23 2016 +0200	Make mail view as threads configurable.
+915eb64	Leon Jacobs	Fri Dec 16 10:29:23 2016 +0200	Ensure require_activation is validated.
+40b1263	Leon Jacobs	Fri Dec 16 10:26:08 2016 +0200	Allow jobs to be manually killed/removed.
+c26f501	Leon Jacobs	Thu Dec 15 13:18:09 2016 +0200	Fix typo
+99c5c3f	Leon Jacobs	Thu Dec 15 12:41:31 2016 +0200	Fix typo
+a00f236	Leon Jacobs	Thu Dec 15 11:09:22 2016 +0200	Version Bump
+4637e88	Leon Jacobs	Thu Dec 15 10:40:30 2016 +0200	Style fixes
+829b93b	Loïc LEUILLIOT	Thu Dec 15 09:38:11 2016 +0100	fix issue related to permission when an object owner get all permission, including system permission. (#54)
+e31f19e	Leon Jacobs	Thu Dec 15 10:25:47 2016 +0200	Apply threaded view to mail timeline
+9532c87	Leon Jacobs	Thu Dec 15 08:35:20 2016 +0200	Code style and formatting fixes.
+8b640ba	Loïc LEUILLIOT	Thu Dec 15 07:31:18 2016 +0100	Key list search (#56)
+df176ba	Leon Jacobs	Wed Dec 14 23:53:02 2016 +0200	Add a threaded view to the mail read view.
+06fe0ac	Loïc LEUILLIOT	Wed Dec 14 20:36:36 2016 +0100	fixing issue introduce on #52 (#55)
+799a7b9	Loïc LEUILLIOT	Wed Dec 14 19:39:16 2016 +0100	add the ability to search on keyID field from ApiKey (#52)
+ed9901b	Leon Jacobs	Tue Dec 13 21:31:16 2016 +0200	Version Bump
+617670b	Leon Jacobs	Tue Dec 13 09:35:38 2016 +0200	Finally, add the favico.
+a9f3aa4	Leon Jacobs	Tue Dec 13 09:06:17 2016 +0200	Help prevent users from accidently disabling themselves.
+786a4ed	Leon Jacobs	Tue Dec 13 08:43:18 2016 +0200	Fix eveseat/seat#158 by checking if Email Activation is required.
+3d2f6b3	Leon Jacobs	Mon Dec 12 14:14:20 2016 +0200	Version Bump
+00c3bf2	Leon Jacobs	Mon Dec 12 13:59:44 2016 +0200	Grant first time SSO login opportinity to set an email.
+aa62453	Leon Jacobs	Mon Dec 12 12:44:35 2016 +0200	Return a response instead of a just a view.
+e960118	Leon Jacobs	Sun Dec 11 16:11:55 2016 +0200	Version Bump
+d30202a	Leon Jacobs	Sun Dec 11 15:48:39 2016 +0200	Update view to check new key status field
+3f826f8	Leon Jacobs	Sun Dec 11 08:22:36 2016 +0200	Add option to disable email activation requirement.
+a388a5d	Leon Jacobs	Sun Dec 11 08:14:50 2016 +0200	Use `setting()` helper instead of static Class method
+55cfca3	Loïc LEUILLIOT	Sun Dec 11 06:38:32 2016 +0100	fixing possible issue with Supervisor Monitor setting (#51)
+e7590c3	Leon Jacobs	Sat Dec 10 09:54:57 2016 +0200	Version Bump
+7d00d54	Leon Jacobs	Sat Dec 10 09:54:19 2016 +0200	Limit keys returned based on permissions
+00536d7	Leon Jacobs	Sat Dec 10 09:11:45 2016 +0200	Version Bump
+41cc905	Leon Jacobs	Sat Dec 10 09:04:16 2016 +0200	Remove trailing brace
+b8ed06b	Leon Jacobs	Sat Dec 10 09:03:15 2016 +0200	Only display graphs when there is data.
+14c547e	Leon Jacobs	Sat Dec 10 08:51:32 2016 +0200	Small layout refactor and removal of self account deletion.
+d07639f	Leon Jacobs	Sat Dec 10 08:46:55 2016 +0200	Log impersonation events.
+158b141	Leon Jacobs	Sat Dec 10 08:40:49 2016 +0200	Improve impersonation by adding an easy revert option.
+5f8ea64	Leon Jacobs	Sat Dec 10 08:21:55 2016 +0200	Allow sorting by key status and show disabled reason in details.
+986541c	Leon Jacobs	Sat Dec 10 07:55:15 2016 +0200	Fix global worker constraints view.
+536880c	Leon Jacobs	Sat Dec 10 07:41:27 2016 +0200	Update datatables version constraint as newer versions are broken.
+edb4f27	Leon Jacobs	Fri Dec 9 16:30:49 2016 +0200	Fix eveseat/seat#152 by instantiating with `moment.utc`.
+e648d7e	Leon Jacobs	Thu Dec 8 22:27:37 2016 +0200	Version Bump! 2.0.0! ⚡️
+690f1be	Leon Jacobs	Thu Dec 8 22:15:28 2016 +0200	Format and style fixes.
+f7ad9a6	Loïc LEUILLIOT	Thu Dec 8 17:07:19 2016 +0100	add disable key function (#50)
+48069d6	Leon Jacobs	Wed Nov 30 07:31:10 2016 +0200	Add a check for cases where api keys may have `null` constraints.
+82f1bbb	Leon Jacobs	Wed Nov 30 07:26:59 2016 +0200	Move the Validation namespace to Seat\Web\Http\Validation.
+55436eb	Leon Jacobs	Wed Nov 30 06:59:53 2016 +0200	Allow constraints to be set on specific API keys.
+1ab8153	Leon Jacobs	Tue Nov 29 21:51:24 2016 +0200	Add message that all workers will run without a constraint set.
+d2faf43	Leon Jacobs	Tue Nov 29 21:48:31 2016 +0200	First iteration of adding worker constraints.
+893f9a9	Leon Jacobs	Tue Nov 29 10:30:15 2016 +0200	Formatting and style fixes.
+946578d	Leon Jacobs	Tue Nov 29 10:10:40 2016 +0200	Change method visibility to private.
+f65286c	Leon Jacobs	Tue Nov 29 06:48:05 2016 +0200	Small refactoring and code cleanup for the SSO upgrade option.
+8583a5c	Loïc LEUILLIOT	Tue Nov 29 05:23:42 2016 +0100	fix multiple user creation when user is already owning an account and authenticate with SSO (#49)
+c2d4cc7	Leon Jacobs	Mon Nov 28 19:44:57 2016 +0200	Correctly sort first search results.
+0da3bf0	Leon Jacobs	Mon Nov 28 19:40:47 2016 +0200	Add character skills and assets search.
+fa2a4fd	Leon Jacobs	Mon Nov 28 18:46:18 2016 +0200	Remove return type as there is more than one
+8892a83	Leon Jacobs	Mon Nov 28 10:50:17 2016 +0200	Show security logs using datatables.
+bc2b8f2	Leon Jacobs	Mon Nov 28 08:07:08 2016 +0200	Convert Search results to use Datatables.
+e259c38	Leon Jacobs	Sun Nov 27 11:39:29 2016 +0200	Add skills graphs to character skills view.
+26bbed0	Leon Jacobs	Sun Nov 27 11:27:48 2016 +0200	Move character skills graphing routes the the CharacterController.
+29f8614	Loïc LEUILLIOT	Sun Nov 27 09:59:19 2016 +0100	add skills related chart (#48)
+680e4a3	Leon Jacobs	Sat Nov 26 09:09:39 2016 +0200	Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+dd76e24	Leon Jacobs	Sat Nov 26 08:32:49 2016 +0200	Update composer for 2.0 packages and version 2.0.0-alpha1
+a408ddf	Leon Jacobs	Fri Nov 25 22:24:43 2016 +0200	Add a character wallet spend graph.
+ff13f32	Leon Jacobs	Fri Nov 25 21:14:52 2016 +0200	Introduce ChartJS and add more dashboard elements.
+21067c6	Leon Jacobs	Tue Nov 22 16:43:51 2016 +0200	Allow packages to set a permission required for a menu item.
+b82aa7d	Leon Jacobs	Mon Nov 21 06:07:00 2016 +0200	Use select2 for character selection
+db20434	Leon Jacobs	Mon Nov 21 06:06:43 2016 +0200	Set main character ID & name on SSO login
+7c4868f	Leon Jacobs	Mon Nov 21 06:06:16 2016 +0200	Allow for sub menus to be pluralized
+685b96d	Leon Jacobs	Sun Nov 20 21:00:49 2016 +0200	Add localization for email verification.
+5ea1f72	Leon Jacobs	Sun Nov 20 20:58:07 2016 +0200	Remove unessesary file
+85ad7de	Leon Jacobs	Sun Nov 20 20:54:42 2016 +0200	Add email verification to account creation.
+6cc2854	Leon Jacobs	Sun Nov 20 12:52:07 2016 +0200	Update EVE API status to match new style.
+32641e0	Leon Jacobs	Sun Nov 20 12:39:17 2016 +0200	Move supervisor status to a panel.
+99ae5b6	Leon Jacobs	Sun Nov 20 12:39:07 2016 +0200	Prepare status response from a collection instead of a raw array.
+241c9a9	Leon Jacobs	Sun Nov 20 09:53:48 2016 +0200	Use process group name from config file.
+70bb0ff	Leon Jacobs	Sun Nov 20 09:50:57 2016 +0200	Bind 'supervisor' as a singleton into the IoC to remove code clutter.
+5b88e1b	Leon Jacobs	Sun Nov 20 09:39:23 2016 +0200	Move supervisor config ot its own file.
+c40bf89	Leon Jacobs	Sun Nov 20 09:35:29 2016 +0200	Move available languages to its own config
+d3879ac	Loïc LEUILLIOT	Sat Nov 19 20:46:22 2016 +0100	Improve queue dashboard by adding supervisor information (#43)
+f09384a	Leon Jacobs	Sat Nov 19 16:27:02 2016 +0200	Add ability to edit existing notes.
+4c30a48	Leon Jacobs	Sat Nov 19 09:22:48 2016 +0200	Remove character specific notes model and use services model note trait.
+56f316c	Leon Jacobs	Fri Nov 18 12:44:26 2016 +0200	First iteration adding notes to the intel section
+cf30e2f	Leon Jacobs	Thu Nov 17 17:45:52 2016 +0200	Remove intel journal detail
+f1f4a17	Leon Jacobs	Thu Nov 17 16:48:11 2016 +0200	Allow standings profiles to be built by importing char/corp contacts 👍
+0f6c11c	Leon Jacobs	Thu Nov 17 06:36:48 2016 +0200	Inject the affected id from the request.
+40f2b65	Leon Jacobs	Thu Nov 17 06:33:35 2016 +0200	Allow for a standings profile to be deleted.
+aed53aa	Leon Jacobs	Wed Nov 16 13:59:50 2016 +0200	Move People Groups to the Tools section
+a50a741	Leon Jacobs	Wed Nov 16 13:26:50 2016 +0200	Remove ajax responses and return json for datatables.
+5d55b47	Leon Jacobs	Wed Nov 16 12:47:19 2016 +0200	Move the last summaries to datatables
+e8813d7	Leon Jacobs	Wed Nov 16 08:00:37 2016 +0200	Convert top transactions to datatables view
+9b6f2b8	Leon Jacobs	Wed Nov 16 07:41:46 2016 +0200	Fix alliance name images
+6bb770f	Leon Jacobs	Tue Nov 15 18:42:59 2016 +0200	Load mail interactions using datatables.
+8712398	Leon Jacobs	Sun Nov 13 15:55:37 2016 +0200	Fix typo from `read` to `ready`.
+441a612	Leon Jacobs	Sun Nov 13 15:53:56 2016 +0200	Sort the character list correctly
+debd68e	Leon Jacobs	Sun Nov 13 15:51:04 2016 +0200	Do not include the old filter config file
+6146dca	Leon Jacobs	Sun Nov 13 15:50:16 2016 +0200	Remove state config file of the old `Filterable` trait
+5445360	Leon Jacobs	Sun Nov 13 15:46:05 2016 +0200	Convert character tables to datatables.
+abb48be	Leon Jacobs	Sun Nov 13 15:30:34 2016 +0200	Fix Mail menu entry name
+94a6c32	Leon Jacobs	Sun Nov 13 14:25:54 2016 +0200	Correctly sort by default
+f485c03	Leon Jacobs	Sun Nov 13 11:03:56 2016 +0200	Include external providers in a seperate method.
+fdfd922	Leon Jacobs	Sun Nov 13 10:47:18 2016 +0200	Fix indenting
+4bae275	Loïc LEUILLIOT	Sun Nov 13 09:46:46 2016 +0100	Hide registration link if registration is disabled (#46)
+7a0cfcb	Leon Jacobs	Sat Nov 12 08:58:53 2016 +0200	Fix searching on corporation killboard
+4c04af9	Leon Jacobs	Fri Nov 11 23:20:55 2016 +0200	Indenting fixes
+a5125e3	Loïc LEUILLIOT	Fri Nov 11 22:19:40 2016 +0100	Add two low fuel warning on starbase list (#45)
+de8b88c	Leon Jacobs	Fri Nov 11 23:16:05 2016 +0200	Convert Corporation tables to data tables.
+34c6bc9	Leon Jacobs	Fri Nov 11 17:14:55 2016 +0200	Sort Datatables columns by default on fist column
+d13c96f	Leon Jacobs	Fri Nov 11 16:29:12 2016 +0200	Allow for name resolution to be called by function
+f9b0962	Leon Jacobs	Fri Nov 11 15:33:59 2016 +0200	Covert Corporation View to use Datatables
+e7bd080	Leon Jacobs	Fri Nov 11 14:46:56 2016 +0200	Make datatables responsive by default
+09714e0	Leon Jacobs	Fri Nov 11 14:29:34 2016 +0200	Use the new data tables helper to make search & sorting work
+a5e8cbe	Leon Jacobs	Fri Nov 11 14:29:20 2016 +0200	Add a JS version of the `human_readable` helper
+51340f8	Leon Jacobs	Fri Nov 11 12:42:34 2016 +0200	Add javascript using `push` & format fixes
+bcc35e0	Loïc LEUILLIOT	Fri Nov 11 11:39:46 2016 +0100	Redesign queue dashboard to use a dynamic table (#41)
+142bb8a	Leon Jacobs	Fri Nov 11 12:20:17 2016 +0200	Add scripts using a `stack` instead of `section`.
+a99aeb6	Leon Jacobs	Thu Nov 10 10:00:24 2016 +0200	Add yajra/laravel-datatables and convert api key list to datatables
+e7d8e07	Leon Jacobs	Wed Nov 9 18:14:54 2016 +0200	Start the intel journal detail view.
+6dd6312	Leon Jacobs	Tue Nov 8 18:36:11 2016 +0200	First rough commit of character intel module! 👾
+d7aa864	Leon Jacobs	Mon Nov 7 21:11:17 2016 +0200	Formatting fixes
+3369f0b	Leon Jacobs	Sun Nov 6 17:09:21 2016 +0200	Add ability to mark label as a plural
+6dcb3de	Loïc LEUILLIOT	Sun Nov 6 15:22:54 2016 +0100	refactoring a bit menu composer in order to define a menu composer type and use config file instead hard coded entry (#44)
+ea656b5	Leon Jacobs	Sat Nov 5 12:46:40 2016 +0200	Code formatting fixes.
+869e26c	Leon Jacobs	Sat Nov 5 12:40:37 2016 +0200	Explode the Corporation\ViewController into seperate controllers
+e19b350	Leon Jacobs	Sat Nov 5 10:26:46 2016 +0200	Paginate market orders
+0933c79	Leon Jacobs	Sat Nov 5 10:23:11 2016 +0200	Explode Character\ViewController into better managed controllers
+b5e6f9f	Leon Jacobs	Sat Nov 5 09:17:38 2016 +0200	Extend new core controllers instead of base in App namespace
+1890f8a	Leon Jacobs	Fri Nov 4 22:26:08 2016 +0200	Redirect to the newly created role
+e38c7ba	Leon Jacobs	Fri Nov 4 22:20:14 2016 +0200	Add ability to wildcard corporation and character access
+5d8ccca	Leon Jacobs	Fri Nov 4 21:21:15 2016 +0200	Simply validation using form array validation.
+231ea86	Leon Jacobs	Fri Nov 4 20:59:08 2016 +0200	Remove `insteadof` as repository refactor removed the need for this
+ce1bd67	Leon Jacobs	Fri Nov 4 20:57:21 2016 +0200	Change Action to route home
+f6fb5f9	Leon Jacobs	Fri Nov 4 20:52:19 2016 +0200	Fix translation strings
+27bd2c2	Leon Jacobs	Fri Nov 4 17:03:45 2016 +0200	Implement Inverse access checking
+48160d5	Leon Jacobs	Thu Nov 3 15:51:37 2016 +0200	Rename Pillow to AccessManager and add typing
+7042418	Leon Jacobs	Thu Nov 3 08:33:15 2016 +0200	Fix translation key
+896592c	Leon Jacobs	Thu Nov 3 08:27:27 2016 +0200	Add support for storing inverse permissions
+86ade0b	Leon Jacobs	Tue Nov 1 06:12:55 2016 +0200	Add the AuthorizationController and fix the KeyBouncer
+d8a412f	Leon Jacobs	Mon Oct 31 18:20:56 2016 +0200	Update bouncers to return a redirect instead of view
+2d73c70	Leon Jacobs	Sat Oct 29 15:16:18 2016 +0200	Update to match new class names in eveapi repo
+249c5af	Leon Jacobs	Fri Oct 28 16:24:41 2016 +0200	Fix language string
+038ba4d	Leon Jacobs	Tue Oct 25 20:38:49 2016 +0200	Update to make use of new Corp repository classes
+fb129f9	Leon Jacobs	Tue Oct 25 18:24:56 2016 +0200	Update to make use of new Character repository classes
+799fdee	Leon Jacobs	Mon Oct 24 20:00:44 2016 +0200	Update distrib JS/CSS
+74752d2	Leon Jacobs	Sun Oct 23 19:34:51 2016 +0200	Upgrade to AdminLTE 2.3.7
+735279c	Leon Jacobs	Sun Oct 23 16:34:27 2016 +0200	Remove usages of `collect()`. All queries return a collection by default
+ee461fb	Leon Jacobs	Sun Oct 23 16:00:22 2016 +0200	Upgrade `pragmarx/google2fa` & `league/csv` dependencies
+e414ecb	Leon Jacobs	Sun Oct 23 15:37:01 2016 +0200	Updpate Form Request validation to extend new base class
+fe0606d	Leon Jacobs	Sat Oct 22 16:21:52 2016 +0200	Show icon of actual ship instead of a generic one
+e4821ca	Loïc LEUILLIOT	Tue Oct 18 09:17:32 2016 +0200	fix paid-until issue in detail api key view due to possible missing status (#40)
+2bef52c	Leon Jacobs	Mon Oct 17 11:29:45 2016 +0200	Move logout to a POST method as the new Laravel default
+abea1b1	Leon Jacobs	Mon Oct 17 11:06:18 2016 +0200	Rename `lists()` to `pluck()`
+c215f78	Leon Jacobs	Sat Oct 15 11:03:56 2016 +0200	Update Authentication Scaffolding for Laravel 5.3
+97fdc4d	Leon Jacobs	Sat Oct 15 11:03:33 2016 +0200	Add Notifiable trait introduced in L5.3
+6366ccc	Leon Jacobs	Sat Oct 15 11:03:01 2016 +0200	Update Events to use new Class based events for L5.3
+c45ac15	Leon Jacobs	Sat Oct 15 11:01:04 2016 +0200	Update composer to require PHP7 and Laravel 5.3
+9fdea41	Leon Jacobs	Fri Oct 14 12:55:01 2016 +0200	Version Bump
+8d1f8fd	Leon Jacobs	Fri Oct 14 12:26:25 2016 +0200	Formatting and style fixes
+360e76c	Loïc LEUILLIOT	Fri Oct 14 12:09:47 2016 +0200	add SDE version into both footer and settings page (#39)
+1db0265	Leon Jacobs	Thu Oct 13 13:41:37 2016 +0200	Add alliance name filter to character list
+770044c	Loïc LEUILLIOT	Thu Oct 13 13:03:34 2016 +0200	Fix permission issues (#38)
+7c935df	Loïc LEUILLIOT	Thu Oct 13 12:53:38 2016 +0200	add alliance icon and name into character list. fixes eveseat/seat#134
+2ad376f	David Wright	Tue Sep 6 17:24:54 2016 +1200	Rename EveonlineProvider.php to EveOnlineProvider.php (#36)
+edb6543	Leon Jacobs	Thu Aug 25 18:00:57 2016 +0200	Fix formatting
+584c9e6	Loïc LEUILLIOT	Thu Aug 25 17:59:55 2016 +0200	Add collateral amount into contract list (#33)
+433f10a	Leon Jacobs	Thu Aug 25 17:54:21 2016 +0200	Fix formatting and restore min_access_mask language string
+60b7cd6	Loïc LEUILLIOT	Thu Aug 25 17:52:28 2016 +0200	Create a new minimum required mask dedicated for corporation (#34)
+22c4209	Loïc LEUILLIOT	Thu Aug 25 09:52:03 2016 +0200	Add paid-until in Key Details view (depends on PR paid-until branch from eveseat/eveapi) (#32)
+bc1f5ac	Leon Jacobs	Sat Jul 23 15:15:51 2016 +0200	Version Bump
+33b0e03	Loïc LEUILLIOT	Sat Jul 23 15:07:35 2016 +0200	Update full api mask (#31)
+ec19039	Leon Jacobs	Sat Jul 23 11:16:42 2016 +0200	Add link to analytics doc
+ccd332d	Leon Jacobs	Sat Jul 23 10:28:01 2016 +0200	Add ability to disable tracking completely.
+c7372e9	Loïc LEUILLIOT	Fri Jul 22 08:11:04 2016 +0200	Add corporation titles to character sheet
+b527652	Loïc LEUILLIOT	Fri Jul 22 06:21:27 2016 +0200	Add contact tracking links into character and corporation contact list (#30)
+bc76609	Leon Jacobs	Sun Jul 10 16:20:46 2016 +0200	Version Bump
+12a1229	Leon Jacobs	Sun Jul 10 16:11:49 2016 +0200	Resolve names of affiliations.
+e1c82e3	Leon Jacobs	Sun Jul 10 13:13:38 2016 +0200	Paginate character contracts and all killmails
+91a5e98	Leon Jacobs	Sun Jul 10 13:03:05 2016 +0200	Fix eveseat/seat#111 by paginating the results
+3ac3699	Leon Jacobs	Sun Jul 10 10:40:51 2016 +0200	Fix eveseat/seat#121 by adding a button to re-enable all keys
+a6a8897	Leon Jacobs	Fri Jul 8 12:46:49 2016 +0200	Add warning about a autogenerated email from sso
+c66c68e	Leon Jacobs	Fri Jul 8 12:32:41 2016 +0200	Fix spacing
+4aa702d	Leon Jacobs	Fri Jul 8 12:29:34 2016 +0200	Small codestyle related fixes
+1cca04d	Loïc LEUILLIOT	Fri Jul 8 12:25:15 2016 +0200	Provide a way for user to change their email address (#27)
+e27d545	Martin Morling	Tue Jun 28 15:59:25 2016 +0200	Adjusted setting (#26)
+4e5225e	Leon Jacobs	Sun Jun 26 20:43:42 2016 +0200	Version Bump
+5b2443b	Leon Jacobs	Sun Jun 26 20:29:38 2016 +0200	FIx indentation
+f9b6ee8	James Browning	Sun Jun 26 14:27:23 2016 -0400	Added total values to the Bounty Prizes and PI monthly ledgers. (#25)
+21fc0d9	Leon Jacobs	Sun Jun 26 11:46:25 2016 +0200	Remove logic that is now in the service repository.
+7689032	Leon Jacobs	Mon May 30 06:47:16 2016 +0200	Version Bump
+c036c44	Leon Jacobs	Mon May 30 06:43:07 2016 +0200	Update Provider with new method name.
+981ccc4	Leon Jacobs	Sat May 14 08:56:21 2016 +0200	Version Bump
+0796b2c	Leon Jacobs	Fri May 13 19:13:24 2016 +0200	Allow SSO to be enabled/disabled via the web interface.
+7a605be	Leon Jacobs	Fri May 13 18:28:23 2016 +0200	Give accounts a temp email address and flag Sso created accounts
+6efc9bf	Leon Jacobs	Fri May 13 10:31:10 2016 +0200	Add first support for the EVE Online SSO
+168bb3e	Leon Jacobs	Fri Apr 29 21:26:34 2016 +0200	Version Bump
+aee17af	Leon Jacobs	Fri Apr 29 21:19:01 2016 +0200	Add ability to force a minimum API access mask.
+5101767	Leon Jacobs	Fri Apr 29 20:21:54 2016 +0200	Start adding search functionality
+b8ac4fb	Leon Jacobs	Fri Apr 29 15:05:44 2016 +0200	Remove accountid as it is not useful data
+8604036	Leon Jacobs	Fri Apr 29 14:31:12 2016 +0200	Fix eveseat/seat#81 by validating for numeric instead of integers
+e1cd641	Leon Jacobs	Fri Apr 29 14:01:32 2016 +0200	Fix eveseat/seat#78 by adding a link to view one mail only
+60727e4	Leon Jacobs	Fri Apr 29 09:55:52 2016 +0200	Warn if the default admin contact is still set. Ref eveseat/seat#77
+a5d1f8f	Leon Jacobs	Thu Apr 28 15:01:40 2016 +0200	Fix eveseat/seat#65 by setting the key_id in the model
+9884772	Loïc LEUILLIOT	Tue Apr 26 11:35:23 2016 +0200	fix reinforcement time using API stateTimeStamp (#24)
+c20194b	Leon Jacobs	Thu Apr 14 08:31:55 2016 +0200	Version Bump
+eac101f	Leon Jacobs	Wed Apr 13 10:33:44 2016 +0200	CS Fixes
+f6e3186	Leon Jacobs	Wed Apr 13 10:27:06 2016 +0200	Small refactoring and CS fixes
+9997914	dysath	Wed Apr 13 01:21:39 2016 -0500	Adding Corporation Wallet Ledger (#23)
+954c178	Leon Jacobs	Tue Mar 1 15:50:34 2016 +0200	Version Bump
+498b868	Leon Jacobs	Mon Feb 29 19:03:53 2016 +0200	Fix eveseat/seat#70 by ignoring the current users email in the constraint
+8422602	Leon Jacobs	Mon Feb 29 18:46:26 2016 +0200	Fix eveseat/seat#57 by adding missing language strings
+cc8019a	Leon Jacobs	Tue Feb 9 16:41:11 2016 +0200	Version Bump
+0f02f88	Leon Jacobs	Tue Feb 9 16:35:20 2016 +0200	Fix eveseat/seat#59 by adding a unique validation constraint
+c69fa2f	Leon Jacobs	Tue Feb 9 16:32:10 2016 +0200	Add button to easily re-enable keys
+70783d8	Leon Jacobs	Tue Feb 2 11:37:21 2016 +0200	Version Bump
+c9188b7	Leon Jacobs	Tue Feb 2 11:27:49 2016 +0200	Fix eveseat/seat#60 by using `firstOrNew` instead of create
+98b9679	Leon Jacobs	Wed Jan 27 15:26:33 2016 +0200	Fix eveseat/seat#51 by always showing the pagination
+e2056a1	Leon Jacobs	Tue Jan 26 22:19:12 2016 +0200	Version Bump
+92986b7	Leon Jacobs	Tue Jan 26 22:13:00 2016 +0200	Remove pcntl requirement
+ad5f515	Leon Jacobs	Tue Jan 26 21:34:17 2016 +0200	Merge pull request #21 from warlof/french
+642a832	elfaus	Tue Jan 26 18:52:36 2016 +0100	New french translation according to 1.0.19
+f212c78	Leon Jacobs	Tue Jan 26 18:15:51 2016 +0200	Version Bump
+d5376f9	Leon Jacobs	Tue Jan 26 16:58:45 2016 +0200	Update Copyright
+39c8243	Leon Jacobs	Tue Jan 26 16:24:59 2016 +0200	Subclass the bouncers
+afb0be5	Leon Jacobs	Tue Jan 26 13:32:25 2016 +0200	Add a People Groups feature
+17c4f3e	Leon Jacobs	Mon Jan 11 17:01:43 2016 +0200	Set queue status update time via configuration
+5d30ff0	Leon Jacobs	Fri Jan 8 17:35:17 2016 +0200	Fix eveseat/seat#48 by adding data-order attributes
+530c268	Leon Jacobs	Thu Jan 7 22:18:50 2016 +0200	Add a check for loaded modules and php version
+c84baaa	Leon Jacobs	Thu Jan 7 05:58:47 2016 +0200	Merge pull request #18 from warlof/ticket38
+e4e1fd0	Leon Jacobs	Thu Jan 7 05:57:57 2016 +0200	Merge pull request #20 from warlof/ticket43
+94e470d	elfaus	Tue Jan 5 20:37:37 2016 +0100	Fix wishlist #38 eveseat/seat#38
+21a3bb3	elfaus	Wed Jan 6 20:40:19 2016 +0100	Fix issue eveseat/seat issues#43 - Update calc formula - Adding ceil in order to get round item unit (ccp like)
+274409b	Leon Jacobs	Wed Jan 6 08:44:47 2016 +0200	Use league/csv to parse CSV's instead of the homebrew
+741755d	Leon Jacobs	Wed Jan 6 07:45:23 2016 +0200	Remove unnecessary re-fetch of model data
+b7ff1a2	Leon Jacobs	Wed Jan 6 06:53:46 2016 +0200	Fix eveseat/seat#39 by changing ownership of an existing key.
+8fcc13e	Leon Jacobs	Wed Jan 6 06:48:46 2016 +0200	Remove footer. Datatables will count the keys
+b357826	Leon Jacobs	Wed Jan 6 06:16:25 2016 +0200	Code formatting fixes
+d5f58de	Leon Jacobs	Wed Jan 6 06:12:26 2016 +0200	Merge pull request #19 from Cynabal/master
+7a78e2f	Leon Jacobs	Wed Jan 6 06:11:47 2016 +0200	Merge pull request #17 from warlof/french
+9d2ab0f	Cynabal	Tue Jan 5 09:48:08 2016 +0100	Update seat.php
+86da25f	elfaus	Tue Jan 5 19:27:33 2016 +0100	New translation according to v1.0.18
+69239bf	Leon Jacobs	Sun Jan 3 15:12:17 2016 +0200	Version Bump
+33470ce	Leon Jacobs	Sun Jan 3 15:06:34 2016 +0200	Allow packages to hook into corporation menus
+24c9f1d	Leon Jacobs	Sun Jan 3 12:01:53 2016 +0200	Only attempt to read package menus if they are defined
+3b7ecad	Leon Jacobs	Sun Jan 3 11:55:15 2016 +0200	Allow packages to hook into character menus
+bac4a6e	Leon Jacobs	Tue Dec 29 21:49:47 2015 +0200	Add Datatables to starbase summary
+ec9d5c8	Leon Jacobs	Tue Dec 29 15:51:11 2015 +0200	Version Bump
+aaaac36	Leon Jacobs	Tue Dec 29 15:39:07 2015 +0200	Fix eveseat/seat#29
+6de7e1e	Leon Jacobs	Tue Dec 29 14:50:07 2015 +0200	Add Datatables for tables.
+075784c	Leon Jacobs	Mon Dec 28 09:45:30 2015 +0200	Version Bump
+b688c4f	Leon Jacobs	Mon Dec 28 09:30:03 2015 +0200	Add planet type icons
+54ccdec	Leon Jacobs	Mon Dec 28 09:19:13 2015 +0200	Add corporation Pocos view
+bbede7b	Leon Jacobs	Sun Dec 27 19:15:33 2015 +0200	Version Bump
+63f308a	Leon Jacobs	Sun Dec 27 19:10:05 2015 +0200	Load starbase modules via Ajax calls
+c0f48df	Leon Jacobs	Sun Dec 27 17:40:20 2015 +0200	Display page render time
+3f8587c	Leon Jacobs	Sat Dec 26 16:16:02 2015 +0200	Version Bump
+14d87b4	Leon Jacobs	Sat Dec 26 16:13:39 2015 +0200	Merge pull request #13 from warlof/ticket5
+d412b7e	Leon Jacobs	Sat Dec 26 16:12:53 2015 +0200	Excluse Towers themselves from module views
+98a8e19	Leon Jacobs	Sat Dec 26 16:04:12 2015 +0200	Use a macro for progressbar generation
+c0e9ce3	Leon Jacobs	Sat Dec 26 14:22:00 2015 +0200	Remove unused variables
+22932b4	Leon Jacobs	Sat Dec 26 14:19:28 2015 +0200	Refactor Starbase views mostly for performance reasons
+0cefaac	elfaus	Fri Dec 25 10:32:37 2015 +0100	fix issue #5 about labels display on neutral and negative standing
+936e8b8	Leon Jacobs	Thu Dec 24 23:31:31 2015 +0200	Fix a assets check, add missing string and Version Bump
+7bdbf10	Leon Jacobs	Thu Dec 24 23:12:27 2015 +0200	Version Bump
+6c365ad	Leon Jacobs	Thu Dec 24 23:11:25 2015 +0200	Specify versions with ~
+3f604e2	Leon Jacobs	Thu Dec 24 19:42:26 2015 +0200	Merge pull request #11 from warlof/french
+c1f4657	elfaus	Thu Dec 24 18:28:12 2015 +0100	add new translations according to recent commits (for 1.0.12)
+ed485b3	Leon Jacobs	Thu Dec 24 18:08:20 2015 +0200	Move strontium usage to its own string for easier translation
+64a6f86	Leon Jacobs	Thu Dec 24 18:06:05 2015 +0200	Take into account bonusses silo/coupling array capacities
+488fd3b	Leon Jacobs	Thu Dec 24 17:04:44 2015 +0200	Merge pull request #8 from warlof/unknown-item
+cd66a8a	Leon Jacobs	Thu Dec 24 15:56:48 2015 +0200	Add Starbase details views
+f9dc521	elfaus	Thu Dec 24 09:47:53 2015 +0100	fix issue #9
+9f74d1c	Leon Jacobs	Thu Dec 24 00:04:05 2015 +0200	Add more details about starbases
+7e67371	Leon Jacobs	Wed Dec 23 09:18:14 2015 +0200	First pass at adding starbase views
+9496188	Leon Jacobs	Mon Dec 21 14:35:51 2015 +0200	Merge pull request #6 from warlof/french
+2491e69	elfaus	Mon Dec 21 13:30:11 2015 +0100	Translate SeAT in french according to 1.0.11
+f5fa4e3	Leon Jacobs	Mon Dec 21 13:24:51 2015 +0200	Show timestampts and paginate wallet info
+c6b4311	Leon Jacobs	Mon Dec 21 10:29:12 2015 +0200	Fix eveseat/seat#15
+ca67d0a	Leon Jacobs	Sun Dec 20 18:50:34 2015 +0200	Version Bump
+78da260	Leon Jacobs	Sun Dec 20 16:46:53 2015 +0200	Add ability to view corporation bookmarks
+eda1260	Leon Jacobs	Sat Dec 19 08:51:04 2015 +0200	Add ability to view character bookmarks
+8e1285e	Leon Jacobs	Fri Dec 18 21:30:49 2015 +0200	Add ability to view character channels
+5aebf1e	Leon Jacobs	Fri Dec 18 08:19:50 2015 +0200	Allow French to be chosen and Version Bump
+dae1719	Leon Jacobs	Fri Dec 18 08:16:57 2015 +0200	Merge pull request #5 from warlof/french
+6e827ae	elfaus	Thu Dec 17 23:00:34 2015 +0100	Translate SeAT in french according to 1.0.9
+9e4cd79	Leon Jacobs	Thu Dec 17 20:42:51 2015 +0200	Add account info check and Version Bump
+bfaabe2	Leon Jacobs	Thu Dec 17 20:29:33 2015 +0200	Merge pull request #4 from freedenizen/master
+d802b98	Asher Schaffer	Thu Dec 17 09:30:35 2015 -0800	add updated_at timestamps to Character and Corporation Sheet summary
+0ece0ce	Leon Jacobs	Thu Dec 17 15:39:25 2015 +0200	Version Bump
+616067c	Leon Jacobs	Thu Dec 17 15:38:29 2015 +0200	Check if we have data before attempting to display
+99c14a3	Leon Jacobs	Thu Dec 17 15:27:40 2015 +0200	Fix eveseat/seat#10
+660b6fa	Leon Jacobs	Thu Dec 17 13:53:29 2015 +0200	Version Bump
+b65aa7e	Leon Jacobs	Thu Dec 17 13:50:16 2015 +0200	Remove URI scheme
+639b3fb	Leon Jacobs	Thu Dec 17 13:46:18 2015 +0200	Add missing language definition for view
+2042098	Leon Jacobs	Wed Dec 16 17:24:48 2015 +0200	Version Bump
+83a7ea8	Leon Jacobs	Wed Dec 16 17:12:58 2015 +0200	Add Afrikaans language support
+0039045	Leon Jacobs	Wed Dec 16 15:17:32 2015 +0200	Add ability to select a preferred language
+30a71e6	Leon Jacobs	Wed Dec 16 14:39:16 2015 +0200	Update langauge strings
+2956a15	Leon Jacobs	Tue Dec 15 17:59:35 2015 +0200	Resolve contract issuerID's to names
+36ea925	Leon Jacobs	Tue Dec 15 17:57:39 2015 +0200	Apply number() to a few values
+40e5c24	Leon Jacobs	Tue Dec 15 17:32:39 2015 +0200	Add ability to view profile login/logout history
+a8e93d7	Leon Jacobs	Tue Dec 15 17:19:24 2015 +0200	Add for user password resets
+81682c4	Leon Jacobs	Tue Dec 15 11:58:39 2015 +0200	Add recipient info into the mail timeline
+cc141c8	Leon Jacobs	Tue Dec 15 11:49:58 2015 +0200	Add id-to-name helper
+6999007	Leon Jacobs	Tue Dec 15 09:43:04 2015 +0200	Add X-CSRF Token for ajax calls
+6915fec	Leon Jacobs	Tue Dec 15 07:13:21 2015 +0200	Add the mail timeline view
+5ade565	Leon Jacobs	Mon Dec 14 19:39:48 2015 +0200	Add ability to view character email
+df6ddae	Leon Jacobs	Sun Dec 13 19:23:43 2015 +0200	Version Bump
+14bc397	Leon Jacobs	Sun Dec 13 10:47:30 2015 +0200	Add ability to set an admin contact
+5e6498b	Leon Jacobs	Sat Dec 12 23:01:27 2015 +0200	Add links to external services
+f819124	Leon Jacobs	Sat Dec 12 16:32:32 2015 +0200	Show output of jobs
+070c232	Leon Jacobs	Sat Dec 12 16:20:12 2015 +0200	Show eveapi errors status
+80775e2	Leon Jacobs	Fri Dec 11 16:17:10 2015 +0200	Allows superusers to transfer keys to other owners
+4aab9b8	Leon Jacobs	Sat Dec 5 16:15:10 2015 +0200	Version Bump
+bc8e6eb	Leon Jacobs	Fri Dec 4 16:42:04 2015 +0200	Start something for a dashboard
+0238e32	Leon Jacobs	Fri Dec 4 14:59:12 2015 +0200	Update README.md
+73d415d	Leon Jacobs	Fri Dec 4 14:42:13 2015 +0200	Add optional Google Two-Factor TOTP support.
+84723ff	Leon Jacobs	Thu Dec 3 16:40:01 2015 +0200	Merge pull request #3 from Cynabal/patch-1
+2d98ead	Cynabal	Thu Dec 3 15:21:49 2015 +0100	Update add.blade.php
+7fcac57	Leon Jacobs	Wed Dec 2 21:39:00 2015 +0200	Version Bump
+020c885	Leon Jacobs	Wed Dec 2 21:07:29 2015 +0200	Add notifications version
+f9fdaf6	Leon Jacobs	Wed Dec 2 20:50:59 2015 +0200	Dont force packages to set a permission
+5d1bb8c	Leon Jacobs	Wed Dec 2 19:19:51 2015 +0200	Add email notifications setting and new email templates
+4bade0d	Leon Jacobs	Wed Dec 2 13:23:21 2015 +0200	Auto update copyright year
+9eba303	Leon Jacobs	Wed Dec 2 12:38:36 2015 +0200	Add WebUI to manage schedules
+4598815	Leon Jacobs	Tue Dec 1 10:07:40 2015 +0200	Version Bump
+2c683ba	Leon Jacobs	Tue Dec 1 09:59:10 2015 +0200	Dont force a package to have a sub-menu
+6c13e32	Leon Jacobs	Tue Dec 1 09:19:30 2015 +0200	Resolve menu routes in the sidebar view.
+e8f3237	Leon Jacobs	Mon Nov 30 23:11:15 2015 +0200	Add api version display
+0f6d4ec	Leon Jacobs	Mon Nov 30 23:02:18 2015 +0200	First pass in allowing packages to add menu items
+fe117ce	Leon Jacobs	Mon Nov 30 07:34:19 2015 +0200	Add hasRole() method
+be056a9	Leon Jacobs	Mon Nov 30 06:22:34 2015 +0200	Fix #2
+e885f07	Leon Jacobs	Sat Nov 28 14:12:37 2015 +0200	Style fixes and version Bump
+fddc5ba	Leon Jacobs	Sat Nov 28 14:01:59 2015 +0200	Add SeAT Settings Page with registration toggle
+30b2b9c	Leon Jacobs	Sat Nov 28 12:18:58 2015 +0200	Add more settings options
+bb6e8ed	Leon Jacobs	Sat Nov 28 10:22:32 2015 +0200	Add ability to change SeAT theme.
+8dbb713	Leon Jacobs	Sat Nov 28 10:00:57 2015 +0200	Read skin ccs filename from settings()
+67d823c	Leon Jacobs	Sat Nov 28 09:58:11 2015 +0200	Read some values from settings
+91872a1	Leon Jacobs	Fri Nov 27 22:26:21 2015 +0200	Remove unused HTML and fix brand route
+3ec66f3	Leon Jacobs	Fri Nov 27 22:23:42 2015 +0200	Reduce icon size and add corp icons
+e78c62f	Leon Jacobs	Fri Nov 27 21:51:44 2015 +0200	Add more complete corp security views
+13f6c9d	Leon Jacobs	Fri Nov 27 18:59:56 2015 +0200	Add ability to view corp member tracking
+6332cd7	Leon Jacobs	Fri Nov 27 16:25:44 2015 +0200	Update README
+a48340a	Leon Jacobs	Fri Nov 27 16:20:32 2015 +0200	Login using names instead of emails
+2dfdc27	Leon Jacobs	Fri Nov 27 14:40:59 2015 +0200	Add ability to view corp wallet transactions
+06c4741	Leon Jacobs	Fri Nov 27 14:27:34 2015 +0200	Add ability to view corp wallet journals
+97547a7	Leon Jacobs	Fri Nov 27 13:58:04 2015 +0200	Add ability to view corp standings
+1a825e0	Leon Jacobs	Fri Nov 27 13:50:29 2015 +0200	Add ability to view corp market orders
+bab5d6a	Leon Jacobs	Fri Nov 27 13:44:51 2015 +0200	Add ability to view corp killmails
+26923cc	Leon Jacobs	Fri Nov 27 13:37:05 2015 +0200	Add ability to view corporation industry jobs
+fc43803	Leon Jacobs	Fri Nov 27 13:28:20 2015 +0200	Add ability to view corporation contracts
+a386881	Leon Jacobs	Fri Nov 27 13:13:55 2015 +0200	Add ability to view corp contacts
+110b142	Leon Jacobs	Fri Nov 27 12:54:16 2015 +0200	Add ability to view corporation assets
+2b9dd85	Leon Jacobs	Fri Nov 27 11:53:31 2015 +0200	Add ability to view corp summary
+0bf5bdc	Leon Jacobs	Thu Nov 26 22:55:22 2015 +0200	First work on corporation views.
+5114d4f	Leon Jacobs	Thu Nov 26 22:55:04 2015 +0200	Resolve a trait method conflict
+5eaffdc	Leon Jacobs	Sat Nov 21 13:23:27 2015 +0200	Add ability to mass import keys via CSV files
+17feb08	Leon Jacobs	Sat Nov 21 11:38:34 2015 +0200	Add ability to view character standings
+797c9f0	Leon Jacobs	Sat Nov 21 11:07:55 2015 +0200	Add ability to view character research info
+771ee34	Leon Jacobs	Sat Nov 21 10:49:35 2015 +0200	Add ability to view character PI
+0fcb7de	Leon Jacobs	Sat Nov 21 00:31:48 2015 +0200	Add ability to view character market orders
+a6b7ac6	Leon Jacobs	Fri Nov 20 21:36:10 2015 +0200	Add ability to view character industry
+c020c36	Leon Jacobs	Fri Nov 20 18:58:14 2015 +0200	Small UI refactor to make it cleaner
+0d5e18a	Leon Jacobs	Fri Nov 20 18:42:42 2015 +0200	Add character contract view
+f36e34b	Leon Jacobs	Fri Nov 20 14:57:55 2015 +0200	Add ability to view character killmails
+45e8dd5	Leon Jacobs	Fri Nov 20 13:24:45 2015 +0200	Link to character details
+08d1d48	Leon Jacobs	Fri Oct 30 22:15:34 2015 +0200	Add character contacts view
+dc3a396	Leon Jacobs	Fri Oct 30 21:27:51 2015 +0200	Add character calendar view
+085368f	Leon Jacobs	Fri Oct 30 19:02:41 2015 +0200	Add character notifications view
+04ca0ee	Leon Jacobs	Fri Oct 30 15:36:02 2015 +0200	Add filter rules.
+ccc5ad2	Leon Jacobs	Fri Oct 30 15:17:55 2015 +0200	Add Character Assets View
+c748d29	Leon Jacobs	Thu Oct 29 21:52:07 2015 +0200	Add table-responsive
+9aaa7ae	Leon Jacobs	Thu Oct 29 21:43:33 2015 +0200	Add Character Mail View
+f046272	Leon Jacobs	Thu Oct 29 17:37:57 2015 +0200	Add Character Wallet Transaction View
+1ae69e0	Leon Jacobs	Thu Oct 29 11:51:50 2015 +0200	Add Character Wallet Journal View
+814a95d	Leon Jacobs	Thu Oct 29 06:09:53 2015 +0200	Rename method from EveRepository
+5d9cfc1	Leon Jacobs	Wed Oct 28 18:54:05 2015 +0200	Add Implants, Jump Fatigue and Clone info
+ac83d39	Leon Jacobs	Wed Oct 28 17:26:39 2015 +0200	Minor formatting changes
+3631b89	Leon Jacobs	Wed Oct 28 09:35:05 2015 +0200	Re-arrange character details layout
+e23a153	Leon Jacobs	Tue Oct 27 19:42:01 2015 +0200	Add more character sheet info and shuffle a few things around
+c414bb2	Leon Jacobs	Tue Oct 27 16:14:39 2015 +0200	Create a base view for character detail views
+d3fc448	Leon Jacobs	Tue Oct 27 07:47:45 2015 +0200	Add Character Skills view
+51caf72	Leon Jacobs	Fri Oct 9 18:00:36 2015 +0200	Add Security logging and viewing abilities
+7debd56	Leon Jacobs	Fri Oct 9 10:25:34 2015 +0200	Start the Character Viewer
+5bfbed0	Leon Jacobs	Fri Oct 9 09:51:28 2015 +0200	Small responsive fixes
+4cf03ed	Leon Jacobs	Thu Oct 8 15:00:07 2015 +0200	Add All Characters View
+51ccf46	Leon Jacobs	Thu Oct 8 14:59:54 2015 +0200	Add hasAny()
+12e05de	Leon Jacobs	Wed Oct 7 22:26:33 2015 +0200	Split permissions into categories
+50a68ab	Leon Jacobs	Tue Oct 6 22:28:19 2015 +0200	Add a view into the Job Queue as well as some management
+0da342b	Leon Jacobs	Tue Oct 6 15:01:25 2015 +0200	Add live queue status updates
+b9df4c4	Leon Jacobs	Tue Oct 6 15:01:08 2015 +0200	Fix cases where keys with missing info would throw errors
+9faffab	Leon Jacobs	Tue Oct 6 14:14:19 2015 +0200	Remove usage of the Redirect Facade
+2250508	Leon Jacobs	Mon Oct 5 22:24:48 2015 +0200	Add ability to manually start a job update
+3e34b3e	Leon Jacobs	Mon Oct 5 22:16:23 2015 +0200	Add key detail viewer and introduce the keybouncer
+85bf567	Leon Jacobs	Mon Oct 5 17:18:56 2015 +0200	Add ability ti list and delete API keys
+2fe3d76	Leon Jacobs	Sun Oct 4 21:33:55 2015 +0200	Add lazy image loading support
+ee21c49	Leon Jacobs	Sun Oct 4 19:36:20 2015 +0200	Style fixes
+1de991a	Leon Jacobs	Sun Oct 4 19:32:52 2015 +0200	Add ability to add new Api Keys
+358ba7f	Leon Jacobs	Sun Oct 4 13:08:12 2015 +0200	Make sidebar permissions aware
+41190e6	Leon Jacobs	Fri Oct 2 15:39:24 2015 +0200	Introduce the Bouncer and hes Clipboard 🚪
+c2edc6b	Leon Jacobs	Fri Oct 2 10:47:24 2015 +0200	Use auth() helper instead of Auth Facade
+2a864dc	Leon Jacobs	Fri Oct 2 10:11:39 2015 +0200	Fix some inconsistency with edit/updater user lang
+e473bba	Leon Jacobs	Fri Oct 2 09:08:09 2015 +0200	Swap input for has to read better
+5e65509	Leon Jacobs	Fri Oct 2 09:04:24 2015 +0200	Allow for users to be quick added
+89ca4e1	Leon Jacobs	Fri Oct 2 09:04:06 2015 +0200	Allow for the account status to be filled
+05e6019	Leon Jacobs	Fri Oct 2 09:03:22 2015 +0200	Resize grid to match other configuration views
+fdeb2cc	Leon Jacobs	Fri Oct 2 09:02:34 2015 +0200	Rename menu entry to match page title
+7a03e34	Leon Jacobs	Fri Oct 2 08:43:28 2015 +0200	Complete the impersonation feature
+6195979	Leon Jacobs	Fri Oct 2 08:35:38 2015 +0200	Add ability to delete users
+0675ef9	Leon Jacobs	Fri Oct 2 08:35:09 2015 +0200	Cleanup when a user is deleted
+4c58659	Leon Jacobs	Fri Oct 2 07:33:28 2015 +0200	Allow for users to be modified
+a3f1882	Leon Jacobs	Thu Oct 1 23:45:40 2015 +0200	Add a basic summary of user roles and affiliations
+f03f872	Leon Jacobs	Wed Sep 30 17:08:12 2015 +0200	Localize flash messages on perm/role changes
+679b020	Leon Jacobs	Wed Sep 30 17:00:08 2015 +0200	Fix typo in affiliation form request validator
+2e656a8	Leon Jacobs	Wed Sep 30 16:49:36 2015 +0200	First iteration of Acl methods and web structuring.
+e8c4343	Leon Jacobs	Tue Sep 29 11:16:25 2015 +0200	Highlight submenu items based on URL match
+b6cd2b9	Leon Jacobs	Tue Sep 29 10:36:32 2015 +0200	Have the sidebar honor the Locale
+1f91ef0	Leon Jacobs	Tue Sep 29 10:22:17 2015 +0200	Add view composer to build the sidebar menu
+3425769	Leon Jacobs	Mon Sep 28 08:23:29 2015 +0200	Add a User view composer
+3e72326	Leon Jacobs	Mon Sep 28 08:23:20 2015 +0200	Restructure Service Provider
+4aa96f5	Leon Jacobs	Sun Sep 27 15:15:10 2015 +0200	Fix duplicate 'reset' translation key
+1160deb	Leon Jacobs	Sun Sep 27 14:48:41 2015 +0200	Use class property
+22c7747	Leon Jacobs	Sun Sep 27 14:16:52 2015 +0200	Add password reset functionality
+9377f67	Leon Jacobs	Sun Sep 27 11:30:06 2015 +0200	Add README
+f16a71d	Leon Jacobs	Sun Sep 27 11:05:17 2015 +0200	Start web interface
+3f15794	Leon Jacobs	Thu Sep 24 22:18:13 2015 +0200	Initial commit

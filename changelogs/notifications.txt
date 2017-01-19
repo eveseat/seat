@@ -1,73 +1,73 @@
-b7a8ed2 (HEAD -> master, tag: 2.0.7, origin/master) Version Bump
-b5126d3 Update styleci config
-b95d799 Apply fixes from StyleCI (#4)
-04caec8 Add StyleCI badge
-7f5c4a2 Add StyleCI configuration
-4738228 (tag: 2.0.6) Version Bump
-9bebd32 Update siphon detection to use # of items and not volume.
-de3ba6b (tag: 2.0.5) Version Bump
-fa312ca Fix typo
-f0e928b Fix email notifications for StarbaseSiphon detection
-cfb4fdc (tag: 2.0.4) Version Bump
-5e66f49 Throttle notifications to prevent HTTP 429's.
-cf8541b Small refactor of siphon detection `getData` method to use collections.
-72f7d13 Merge pull request #3 from karbowiak/master
-595db6c Remove sleep again.. replace with token bucket or something similar at a later point
-af2d7c1 Fix chmod
-effc7a8 Add Siphon Alerts
-c9038d6 Add sleep(1) to the slack notifications, to make it sleep for a full second before sending out each message.. To stop Slack/Discord from 429'ing..
-69bdf77 Merge pull request #1 from warlof/typo
-f0157c7 fix typo on notification message
-452a409 (tag: 2.0.3) Version Bump
-02ce790 Temporarily Disable the Member API State Alert
-070c7c3 (tag: 2.0.2) Version Bump
-4101a77 Format security status number and specify if killmail is a loss.
-c7d6a05 Improve performace by reducing mail scope to 1 week
-0c3b224 Correctly affiliate by ownerID instead of corporationID
-acdaa9d (tag: 2.0.1) Version bump
-ec3a05f Add corporation killmails notification.
-125db68 (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
-88ac259 Codestyle fixes.
-e9b2b42 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
-8d631d0 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
-9a7af30 Add character mail alert.
-e72475f Add new api key added alert.
-5c72ad8 Add member api state change alert.
-177b12e Add a starbase state change alert.
-d415584 Give alerts pretty names.
-0a6f74a Style fixes
-de0b6cb Add a command handler & schedule for alerts.
-b444b41 Add localization strings
-cd4a801 Add notifications history to prevent duplicate notifications.
-a37a62b Add alert for starbase fuel levels.
-c75715f Apply affiliation rules to Notification Groups that have them set.
-d4ade00 Add Inactive Corp Member notification.
-88f5d8f Only fire alerts to groups with the actual alert configured.
-d2cd290 Add time to player count notification
-858f4e8 Ensure that only a single integration of a type can be added
-bd0443c Add ability to delete a notifications group.
-8678921 Add ability to modify notification groups.
-895e510 Allow for integrations to be deleted.
-784f040 Add a player count notification to test.
-aae1201 Add missing docblocks
-474dd80 Restore the old structure on `down()`
-3ab8b06 Major notifications refactor to support L5.3 features.
-d1614c8 Code formatting fixes
-353d04c Extend new core controllers instead of base in App namespace
-6caa863 Update PHP & Laravel dependencies. Remove psr/log dependency.
-624e13c Apply new global web middleware
-c115945 (tag: 1.0.4) Version Bump
-7b0cd6f Update copyright
-23e89b1 Code style fix
-d47b267 (tag: 1.0.3) Version Bump
-e0a5b53 Specify Versions with ~
-aedd78a (tag: 1.0.2) Version Bump
-a2e7ddf Add suport for lacalization
-6594754 (tag: 1.0.1) Version Bump
-ccf7596 Update README.md
-70994aa Add more complete message
-15b1175 (tag: 1.0.0) Add views to see notifications
-fd76941 Fix typo
-a5f93e7 Update README
-c22a837 First iteration of the notification package
-032bebf first commit
+b7a8ed2	Leon Jacobs	Thu Jan 12 21:50:47 2017 +0200	Version Bump
+b5126d3	Leon Jacobs	Wed Jan 4 08:40:34 2017 +0200	Update styleci config
+b95d799	Leon Jacobs	Mon Jan 2 14:05:21 2017 +0200	Apply fixes from StyleCI (#4)
+04caec8	Leon Jacobs	Mon Jan 2 14:04:32 2017 +0200	Add StyleCI badge
+7f5c4a2	Leon Jacobs	Mon Jan 2 14:01:46 2017 +0200	Add StyleCI configuration
+4738228	Leon Jacobs	Fri Dec 23 20:53:28 2016 +0200	Version Bump
+9bebd32	Leon Jacobs	Thu Dec 22 22:06:32 2016 +0200	Update siphon detection to use # of items and not volume.
+de3ba6b	Leon Jacobs	Thu Dec 22 14:19:35 2016 +0200	Version Bump
+fa312ca	Leon Jacobs	Thu Dec 22 13:56:08 2016 +0200	Fix typo
+f0e928b	Leon Jacobs	Thu Dec 22 13:55:20 2016 +0200	Fix email notifications for StarbaseSiphon detection
+cfb4fdc	Leon Jacobs	Thu Dec 15 11:05:19 2016 +0200	Version Bump
+5e66f49	Leon Jacobs	Thu Dec 15 10:15:13 2016 +0200	Throttle notifications to prevent HTTP 429's.
+cf8541b	Leon Jacobs	Thu Dec 15 10:06:41 2016 +0200	Small refactor of siphon detection `getData` method to use collections.
+72f7d13	Leon Jacobs	Thu Dec 15 08:39:58 2016 +0200	Merge pull request #3 from karbowiak/master
+595db6c	Michael Karbowiak	Wed Dec 14 20:12:06 2016 +0100	Remove sleep again.. replace with token bucket or something similar at a later point
+af2d7c1	Michael Karbowiak	Wed Dec 14 20:05:09 2016 +0100	Fix chmod
+effc7a8	Michael Karbowiak	Wed Dec 14 20:04:56 2016 +0100	Add Siphon Alerts
+c9038d6	Michael Karbowiak	Wed Dec 14 19:35:08 2016 +0100	Add sleep(1) to the slack notifications, to make it sleep for a full second before sending out each message.. To stop Slack/Discord from 429'ing..
+69bdf77	Leon Jacobs	Wed Dec 14 14:49:35 2016 +0200	Merge pull request #1 from warlof/typo
+f0157c7	elfaus	Wed Dec 14 13:26:34 2016 +0100	fix typo on notification message
+452a409	Leon Jacobs	Mon Dec 12 20:00:29 2016 +0200	Version Bump
+02ce790	Leon Jacobs	Mon Dec 12 19:59:44 2016 +0200	Temporarily Disable the Member API State Alert
+070c7c3	Leon Jacobs	Sat Dec 10 09:10:38 2016 +0200	Version Bump
+4101a77	Leon Jacobs	Fri Dec 9 16:18:13 2016 +0200	Format security status number and specify if killmail is a loss.
+c7d6a05	Leon Jacobs	Fri Dec 9 16:01:32 2016 +0200	Improve performace by reducing mail scope to 1 week
+0c3b224	Leon Jacobs	Fri Dec 9 16:00:06 2016 +0200	Correctly affiliate by ownerID instead of corporationID
+acdaa9d	Leon Jacobs	Fri Dec 9 15:11:47 2016 +0200	Version bump
+ec3a05f	Leon Jacobs	Fri Dec 9 15:09:54 2016 +0200	Add corporation killmails notification.
+125db68	Leon Jacobs	Thu Dec 8 22:25:30 2016 +0200	Version Bump! 2.0.0! ⚡️
+88ac259	Leon Jacobs	Mon Nov 28 20:19:21 2016 +0200	Codestyle fixes.
+e9b2b42	Leon Jacobs	Sat Nov 26 09:09:08 2016 +0200	Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+8d631d0	Leon Jacobs	Sat Nov 26 08:29:44 2016 +0200	Update composer for 2.0 packages and version 2.0.0-alpha1
+9a7af30	Leon Jacobs	Fri Nov 25 18:40:31 2016 +0200	Add character mail alert.
+e72475f	Leon Jacobs	Fri Nov 25 17:02:56 2016 +0200	Add new api key added alert.
+5c72ad8	Leon Jacobs	Fri Nov 25 16:40:54 2016 +0200	Add member api state change alert.
+177b12e	Leon Jacobs	Fri Nov 25 15:18:32 2016 +0200	Add a starbase state change alert.
+d415584	Leon Jacobs	Fri Nov 25 14:16:53 2016 +0200	Give alerts pretty names.
+0a6f74a	Leon Jacobs	Fri Nov 25 14:07:31 2016 +0200	Style fixes
+de0b6cb	Leon Jacobs	Fri Nov 25 14:06:44 2016 +0200	Add a command handler & schedule for alerts.
+b444b41	Leon Jacobs	Fri Nov 25 13:29:59 2016 +0200	Add localization strings
+cd4a801	Leon Jacobs	Fri Nov 25 11:15:52 2016 +0200	Add notifications history to prevent duplicate notifications.
+a37a62b	Leon Jacobs	Fri Nov 25 08:50:25 2016 +0200	Add alert for starbase fuel levels.
+c75715f	Leon Jacobs	Thu Nov 24 20:47:36 2016 +0200	Apply affiliation rules to Notification Groups that have them set.
+d4ade00	Leon Jacobs	Thu Nov 24 20:21:14 2016 +0200	Add Inactive Corp Member notification.
+88f5d8f	Leon Jacobs	Thu Nov 24 18:47:23 2016 +0200	Only fire alerts to groups with the actual alert configured.
+d2cd290	Leon Jacobs	Thu Nov 24 18:47:07 2016 +0200	Add time to player count notification
+858f4e8	Leon Jacobs	Thu Nov 24 18:35:27 2016 +0200	Ensure that only a single integration of a type can be added
+bd0443c	Leon Jacobs	Thu Nov 24 17:46:12 2016 +0200	Add ability to delete a notifications group.
+8678921	Leon Jacobs	Thu Nov 24 17:36:31 2016 +0200	Add ability to modify notification groups.
+895e510	Leon Jacobs	Wed Nov 23 22:31:40 2016 +0200	Allow for integrations to be deleted.
+784f040	Leon Jacobs	Wed Nov 23 14:39:27 2016 +0200	Add a player count notification to test.
+aae1201	Leon Jacobs	Wed Nov 23 10:10:17 2016 +0200	Add missing docblocks
+474dd80	Leon Jacobs	Wed Nov 23 10:08:36 2016 +0200	Restore the old structure on `down()`
+3ab8b06	Leon Jacobs	Wed Nov 23 10:03:00 2016 +0200	Major notifications refactor to support L5.3 features.
+d1614c8	Leon Jacobs	Sat Nov 5 12:49:31 2016 +0200	Code formatting fixes
+353d04c	Leon Jacobs	Sat Nov 5 09:17:17 2016 +0200	Extend new core controllers instead of base in App namespace
+6caa863	Leon Jacobs	Sun Oct 23 16:06:21 2016 +0200	Update PHP & Laravel dependencies. Remove psr/log dependency.
+624e13c	Leon Jacobs	Sun Oct 23 15:46:39 2016 +0200	Apply new global web middleware
+c115945	Leon Jacobs	Tue Jan 26 18:12:46 2016 +0200	Version Bump
+7b0cd6f	Leon Jacobs	Tue Jan 26 17:01:36 2016 +0200	Update copyright
+23e89b1	Leon Jacobs	Wed Jan 6 06:32:15 2016 +0200	Code style fix
+d47b267	Leon Jacobs	Thu Dec 24 23:09:45 2015 +0200	Version Bump
+e0a5b53	Leon Jacobs	Thu Dec 24 23:09:16 2015 +0200	Specify Versions with ~
+aedd78a	Leon Jacobs	Wed Dec 16 17:22:00 2015 +0200	Version Bump
+a2e7ddf	Leon Jacobs	Wed Dec 16 14:44:38 2015 +0200	Add suport for lacalization
+6594754	Leon Jacobs	Sun Dec 13 19:21:18 2015 +0200	Version Bump
+ccf7596	Leon Jacobs	Fri Dec 4 14:59:43 2015 +0200	Update README.md
+70994aa	Leon Jacobs	Wed Dec 2 21:35:29 2015 +0200	Add more complete message
+15b1175	Leon Jacobs	Wed Dec 2 20:51:56 2015 +0200	Add views to see notifications
+fd76941	Leon Jacobs	Wed Dec 2 19:26:13 2015 +0200	Fix typo
+a5f93e7	Leon Jacobs	Wed Dec 2 19:25:39 2015 +0200	Update README
+c22a837	Leon Jacobs	Wed Dec 2 19:18:06 2015 +0200	First iteration of the notification package
+032bebf	Leon Jacobs	Tue Dec 1 21:08:40 2015 +0200	first commit

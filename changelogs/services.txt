@@ -1,221 +1,221 @@
-462fd5c (HEAD -> master, tag: 2.0.7, origin/master, origin/HEAD) Version Bump
-0be2e39 Character assets (#16)
-44c6db5 Update styleci config
-e36d874 Apply fixes from StyleCI (#15)
-2ecf750 Add StyleCI configuration & badge
-4a232d1 Style fixes
-318fc64 (tag: 2.0.6) Version Bump
-637e566 Add methods to get contract items
-bc09a37 Formatting and code style fixes
-84dfae6 Add assetContents collection for Character Assets view (#14)
-2efc1ff including level in skill coverage chart (#13)
-fc82256 (tag: 2.0.5) Version Bump
-1a56751 Only prefix user keys with the session_id
-9e68e86 (tag: 2.0.4) Version Bump
-9041297 Dont prefix cache keys with the session_id
-33be7aa (tag: 2.0.3) Version Bump
-17fcaec Add new mail_threads option
-d966f59 Add method to remove job tracking items
-de658a8 (tag: 2.0.2) Version Bump
-aaec7d7 Formatting fixes.
-0bde264 implement a custom method dedicated to search for ApiKey (#12)
-8203f69 Add function to parse evemail threads.
-e51c35d (tag: 2.0.1) Version Bump
-2209e71 Remove return type as it can be null too
-eb58671 Fix member tracking query to return correct key statuses.
-22f1d42 Add default value for require_activation
-b3fdb7a (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
-cdde3d0 Format and style fixes.
-95eee16 Allow longer values in the global settings.
-b64e55b Add default for api_constraint
-77822f5 Formatting and style fixes.
-ae73811 Add methods for searching.
-dcc872f Return a unresolved query.
-ac10ed1 Rename getAllCharactersWithAffiliations method.
-0277069 Move character skills graph info from the Stats to Character repo.
-7a2ca83 add skills related chart (#10)
-5f2f09f Fix where clause for PI (#11)
-69ad918 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
-95f0453 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
-3367168 Add more data sources for the dashboard.
-0da12f3 Allow specifying which tags to exclude when cleaning html.
-e87cb20 Fix member tracking counts by using a leftJoin.
-f70db5f Dont override existing schedules when seeding the database.
-2cbaf0f Allow carbon helper to be called without an argument.
-41a9b07 Add `updateNote` method.
-a1c72d6 Add Trait that allows adding notes to any model.
-dc81167 Return an unresolved query for datatables to work with.
-e3437ca Join invTypes to get the contact type
-d804d7e Return raw query builder objects for use with datatables
-3b1cc16 Prevent overriding existing functions.
-eca05dd Alloe setting settings values using the helper.
-c62da72 Remove stale usages of the old `Filterable` trait.
-68e28c9 Allow for repo queries to return unresolved.
-5ae8c91 Add flag to return unresolved queries for datatables.
-bdb2ba0 Add Intel repository
-f65548e Code formatting fixes
-6ccfb97 Paginate market orders
-720e5cb Use logger() helper
-1ad9cfb Remove `array_flatten()` as collections are returned
-d8ddbb0 Fix column ambiguity
-d1d46cf Remove return type as it can be null
-d13d650 Refactor Corporation repo to use structured classes
-ab9f039 Refactor the Character repository to use seperate classes
-3f7a1f9 Return a single value instead of array
-6b0aa6c Remove usage of `collect()`. Collections are returned by default
-7784321 Update PHP & Laravel dependencies
-1de059b Log queries based on the value of `DB_DEBUG`
-c5ac762 Revert groupBy changes introduced in 982b8661
-ee0ff98 Upgrade to coduo/php-humanizer 2.0
-869f330 Fix namespace change for humanizer 2.0
-982b866 Fix strict mode groupBy constraints
-3f1f2c5 Make the query debugger listen on the DB facade directly.
-0ff8a45 Fix Job to match L5.3 changes
-ac59839 Rename lists() to pluck()
-5dc3ac7 Get the value with `value()` instead of `pluck()`
-49bc082 (tag: 1.0.23) Version Bump
-a199fa9 Add getCharacterAlliances method
-dfaa83a Add char and corp minimum mask defaults
-4739b90 Add a default for the `installed_sde` setting
-a0a0c75 (tag: 1.0.22) Version Bump
-02ad71e Seed the expired job time to run every 6 hours
-0ad3ccf (tag: 1.0.21) Version Bump
-cfcefda (tag: 1.0.20) Version Bump
-7fa3040 Add missing import of CharacterSheetCorporationTitles
-b4a8080 Set available options and defaults for usage tracking
-b2765c6 Add analytics Jobs using Google Analytics measurement protocol.
-9d23cb6 * Add corporation titles to character sheet (#7)
-26c1673 Fix eveseat/seat#112 by using an advanced where to group the filter
-58cfc96 Add the `seat:queue:clear-expired` scheduled command
-b2b9995 (tag: 1.0.19) Version Bump
-744e982 Paginate Killmails
-5711563 Paginate contracts. Part of the fix for eveseat/seat#111
-b3d538d (tag: 1.0.18) Version Bump
-305a3ab Sort killmails by newest first.
-2edf0fd Add module info if a single starbases' info is called
-e35f552 (tag: 1.0.17) Version Bump
-10c4a86 Set default values for 'allow_sso'
-439fbac (tag: 1.0.16) Version Bump
-ea240c7 Add defaults for minimum access mask checking settings
-d7b7eaf Add the search service
-ce085f7 Fix eveseat/seat#93 by filtering corporation_account_balances too
-0c03b8e Modify timeline method to retrive one specific message
-570bbd0 (tag: 1.0.15) Version Bump
-630b8af Remove unused pagination and CS fixes
-cbc4206 Services for Corporation Ledger queries. (#5)
-b87d364 Order jobs by creation date
-e4d521b (tag: 1.0.14) Version Bump
-96c9fb5 Update copyright
-c9cd51c Ensure that people.view role is enforced
-2f1e9e3 Add methods for People groups
-f7bb649 Handle some unicode characters for cases like eveseat/seat#13
-0ad1ffa Code style fix
-e33ed92 (tag: 1.0.13) Version Bump
-582d719 Fix eveseat/seat#28
-c3d9aaf (tag: 1.0.12) Version Bump
-bee194f Add method to get corporation customs offices
-bb1cd45 (tag: 1.0.11) Version Bump
-0d139b2 Allow starbase details to be loaded by starbase_id
-e985e13 (tag: 1.0.10) Version Bump
-9e75900 Revert version setting via ~
-cd3878c (tag: 1.0.9) Version Bump
-a0c30a9 Version Set via ^
-ebd21c7 (tag: 1.0.8) Version Bump
-e7a055d Set composer versions using ~
-08a50d8 Determine capacity bonus with tower
-aa51300 Temporarily ignore nested groups
-5ff8e0a Add methods to get starbase related data
-63e9be9 Return paginated results
-5734db7 (tag: 1.0.7) Version Bump
-e221f72 Add method to get corp bookmarks
-30699d3 Add method to get character bookmarks
-afd7cba Add method to get character chat channels
-6ca677b Second attempt at fixing eveseat/seat#7
-aa17e7d (tag: 1.0.6) Version Bump
-691dc5c Prevent dupe or corp chars from showing
-1b93322 Prevent duplicate entries in corp member tracking
-af4abdc (tag: 1.0.5) Version Bump
-cda2f34 Default to english language
-ea02832 Add method to get mail timeline
-28b0933 Suppress errors incase the html is invalid
-012e0e6 Add method to get an email for a character
-d087604 (tag: 1.0.4) Version Bump
-d3d6bd0 Add an admin contact setting
-a5b4135 Order jobs by date
-e1c75bb (tag: 1.0.3) Version Bump
-717f9fb (tag: 1.0.2) Add server status method
-f2172dc Update README.md
-8b65137 Add default MFA setting
-f32b199 (tag: 1.0.1) Version Bump
-9a2fe0f Allow to get/set settings for another user by id
-71504e9 Add default for email notifications
-8109b5c Add service for database stored schedules
-d4afc21 Ensure we pass integers to the helper
-300cdde (tag: 1.0.0) Update required eveseat package version
-526493c Style Fixes and Version Bump
-9ded93d Add registration options
-e5348f0 Update to support new settings features
-f601b60 Move options scope to public
-dcbd238 Add a setting() helper and provide some defaults
-82115c2 Add a settings service
-c72cd8a Add methods to query corp security info
-5371848 Add method to get corp member tracking
-93958d6 (tag: 1.0-pre-alpha) Update README
-666036a Add method to get corp wallet transactions
-bcb36f7 Fix filter rule reference
-5e579ec Add methods to get standings and wallet journal
-91163b3 Fix a join
-bab5d59 Add method to get corp market orders
-6b2734d Add method to get corp killmails
-513c1e5 Add method to get corp industry jobs
-eb0b9d7 Add method to get corp contracts
-3b2e7eb Add methods to get corp contacts & labels
-057e1d4 Add method to get corp assets
-907870a Add methods for corp summary pages
-c4a4977 Small refactor to remove attributes instead of making them blank
-0b1ee7a Add method to cleanup CCP produced HTML
-11e55c6 Add method to list corporations
-3a76e64 Fix typo
-02eea36 Add ability to just dump query and continue load
-c71ca03 Add method to get character standings
-be1c6db Add method to get character research info
-7d0105c Add method to get character pi
-6ea00fb Add methods to get character market orders
-18e3580 Add method comments
-4daabd8 Add method to get character industry
-196e968 Add method to get contract information
-3ad8de1 Add method to get killmails
-2c5ca99 Lock type image to max 32/64px
-0071fa7 Add character contact lists and calendar repositories
-11ebe15 Add character notifications repo
-52807cf Add the Notification Types Seeder
-6560b34 Add rules to ensure columns can not be tampered with
-bb32b1b Add Character Assets services
-cc493be Style fixes
-0e56275 Add Mail Service for Characters
-6fa7631 Add Character Wallet Transactions Service
-bd1b364 Add Wallet Journal Services
-22d7e6f Add option to auto-detect image types
-f899060 Rename method from Character->Eve
-d3f6fb7 Add more methods for character information
-46910d1 Fix a table ambiguity problem for characterID
-33463b9 Add more repository methods
-f75cd7c Add Services for Character Skills
-d35099a Add security repository
-9bcb126 Add more methods for character info
-71e3864 Add a number formatter
-55a29d2 Add repositories to get character information
-04df3b9 Add a query builder filterable helper
-0fdea02 Add SQL debug helper
-6e32c77 Add Respository to support the Queue
-54cda05 Set extention correctly based on image type
-4172206 Add a service to prepare lazy loaded <img> tags
-89dfbb2 Add user modifiction services
-30bdace Add repositories used in eveseat/web acl
-a8ff125 Update to match eveseat/eveapi Model refactor
-4a69ce0 Add Config file
-ea84fb0 Add Queue Data Source
-2f60e1d Add EveApiKeyData service
-467fb42 Update badges
-5779eff Prepare repository for packagist
-a46f437 Initial commit
+462fd5c	Leon Jacobs	Thu Jan 12 21:54:10 2017 +0200	Version Bump
+0be2e39	freedenizen	Thu Jan 12 11:53:10 2017 -0800	Character assets (#16)
+44c6db5	Leon Jacobs	Wed Jan 4 08:41:07 2017 +0200	Update styleci config
+e36d874	Leon Jacobs	Mon Jan 2 14:09:20 2017 +0200	Apply fixes from StyleCI (#15)
+2ecf750	Leon Jacobs	Mon Jan 2 14:07:26 2017 +0200	Add StyleCI configuration & badge
+4a232d1	Leon Jacobs	Sun Jan 1 16:24:51 2017 +0200	Style fixes
+318fc64	Leon Jacobs	Wed Dec 28 11:06:52 2016 +0200	Version Bump
+637e566	Leon Jacobs	Mon Dec 26 21:16:52 2016 +0200	Add methods to get contract items
+bc09a37	Leon Jacobs	Mon Dec 26 14:28:06 2016 +0200	Formatting and code style fixes
+84dfae6	freedenizen	Mon Dec 26 04:26:27 2016 -0800	Add assetContents collection for Character Assets view (#14)
+2efc1ff	Loïc LEUILLIOT	Mon Dec 26 12:17:47 2016 +0100	including level in skill coverage chart (#13)
+fc82256	Leon Jacobs	Thu Dec 22 19:54:18 2016 +0200	Version Bump
+1a56751	Leon Jacobs	Thu Dec 22 19:53:57 2016 +0200	Only prefix user keys with the session_id
+9e68e86	Leon Jacobs	Thu Dec 22 10:16:04 2016 +0200	Version Bump
+9041297	Leon Jacobs	Thu Dec 22 10:12:24 2016 +0200	Dont prefix cache keys with the session_id
+33be7aa	Leon Jacobs	Fri Dec 16 10:47:43 2016 +0200	Version Bump
+17fcaec	Leon Jacobs	Fri Dec 16 10:39:57 2016 +0200	Add new mail_threads option
+d966f59	Leon Jacobs	Fri Dec 16 10:27:15 2016 +0200	Add method to remove job tracking items
+de658a8	Leon Jacobs	Thu Dec 15 11:28:32 2016 +0200	Version Bump
+aaec7d7	Leon Jacobs	Thu Dec 15 08:32:28 2016 +0200	Formatting fixes.
+0bde264	Loïc LEUILLIOT	Thu Dec 15 07:31:33 2016 +0100	implement a custom method dedicated to search for ApiKey (#12)
+8203f69	Leon Jacobs	Wed Dec 14 23:53:33 2016 +0200	Add function to parse evemail threads.
+e51c35d	Leon Jacobs	Sun Dec 11 16:10:44 2016 +0200	Version Bump
+2209e71	Leon Jacobs	Sun Dec 11 16:01:19 2016 +0200	Remove return type as it can be null too
+eb58671	Leon Jacobs	Sun Dec 11 15:48:11 2016 +0200	Fix member tracking query to return correct key statuses.
+22f1d42	Leon Jacobs	Sun Dec 11 08:24:13 2016 +0200	Add default value for require_activation
+b3fdb7a	Leon Jacobs	Thu Dec 8 22:26:24 2016 +0200	Version Bump! 2.0.0! ⚡️
+cdde3d0	Leon Jacobs	Thu Dec 8 22:15:04 2016 +0200	Format and style fixes.
+95eee16	Leon Jacobs	Wed Nov 30 06:07:50 2016 +0200	Allow longer values in the global settings.
+b64e55b	Leon Jacobs	Tue Nov 29 21:53:59 2016 +0200	Add default for api_constraint
+77822f5	Leon Jacobs	Tue Nov 29 10:29:03 2016 +0200	Formatting and style fixes.
+ae73811	Leon Jacobs	Mon Nov 28 19:43:13 2016 +0200	Add methods for searching.
+dcc872f	Leon Jacobs	Mon Nov 28 10:48:05 2016 +0200	Return a unresolved query.
+ac10ed1	Leon Jacobs	Mon Nov 28 08:05:57 2016 +0200	Rename getAllCharactersWithAffiliations method.
+0277069	Leon Jacobs	Sun Nov 27 11:28:46 2016 +0200	Move character skills graph info from the Stats to Character repo.
+7a2ca83	Loïc LEUILLIOT	Sun Nov 27 09:58:32 2016 +0100	add skills related chart (#10)
+5f2f09f	AsherST	Sat Nov 26 23:44:51 2016 -0800	Fix where clause for PI (#11)
+69ad918	Leon Jacobs	Sat Nov 26 09:09:23 2016 +0200	Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+95f0453	Leon Jacobs	Sat Nov 26 08:31:07 2016 +0200	Update composer for 2.0 packages and version 2.0.0-alpha1
+3367168	Leon Jacobs	Fri Nov 25 21:16:06 2016 +0200	Add more data sources for the dashboard.
+0da12f3	Leon Jacobs	Fri Nov 25 18:38:14 2016 +0200	Allow specifying which tags to exclude when cleaning html.
+e87cb20	Leon Jacobs	Fri Nov 25 16:09:30 2016 +0200	Fix member tracking counts by using a leftJoin.
+f70db5f	Leon Jacobs	Fri Nov 25 13:51:42 2016 +0200	Dont override existing schedules when seeding the database.
+2cbaf0f	Leon Jacobs	Sun Nov 20 12:40:11 2016 +0200	Allow carbon helper to be called without an argument.
+41a9b07	Leon Jacobs	Sat Nov 19 16:27:33 2016 +0200	Add `updateNote` method.
+a1c72d6	Leon Jacobs	Sat Nov 19 09:23:44 2016 +0200	Add Trait that allows adding notes to any model.
+dc81167	Leon Jacobs	Thu Nov 17 16:50:45 2016 +0200	Return an unresolved query for datatables to work with.
+e3437ca	Leon Jacobs	Thu Nov 17 16:50:32 2016 +0200	Join invTypes to get the contact type
+d804d7e	Leon Jacobs	Wed Nov 16 12:47:41 2016 +0200	Return raw query builder objects for use with datatables
+3b1cc16	Leon Jacobs	Tue Nov 15 06:26:13 2016 +0200	Prevent overriding existing functions.
+eca05dd	Leon Jacobs	Tue Nov 15 06:22:43 2016 +0200	Alloe setting settings values using the helper.
+c62da72	Leon Jacobs	Sun Nov 13 15:49:49 2016 +0200	Remove stale usages of the old `Filterable` trait.
+68e28c9	Leon Jacobs	Sun Nov 13 15:47:10 2016 +0200	Allow for repo queries to return unresolved.
+5ae8c91	Leon Jacobs	Fri Nov 11 23:18:03 2016 +0200	Add flag to return unresolved queries for datatables.
+bdb2ba0	Leon Jacobs	Tue Nov 8 18:38:21 2016 +0200	Add Intel repository
+f65548e	Leon Jacobs	Sat Nov 5 12:50:39 2016 +0200	Code formatting fixes
+6ccfb97	Leon Jacobs	Sat Nov 5 10:26:23 2016 +0200	Paginate market orders
+720e5cb	Leon Jacobs	Fri Nov 4 22:34:47 2016 +0200	Use logger() helper
+1ad9cfb	Leon Jacobs	Fri Nov 4 17:01:23 2016 +0200	Remove `array_flatten()` as collections are returned
+d8ddbb0	Leon Jacobs	Fri Nov 4 16:17:08 2016 +0200	Fix column ambiguity
+d1d46cf	Leon Jacobs	Sun Oct 30 19:19:43 2016 +0200	Remove return type as it can be null
+d13d650	Leon Jacobs	Tue Oct 25 20:37:43 2016 +0200	Refactor Corporation repo to use structured classes
+ab9f039	Leon Jacobs	Tue Oct 25 18:18:43 2016 +0200	Refactor the Character repository to use seperate classes
+3f7a1f9	Leon Jacobs	Sun Oct 23 18:33:04 2016 +0200	Return a single value instead of array
+6b0aa6c	Leon Jacobs	Sun Oct 23 16:35:46 2016 +0200	Remove usage of `collect()`. Collections are returned by default
+7784321	Leon Jacobs	Sun Oct 23 16:03:57 2016 +0200	Update PHP & Laravel dependencies
+1de059b	Leon Jacobs	Sun Oct 23 09:42:10 2016 +0200	Log queries based on the value of `DB_DEBUG`
+c5ac762	Leon Jacobs	Fri Oct 21 21:00:44 2016 +0200	Revert groupBy changes introduced in 982b8661
+ee0ff98	Leon Jacobs	Fri Oct 21 17:23:48 2016 +0200	Upgrade to coduo/php-humanizer 2.0
+869f330	Leon Jacobs	Fri Oct 21 17:22:33 2016 +0200	Fix namespace change for humanizer 2.0
+982b866	Leon Jacobs	Fri Oct 21 17:16:44 2016 +0200	Fix strict mode groupBy constraints
+3f1f2c5	Leon Jacobs	Fri Oct 21 15:29:55 2016 +0200	Make the query debugger listen on the DB facade directly.
+0ff8a45	Leon Jacobs	Mon Oct 17 14:13:38 2016 +0200	Fix Job to match L5.3 changes
+ac59839	Leon Jacobs	Mon Oct 17 10:55:46 2016 +0200	Rename lists() to pluck()
+5dc3ac7	Leon Jacobs	Sat Oct 15 16:11:27 2016 +0200	Get the value with `value()` instead of `pluck()`
+49bc082	Leon Jacobs	Fri Oct 14 12:44:30 2016 +0200	Version Bump
+a199fa9	Leon Jacobs	Thu Oct 13 13:40:30 2016 +0200	Add getCharacterAlliances method
+dfaa83a	Leon Jacobs	Thu Aug 25 17:55:43 2016 +0200	Add char and corp minimum mask defaults
+4739b90	Leon Jacobs	Thu Aug 25 09:59:50 2016 +0200	Add a default for the `installed_sde` setting
+a0a0c75	Leon Jacobs	Wed Jul 27 06:28:47 2016 +0200	Version Bump
+02ad71e	Leon Jacobs	Wed Jul 27 06:26:07 2016 +0200	Seed the expired job time to run every 6 hours
+0ad3ccf	Leon Jacobs	Sat Jul 23 19:04:41 2016 +0200	Version Bump
+cfcefda	Leon Jacobs	Sat Jul 23 15:10:16 2016 +0200	Version Bump
+7fa3040	Leon Jacobs	Sat Jul 23 14:47:50 2016 +0200	Add missing import of CharacterSheetCorporationTitles
+b4a8080	Leon Jacobs	Sat Jul 23 10:30:00 2016 +0200	Set available options and defaults for usage tracking
+b2765c6	Leon Jacobs	Sat Jul 23 10:08:05 2016 +0200	Add analytics Jobs using Google Analytics measurement protocol.
+9d23cb6	Loïc LEUILLIOT	Fri Jul 22 08:11:19 2016 +0200	* Add corporation titles to character sheet (#7)
+26c1673	Leon Jacobs	Tue Jul 19 19:23:52 2016 +0200	Fix eveseat/seat#112 by using an advanced where to group the filter
+58cfc96	Leon Jacobs	Mon Jul 18 18:35:26 2016 +0200	Add the `seat:queue:clear-expired` scheduled command
+b2b9995	Leon Jacobs	Sun Jul 10 16:18:07 2016 +0200	Version Bump
+744e982	Leon Jacobs	Sun Jul 10 13:13:06 2016 +0200	Paginate Killmails
+5711563	Leon Jacobs	Sun Jul 10 13:03:49 2016 +0200	Paginate contracts. Part of the fix for eveseat/seat#111
+b3d538d	Leon Jacobs	Sun Jun 26 20:42:48 2016 +0200	Version Bump
+305a3ab	Leon Jacobs	Sun Jun 26 20:33:47 2016 +0200	Sort killmails by newest first.
+2edf0fd	Leon Jacobs	Sun Jun 26 11:38:02 2016 +0200	Add module info if a single starbases' info is called
+e35f552	Leon Jacobs	Sat May 14 08:54:14 2016 +0200	Version Bump
+10c4a86	Leon Jacobs	Fri May 13 19:14:10 2016 +0200	Set default values for 'allow_sso'
+439fbac	Leon Jacobs	Fri Apr 29 21:25:31 2016 +0200	Version Bump
+ea240c7	Leon Jacobs	Fri Apr 29 21:17:26 2016 +0200	Add defaults for minimum access mask checking settings
+d7b7eaf	Leon Jacobs	Fri Apr 29 20:23:39 2016 +0200	Add the search service
+ce085f7	Leon Jacobs	Fri Apr 29 15:05:08 2016 +0200	Fix eveseat/seat#93 by filtering corporation_account_balances too
+0c03b8e	Leon Jacobs	Fri Apr 29 14:02:12 2016 +0200	Modify timeline method to retrive one specific message
+570bbd0	Leon Jacobs	Thu Apr 14 08:33:07 2016 +0200	Version Bump
+630b8af	Leon Jacobs	Wed Apr 13 10:28:59 2016 +0200	Remove unused pagination and CS fixes
+cbc4206	dysath	Wed Apr 13 01:23:03 2016 -0500	Services for Corporation Ledger queries. (#5)
+b87d364	Leon Jacobs	Wed Jan 27 15:24:37 2016 +0200	Order jobs by creation date
+e4d521b	Leon Jacobs	Tue Jan 26 18:14:41 2016 +0200	Version Bump
+96c9fb5	Leon Jacobs	Tue Jan 26 17:02:50 2016 +0200	Update copyright
+c9cd51c	Leon Jacobs	Tue Jan 26 16:43:00 2016 +0200	Ensure that people.view role is enforced
+2f1e9e3	Leon Jacobs	Tue Jan 26 13:27:50 2016 +0200	Add methods for People groups
+f7bb649	Leon Jacobs	Wed Jan 6 08:52:39 2016 +0200	Handle some unicode characters for cases like eveseat/seat#13
+0ad1ffa	Leon Jacobs	Wed Jan 6 06:32:43 2016 +0200	Code style fix
+e33ed92	Leon Jacobs	Tue Dec 29 15:49:30 2015 +0200	Version Bump
+582d719	Leon Jacobs	Tue Dec 29 15:19:30 2015 +0200	Fix eveseat/seat#28
+c3d9aaf	Leon Jacobs	Mon Dec 28 09:44:39 2015 +0200	Version Bump
+bee194f	Leon Jacobs	Mon Dec 28 09:30:37 2015 +0200	Add method to get corporation customs offices
+bb1cd45	Leon Jacobs	Sun Dec 27 19:13:40 2015 +0200	Version Bump
+0d139b2	Leon Jacobs	Sun Dec 27 19:06:07 2015 +0200	Allow starbase details to be loaded by starbase_id
+e985e13	Leon Jacobs	Thu Dec 24 22:46:03 2015 +0200	Version Bump
+9e75900	Leon Jacobs	Thu Dec 24 22:45:45 2015 +0200	Revert version setting via ~
+cd3878c	Leon Jacobs	Thu Dec 24 22:30:08 2015 +0200	Version Bump
+a0c30a9	Leon Jacobs	Thu Dec 24 22:29:19 2015 +0200	Version Set via ^
+ebd21c7	Leon Jacobs	Thu Dec 24 18:35:12 2015 +0200	Version Bump
+e7a055d	Leon Jacobs	Thu Dec 24 18:34:14 2015 +0200	Set composer versions using ~
+08a50d8	Leon Jacobs	Thu Dec 24 18:04:29 2015 +0200	Determine capacity bonus with tower
+aa51300	Leon Jacobs	Thu Dec 24 15:55:59 2015 +0200	Temporarily ignore nested groups
+5ff8e0a	Leon Jacobs	Wed Dec 23 09:15:51 2015 +0200	Add methods to get starbase related data
+63e9be9	Leon Jacobs	Mon Dec 21 13:25:16 2015 +0200	Return paginated results
+5734db7	Leon Jacobs	Sun Dec 20 18:49:07 2015 +0200	Version Bump
+e221f72	Leon Jacobs	Sun Dec 20 16:47:20 2015 +0200	Add method to get corp bookmarks
+30699d3	Leon Jacobs	Sun Dec 20 15:04:13 2015 +0200	Add method to get character bookmarks
+afd7cba	Leon Jacobs	Fri Dec 18 21:28:24 2015 +0200	Add method to get character chat channels
+6ca677b	Leon Jacobs	Thu Dec 17 20:38:07 2015 +0200	Second attempt at fixing eveseat/seat#7
+aa17e7d	Leon Jacobs	Thu Dec 17 15:24:04 2015 +0200	Version Bump
+691dc5c	Leon Jacobs	Thu Dec 17 15:22:00 2015 +0200	Prevent dupe or corp chars from showing
+1b93322	Leon Jacobs	Thu Dec 17 15:15:38 2015 +0200	Prevent duplicate entries in corp member tracking
+af4abdc	Leon Jacobs	Wed Dec 16 17:23:26 2015 +0200	Version Bump
+cda2f34	Leon Jacobs	Wed Dec 16 17:22:46 2015 +0200	Default to english language
+ea02832	Leon Jacobs	Tue Dec 15 07:14:45 2015 +0200	Add method to get mail timeline
+28b0933	Leon Jacobs	Tue Dec 15 07:14:25 2015 +0200	Suppress errors incase the html is invalid
+012e0e6	Leon Jacobs	Mon Dec 14 19:40:28 2015 +0200	Add method to get an email for a character
+d087604	Leon Jacobs	Sun Dec 13 19:22:39 2015 +0200	Version Bump
+d3d6bd0	Leon Jacobs	Sun Dec 13 10:47:07 2015 +0200	Add an admin contact setting
+a5b4135	Leon Jacobs	Sat Dec 12 16:32:52 2015 +0200	Order jobs by date
+e1c75bb	Leon Jacobs	Sat Dec 5 16:16:04 2015 +0200	Version Bump
+717f9fb	Leon Jacobs	Fri Dec 4 16:43:57 2015 +0200	Add server status method
+f2172dc	Leon Jacobs	Fri Dec 4 14:58:53 2015 +0200	Update README.md
+8b65137	Leon Jacobs	Fri Dec 4 14:45:31 2015 +0200	Add default MFA setting
+f32b199	Leon Jacobs	Wed Dec 2 21:36:19 2015 +0200	Version Bump
+9a2fe0f	Leon Jacobs	Wed Dec 2 19:20:57 2015 +0200	Allow to get/set settings for another user by id
+71504e9	Leon Jacobs	Wed Dec 2 19:20:49 2015 +0200	Add default for email notifications
+8109b5c	Leon Jacobs	Wed Dec 2 10:28:59 2015 +0200	Add service for database stored schedules
+d4afc21	Leon Jacobs	Tue Dec 1 21:51:20 2015 +0200	Ensure we pass integers to the helper
+300cdde	Leon Jacobs	Sat Nov 28 14:10:58 2015 +0200	Update required eveseat package version
+526493c	Leon Jacobs	Sat Nov 28 14:06:34 2015 +0200	Style Fixes and Version Bump
+9ded93d	Leon Jacobs	Sat Nov 28 14:02:53 2015 +0200	Add registration options
+e5348f0	Leon Jacobs	Sat Nov 28 12:19:25 2015 +0200	Update to support new settings features
+f601b60	Leon Jacobs	Sat Nov 28 10:21:32 2015 +0200	Move options scope to public
+dcbd238	Leon Jacobs	Sat Nov 28 09:57:04 2015 +0200	Add a setting() helper and provide some defaults
+82115c2	Leon Jacobs	Sat Nov 28 09:22:59 2015 +0200	Add a settings service
+c72cd8a	Leon Jacobs	Fri Nov 27 21:52:52 2015 +0200	Add methods to query corp security info
+5371848	Leon Jacobs	Fri Nov 27 18:59:33 2015 +0200	Add method to get corp member tracking
+93958d6	Leon Jacobs	Fri Nov 27 16:27:54 2015 +0200	Update README
+666036a	Leon Jacobs	Fri Nov 27 14:41:31 2015 +0200	Add method to get corp wallet transactions
+bcb36f7	Leon Jacobs	Fri Nov 27 14:27:55 2015 +0200	Fix filter rule reference
+5e579ec	Leon Jacobs	Fri Nov 27 14:19:10 2015 +0200	Add methods to get standings and wallet journal
+91163b3	Leon Jacobs	Fri Nov 27 14:18:40 2015 +0200	Fix a join
+bab5d59	Leon Jacobs	Fri Nov 27 13:49:58 2015 +0200	Add method to get corp market orders
+6b2734d	Leon Jacobs	Fri Nov 27 13:45:22 2015 +0200	Add method to get corp killmails
+513c1e5	Leon Jacobs	Fri Nov 27 13:36:31 2015 +0200	Add method to get corp industry jobs
+eb0b9d7	Leon Jacobs	Fri Nov 27 13:28:47 2015 +0200	Add method to get corp contracts
+3b2e7eb	Leon Jacobs	Fri Nov 27 13:13:23 2015 +0200	Add methods to get corp contacts & labels
+057e1d4	Leon Jacobs	Fri Nov 27 12:54:43 2015 +0200	Add method to get corp assets
+907870a	Leon Jacobs	Fri Nov 27 11:52:49 2015 +0200	Add methods for corp summary pages
+c4a4977	Leon Jacobs	Fri Nov 27 11:33:52 2015 +0200	Small refactor to remove attributes instead of making them blank
+0b1ee7a	Leon Jacobs	Fri Nov 27 11:28:45 2015 +0200	Add method to cleanup CCP produced HTML
+11e55c6	Leon Jacobs	Thu Nov 26 22:52:09 2015 +0200	Add method to list corporations
+3a76e64	Leon Jacobs	Thu Nov 26 22:51:43 2015 +0200	Fix typo
+02eea36	Leon Jacobs	Thu Nov 26 22:51:25 2015 +0200	Add ability to just dump query and continue load
+c71ca03	Leon Jacobs	Sat Nov 21 11:39:22 2015 +0200	Add method to get character standings
+be1c6db	Leon Jacobs	Sat Nov 21 11:07:09 2015 +0200	Add method to get character research info
+7d0105c	Leon Jacobs	Sat Nov 21 10:50:16 2015 +0200	Add method to get character pi
+6ea00fb	Leon Jacobs	Sat Nov 21 00:31:05 2015 +0200	Add methods to get character market orders
+18e3580	Leon Jacobs	Fri Nov 20 21:38:42 2015 +0200	Add method comments
+4daabd8	Leon Jacobs	Fri Nov 20 21:36:59 2015 +0200	Add method to get character industry
+196e968	Leon Jacobs	Fri Nov 20 18:43:07 2015 +0200	Add method to get contract information
+3ad8de1	Leon Jacobs	Fri Nov 20 14:57:12 2015 +0200	Add method to get killmails
+2c5ca99	Leon Jacobs	Fri Nov 20 14:37:21 2015 +0200	Lock type image to max 32/64px
+0071fa7	Leon Jacobs	Fri Nov 20 11:16:31 2015 +0200	Add character contact lists and calendar repositories
+11ebe15	Leon Jacobs	Fri Oct 30 19:03:14 2015 +0200	Add character notifications repo
+52807cf	Leon Jacobs	Fri Oct 30 16:24:13 2015 +0200	Add the Notification Types Seeder
+6560b34	Leon Jacobs	Fri Oct 30 15:36:37 2015 +0200	Add rules to ensure columns can not be tampered with
+bb32b1b	Leon Jacobs	Fri Oct 30 15:17:26 2015 +0200	Add Character Assets services
+cc493be	Leon Jacobs	Fri Oct 30 09:09:53 2015 +0200	Style fixes
+0e56275	Leon Jacobs	Fri Oct 30 09:08:09 2015 +0200	Add Mail Service for Characters
+6fa7631	Leon Jacobs	Thu Oct 29 17:37:12 2015 +0200	Add Character Wallet Transactions Service
+bd1b364	Leon Jacobs	Thu Oct 29 11:51:14 2015 +0200	Add Wallet Journal Services
+22d7e6f	Leon Jacobs	Thu Oct 29 07:36:13 2015 +0200	Add option to auto-detect image types
+f899060	Leon Jacobs	Thu Oct 29 06:10:15 2015 +0200	Rename method from Character->Eve
+d3f6fb7	Leon Jacobs	Wed Oct 28 18:54:39 2015 +0200	Add more methods for character information
+46910d1	Leon Jacobs	Wed Oct 28 17:13:46 2015 +0200	Fix a table ambiguity problem for characterID
+33463b9	Leon Jacobs	Tue Oct 27 19:42:38 2015 +0200	Add more repository methods
+f75cd7c	Leon Jacobs	Tue Oct 27 07:47:17 2015 +0200	Add Services for Character Skills
+d35099a	Leon Jacobs	Fri Oct 9 17:59:19 2015 +0200	Add security repository
+9bcb126	Leon Jacobs	Fri Oct 9 10:26:27 2015 +0200	Add more methods for character info
+71e3864	Leon Jacobs	Fri Oct 9 10:26:10 2015 +0200	Add a number formatter
+55a29d2	Leon Jacobs	Thu Oct 8 15:01:51 2015 +0200	Add repositories to get character information
+04df3b9	Leon Jacobs	Thu Oct 8 15:01:16 2015 +0200	Add a query builder filterable helper
+0fdea02	Leon Jacobs	Thu Oct 8 15:00:47 2015 +0200	Add SQL debug helper
+6e32c77	Leon Jacobs	Tue Oct 6 22:28:58 2015 +0200	Add Respository to support the Queue
+54cda05	Leon Jacobs	Sun Oct 4 21:41:24 2015 +0200	Set extention correctly based on image type
+4172206	Leon Jacobs	Sun Oct 4 21:35:41 2015 +0200	Add a service to prepare lazy loaded <img> tags
+89dfbb2	Leon Jacobs	Thu Oct 1 23:48:13 2015 +0200	Add user modifiction services
+30bdace	Leon Jacobs	Wed Sep 30 17:09:02 2015 +0200	Add repositories used in eveseat/web acl
+a8ff125	Leon Jacobs	Mon Sep 28 17:49:09 2015 +0200	Update to match eveseat/eveapi Model refactor
+4a69ce0	Leon Jacobs	Thu Sep 24 19:08:28 2015 +0200	Add Config file
+ea84fb0	Leon Jacobs	Thu Sep 24 18:51:41 2015 +0200	Add Queue Data Source
+2f60e1d	Leon Jacobs	Thu Sep 24 12:08:33 2015 +0200	Add EveApiKeyData service
+467fb42	Leon Jacobs	Thu Sep 24 11:36:42 2015 +0200	Update badges
+5779eff	Leon Jacobs	Thu Sep 24 10:15:19 2015 +0200	Prepare repository for packagist
+a46f437	Leon Jacobs	Thu Sep 24 09:12:30 2015 +0200	Initial commit

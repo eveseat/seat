@@ -1,74 +1,74 @@
-7b91b04 (HEAD -> master, tag: 2.0.5, origin/master) Version Bump
-8c3004d Update styleci config
-44dbb59 Add StyleCI badge.
-b11d5c5 Apply fixes from StyleCI (#2)
-7f7674d Add StyleCI configuration
-6fb753f (tag: 2.0.4) Version Bump
-619d48d Update internal menu name
-3b90fea (tag: 2.0.3) Version Bump
-8cd58b1 Fix eveseat/seat#156 by adding the optional starbase_id param.
-5a115a0 (tag: 2.0.2) Version Bump
-ca57ce6 Set a user_id if one is not given.
-9a5b152 (tag: 2.0.1) Version Bump
-d457eeb Fix namespace for Validator
-a1ef4d3 (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
-cd107a5 (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
-2d66b64 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
-92a189e (tag: 2.0.0-dev) Bump to 2.0.0-dev
-2485046 Remove unused precedence rule
-80c3d0e Code formatting fixes
-6d28aff Extend new core controllers instead of base in App namespace
-4f74325 Update to make use of new corp repository classes
-39237e8 Update to use new classes from the the repository
-db6db82 Fix middleware to include new `web` middleware.
-ba92bd6 Update PHP & Laravel dependencies
-dc8136f Update Form Request validation to use new base class
-7ebe1db Convert `Route::controller` methods to explicit routes
-b55b1aa (tag: 1.0.13) Version Bump
-8b80e11 Paginate the token logs
-fbf3e88 (tag: 1.0.12) Version Bump
-e8f1882 Fix eveseat/seat#115 by adding new endpoints for role management
-729971f Convert from a resource to controller route for roles
-d2ff1df Merge pull request #1 from nizzan/patch-1
-dc80447 Typo on API Token generation
-d35e7ef (tag: 1.0.11) Version Bump
-60475a4 Add /api/v1/corporation/assets-contents/{corp_id} endpoint
-530703c Add missing PPHDoc comment for argument
-3faff1e (tag: 1.0.10) Version Bump
-99871c9 Rename repository method that was incorrectly called
-131a3b8 Add /api/v1/corporation/all endpoint
-be8e6aa Include key info and characters.
-22f8b34 (tag: 1.0.9) Version Bump
-f6bfc7e Update copyright
-7f24bf8 Code style fixes
-2409d0c (tag: 1.0.8) Version Bump
-ad8351a Add Corp Pocos Endpoint
-6ca59b0 (tag: 1.0.7) Version Bump
-603cb76 Add ability to get a specific starbases info
-a949267 (tag: 1.0.6) Version Bump
-8f5c35f Allow for API Keys to be transferred to a different User
-c712823 Add starbase and assets-by-location endpoints
-220b7bb (tag: 1.0.5) Version Bump
-86c4602 Specify versions with ~
-3b80952 (tag: 1.0.4) Version Bump
-55269b9 Add char & corp Bookmarks endpoints
-b65799f Add Character Channels endpoint
-dee0f28 (tag: 1.0.3) Version Bump
-76647e9 Add localization support
-de62767 (tag: 1.0.2) Update README.md
-cc4ea85 (tag: 1.0.1) Version Bump
-16c3896 Dont use a sub-menu
-88348cb Cleanup Middleware and add Request Path logging
-03064d4 (tag: 1.0.0) Add admin views, complete middleware and add menu.
-c11ca2e Add Corporation API Endpoints
-122f2da Add Character API Endpoints
-dda7cbb Add endpoint to validate credentials
-014502b Add roles and permissions query endpoint
-4e88616 Add endpoints to get Role information
-4516aaa Add CRUD for User management
-2d129ea Update links to eveseat/api
-2c2cef3 Fix typo
-5620aa2 Update README
-6905c26 Compelte the EVE API Key API
-32d17cf First preperations for the SeAT API
-57f8c6d first commit
+7b91b04	Leon Jacobs	Thu Jan 12 21:45:57 2017 +0200	Version Bump
+8c3004d	Leon Jacobs	Wed Jan 4 08:39:08 2017 +0200	Update styleci config
+44dbb59	Leon Jacobs	Mon Jan 2 13:42:03 2017 +0200	Add StyleCI badge.
+b11d5c5	Leon Jacobs	Mon Jan 2 13:37:18 2017 +0200	Apply fixes from StyleCI (#2)
+7f7674d	Leon Jacobs	Mon Jan 2 13:34:03 2017 +0200	Add StyleCI configuration
+6fb753f	Leon Jacobs	Wed Dec 28 11:00:54 2016 +0200	Version Bump
+619d48d	Leon Jacobs	Mon Dec 26 21:58:05 2016 +0200	Update internal menu name
+3b90fea	Leon Jacobs	Tue Dec 13 21:20:09 2016 +0200	Version Bump
+8cd58b1	Leon Jacobs	Mon Dec 12 21:37:28 2016 +0200	Fix eveseat/seat#156 by adding the optional starbase_id param.
+5a115a0	Leon Jacobs	Sun Dec 11 16:07:33 2016 +0200	Version Bump
+ca57ce6	Leon Jacobs	Sun Dec 11 08:03:32 2016 +0200	Set a user_id if one is not given.
+9a5b152	Leon Jacobs	Sat Dec 10 16:32:54 2016 +0200	Version Bump
+d457eeb	Leon Jacobs	Sat Dec 10 16:30:13 2016 +0200	Fix namespace for Validator
+a1ef4d3	Leon Jacobs	Thu Dec 8 22:20:01 2016 +0200	Version Bump! 2.0.0! ⚡️
+cd107a5	Leon Jacobs	Sat Nov 26 09:08:09 2016 +0200	Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+2d66b64	Leon Jacobs	Sat Nov 26 08:02:37 2016 +0200	Update composer for 2.0 packages and version 2.0.0-alpha1
+92a189e	Leon Jacobs	Sat Nov 26 07:54:02 2016 +0200	Bump to 2.0.0-dev
+2485046	Leon Jacobs	Sat Nov 19 21:23:00 2016 +0200	Remove unused precedence rule
+80c3d0e	Leon Jacobs	Sat Nov 5 12:47:55 2016 +0200	Code formatting fixes
+6d28aff	Leon Jacobs	Sat Nov 5 09:16:31 2016 +0200	Extend new core controllers instead of base in App namespace
+4f74325	Leon Jacobs	Tue Oct 25 20:39:18 2016 +0200	Update to make use of new corp repository classes
+39237e8	Leon Jacobs	Tue Oct 25 18:23:56 2016 +0200	Update to use new classes from the the repository
+db6db82	Leon Jacobs	Sun Oct 23 17:58:54 2016 +0200	Fix middleware to include new `web` middleware.
+ba92bd6	Leon Jacobs	Sun Oct 23 16:11:34 2016 +0200	Update PHP & Laravel dependencies
+dc8136f	Leon Jacobs	Sun Oct 23 15:38:18 2016 +0200	Update Form Request validation to use new base class
+7ebe1db	Leon Jacobs	Sun Oct 23 15:13:10 2016 +0200	Convert `Route::controller` methods to explicit routes
+b55b1aa	Leon Jacobs	Sat Jul 23 15:05:42 2016 +0200	Version Bump
+8b80e11	Leon Jacobs	Mon Jul 18 18:52:15 2016 +0200	Paginate the token logs
+fbf3e88	Leon Jacobs	Sun Jul 10 16:19:24 2016 +0200	Version Bump
+e8f1882	Leon Jacobs	Sun Jul 10 11:52:45 2016 +0200	Fix eveseat/seat#115 by adding new endpoints for role management
+729971f	Leon Jacobs	Sun Jul 10 11:02:17 2016 +0200	Convert from a resource to controller route for roles
+d2ff1df	Leon Jacobs	Tue Jun 28 16:47:20 2016 +0200	Merge pull request #1 from nizzan/patch-1
+dc80447	nizzan	Tue Jun 28 16:44:49 2016 +0200	Typo on API Token generation
+d35e7ef	Leon Jacobs	Sun Jun 26 20:41:12 2016 +0200	Version Bump
+60475a4	Leon Jacobs	Sun Jun 26 11:59:37 2016 +0200	Add /api/v1/corporation/assets-contents/{corp_id} endpoint
+530703c	Leon Jacobs	Sun Jun 26 10:48:26 2016 +0200	Add missing PPHDoc comment for argument
+3faff1e	Leon Jacobs	Fri Apr 29 21:21:36 2016 +0200	Version Bump
+99871c9	Leon Jacobs	Fri Apr 29 15:22:05 2016 +0200	Rename repository method that was incorrectly called
+131a3b8	Leon Jacobs	Fri Apr 29 15:20:04 2016 +0200	Add /api/v1/corporation/all endpoint
+be8e6aa	Leon Jacobs	Fri Apr 29 15:10:49 2016 +0200	Include key info and characters.
+22f8b34	Leon Jacobs	Tue Jan 26 18:08:36 2016 +0200	Version Bump
+f6bfc7e	Leon Jacobs	Tue Jan 26 16:59:46 2016 +0200	Update copyright
+7f24bf8	Leon Jacobs	Wed Jan 6 06:30:34 2016 +0200	Code style fixes
+2409d0c	Leon Jacobs	Mon Dec 28 09:43:30 2015 +0200	Version Bump
+ad8351a	Leon Jacobs	Mon Dec 28 09:31:19 2015 +0200	Add Corp Pocos Endpoint
+6ca59b0	Leon Jacobs	Sun Dec 27 19:14:27 2015 +0200	Version Bump
+603cb76	Leon Jacobs	Sun Dec 27 19:07:58 2015 +0200	Add ability to get a specific starbases info
+a949267	Leon Jacobs	Sat Dec 26 23:32:15 2015 +0200	Version Bump
+8f5c35f	Leon Jacobs	Sat Dec 26 22:28:03 2015 +0200	Allow for API Keys to be transferred to a different User
+c712823	Leon Jacobs	Sat Dec 26 22:12:52 2015 +0200	Add starbase and assets-by-location endpoints
+220b7bb	Leon Jacobs	Thu Dec 24 23:06:04 2015 +0200	Version Bump
+86c4602	Leon Jacobs	Thu Dec 24 23:05:28 2015 +0200	Specify versions with ~
+3b80952	Leon Jacobs	Sun Dec 20 18:43:55 2015 +0200	Version Bump
+55269b9	Leon Jacobs	Sun Dec 20 18:23:22 2015 +0200	Add char & corp Bookmarks endpoints
+b65799f	Leon Jacobs	Sun Dec 20 18:11:08 2015 +0200	Add Character Channels endpoint
+dee0f28	Leon Jacobs	Wed Dec 16 17:19:13 2015 +0200	Version Bump
+76647e9	Leon Jacobs	Wed Dec 16 14:55:34 2015 +0200	Add localization support
+de62767	Leon Jacobs	Fri Dec 4 14:59:54 2015 +0200	Update README.md
+cc4ea85	Leon Jacobs	Tue Dec 1 10:02:56 2015 +0200	Version Bump
+16c3896	Leon Jacobs	Tue Dec 1 09:59:55 2015 +0200	Dont use a sub-menu
+88348cb	Leon Jacobs	Tue Dec 1 08:43:20 2015 +0200	Cleanup Middleware and add Request Path logging
+03064d4	Leon Jacobs	Mon Nov 30 23:03:26 2015 +0200	Add admin views, complete middleware and add menu.
+c11ca2e	Leon Jacobs	Mon Nov 30 13:22:50 2015 +0200	Add Corporation API Endpoints
+122f2da	Leon Jacobs	Mon Nov 30 10:15:40 2015 +0200	Add Character API Endpoints
+dda7cbb	Leon Jacobs	Mon Nov 30 08:11:39 2015 +0200	Add endpoint to validate credentials
+014502b	Leon Jacobs	Mon Nov 30 07:52:02 2015 +0200	Add roles and permissions query endpoint
+4e88616	Leon Jacobs	Mon Nov 30 07:10:02 2015 +0200	Add endpoints to get Role information
+4516aaa	Leon Jacobs	Sun Nov 29 11:41:45 2015 +0200	Add CRUD for User management
+2d129ea	Leon Jacobs	Sun Nov 29 10:17:03 2015 +0200	Update links to eveseat/api
+2c2cef3	Leon Jacobs	Sun Nov 29 10:16:11 2015 +0200	Fix typo
+5620aa2	Leon Jacobs	Sun Nov 29 10:15:25 2015 +0200	Update README
+6905c26	Leon Jacobs	Sun Nov 29 10:09:34 2015 +0200	Compelte the EVE API Key API
+32d17cf	Leon Jacobs	Sun Nov 29 00:54:07 2015 +0200	First preperations for the SeAT API
+57f8c6d	Leon Jacobs	Sat Nov 28 22:06:17 2015 +0200	first commit

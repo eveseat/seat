@@ -1,108 +1,109 @@
-460bc00 (HEAD -> master, origin/master) Update StyleCI configuration
-70a0654 Update StyleCI configuration
-ec4e966 Update StyleCI configuration
-a901501 Add StyleCI badge
-3258e06 Apply fixes from StyleCI (#167)
-3e36722 Add StyleCI configuration.
-1513ed1 Update changelogs
-254f355 Update changelogs
-61dbd45 Update changelogs
-a69864b Update readme
-380e12a Update changelogs
-0d5137f Update readme with installer repo
-239cfb3 Update dply link
-286ece4 Add dply button
-c8829b8 Update changelogs
-0a02e12 Add slack badge
-8ef0e57 Update changelogs
-6e1b222 Update Changelogs
-b8e51d9 (tag: 2.0.0) Update changelogs
-37e71f7 Update changelogs
-c49b0f1 (tag: 2.0.0-alpha2) Drop minimum stability and add prefer-stable
-521d361 (tag: 2.0.0-alpha1) Update changelogs
-15711ad Update composer for 2.0 packages.
-bde9ab2 Update description
-54c78f2 Update with more package badges
-13638f0 Update readme with security notice
-aace34a Update Changelogs
-92b1c7c Update Changelogs
-0e7c5ca Update Changelogs
-e320997 Update Changelogs
-f5277c7 Remove base controller as we can exterd straigh out of core now.
-46c9f42 Update Changelogs
-f0ae9f2 Update README
-a85b609 Update README to include versions
-a1aa28e Format changelogs as txt files
-591a96c Add changelogs
-171a650 Re-enable the ApiServiceProvider
-6791c38 Add flag to log queries to the log file
-2b9ade7 Disable `ONLY_FULL_GROUP_BY` constraint
-0eea8f0 Import Exception class
-21ab024 Update readme.md
-148a6b9 Upgrade to Laravel 5.3
-2940be7 Merge pull request #133 from warlof/config
-0c9b5b1 set log as daily log by default in order to make smaller file and help to track issues by time
-821ec7f Add screenshots
-13738be Remove erroneous [
-6fc7bfd Update README
-eaf83a3 Fix markdown syntax
-6872975 Add link to finding logs etc
-27b2b48 (tag: 1.0.12) Update readme.md
-b067bd3 Add configuration items for EVE SSO
-3c8e6cc Add link to contact info for general enquiries.
-bfde328 Update ISSUE_TEMPLATE to be cleaner
-c41637c (tag: 1.0.11) Fix eveseat/seat#80 by updating with upstream Laravel & Composer changes
-f8ee744 Add docs badge
-75ab31e Add ISSUE_TEMPLATE
-f50c26f (tag: 1.0.10) Give Redis a day before moving form `reserved` to `main`
-45b491f (tag: 1.0.9) Add comment block to help placing package service providers
-9c5bcd6 Default to Redis cache driver
-0a91d38 (tag: 1.0.8) Bump PHP version requirement due to PHP Late Static Binding Bug
-82e486c (tag: 1.0.7) Default to redis Queue driver
-35acb28 Ship with debug mode disabled
-45c31c1 (tag: 1.0.6) Include pheal cache dir
-3eb6883 Update favico
-15c2a70 Update readme.md
-018dc9d (tag: 1.0.5) Ensure the sde storage directory is available
-496a73f (tag: 1.0.4) Fix #2
-782f543 (tag: 1.0.3) Update readme
-29f1993 Add notifications
-a712bfc Set a default from
-e53e723 Load command schedules from the DB
-67fa32b Remove the hardcoded seeder
-650c7de (tag: 1.0.2) Update readme
-8b158d4 Add API repo
-d854c33 Exclude auth from Csrf checks
-4c0ea1e Bypass Csrf checks for API calls
-f646309 Bootstrap the SeAT API Service Provider
-ab10f46 (tag: 1.0.1) Update with minimum stability
-cb617ba (tag: 1.0.0) Set dependencies to 1.* versions
-822fbc1 (tag: 1.0-pre-alpha) Add the Notification Seeder
-e412f6c Set default queue driver
-c14940e Set session cookie name
-ca43fc5 Redirect home to start SeAT Web UI
-be3fac7 Override to allow requests
-5071eb8 ADD README
-f559e3e Set password reset email view
-523f4cb Include eveseat/web dependency
-364c57a Update config to make use of the Use model in eveseat/web
-6af6aac Add friendly error messages
-6d4bb73 Apply framework changes for Laravel 5.1.11+
-dd81d71 Add new dependencies
-24da1b1 Add new service providers
-3d3c649 Prepare for packagist publish
-5976bf9 Add Console and API Updater packages as dependencies
-973b6d5 Add Map Updater Schedule
-7fcf178 Schedule eve:update-eve daily
-a56d3ad Schedule the eve:update-server-status command
-c2812cf Set a few defaults
-c0bf82e Remove unused command
-58ff3c6 Remove composer.lock
-aea4c7c Rename back to artisan
-9806f4a Update gitignore
-5658a92 Revert to App namespace
-3424caf Ignore packages/
-c8a5b6e Move namespace from App -> Seat
-57487e8 Update .gitignore
-644f3a9 Add license and update .gitignore
-0bba931 first commit
+78b5755	Leon Jacobs	Thu Jan 12 21:58:30 2017 +0200	Update changelogs
+460bc00	Leon Jacobs	Wed Jan 4 08:42:44 2017 +0200	Update StyleCI configuration
+70a0654	Leon Jacobs	Mon Jan 2 14:26:01 2017 +0200	Update StyleCI configuration
+ec4e966	Leon Jacobs	Mon Jan 2 14:24:08 2017 +0200	Update StyleCI configuration
+a901501	Leon Jacobs	Mon Jan 2 14:19:54 2017 +0200	Add StyleCI badge
+3258e06	Leon Jacobs	Mon Jan 2 14:17:50 2017 +0200	Apply fixes from StyleCI (#167)
+3e36722	Leon Jacobs	Mon Jan 2 14:16:49 2017 +0200	Add StyleCI configuration.
+1513ed1	Leon Jacobs	Sun Jan 1 16:31:29 2017 +0200	Update changelogs
+254f355	Leon Jacobs	Wed Dec 28 11:09:50 2016 +0200	Update changelogs
+61dbd45	Leon Jacobs	Thu Dec 22 16:54:59 2016 +0200	Update changelogs
+a69864b	Leon Jacobs	Tue Dec 20 14:32:38 2016 +0200	Update readme
+380e12a	Leon Jacobs	Mon Dec 19 12:00:05 2016 +0200	Update changelogs
+0d5137f	Leon Jacobs	Mon Dec 19 11:55:01 2016 +0200	Update readme with installer repo
+239cfb3	Leon Jacobs	Sat Dec 17 12:29:59 2016 +0200	Update dply link
+286ece4	Leon Jacobs	Fri Dec 16 09:22:55 2016 +0200	Add dply button
+c8829b8	Leon Jacobs	Thu Dec 15 11:21:04 2016 +0200	Update changelogs
+0a02e12	Leon Jacobs	Tue Dec 13 09:41:13 2016 +0200	Add slack badge
+8ef0e57	Leon Jacobs	Sun Dec 11 16:14:20 2016 +0200	Update changelogs
+6e1b222	Leon Jacobs	Sat Dec 10 09:12:39 2016 +0200	Update Changelogs
+b8e51d9	Leon Jacobs	Thu Dec 8 22:49:25 2016 +0200	Update changelogs
+37e71f7	Leon Jacobs	Thu Dec 8 22:04:14 2016 +0200	Update changelogs
+c49b0f1	Leon Jacobs	Sat Nov 26 09:13:18 2016 +0200	Drop minimum stability and add prefer-stable
+521d361	Leon Jacobs	Sat Nov 26 08:36:40 2016 +0200	Update changelogs
+15711ad	Leon Jacobs	Sat Nov 26 08:36:08 2016 +0200	Update composer for 2.0 packages.
+bde9ab2	Leon Jacobs	Sat Nov 26 07:39:28 2016 +0200	Update description
+54c78f2	Leon Jacobs	Sat Nov 26 07:30:03 2016 +0200	Update with more package badges
+13638f0	Leon Jacobs	Sat Nov 26 07:15:56 2016 +0200	Update readme with security notice
+aace34a	Leon Jacobs	Sat Nov 26 07:12:20 2016 +0200	Update Changelogs
+92b1c7c	Leon Jacobs	Mon Nov 21 06:08:57 2016 +0200	Update Changelogs
+0e7c5ca	Leon Jacobs	Mon Nov 14 06:07:15 2016 +0200	Update Changelogs
+e320997	Leon Jacobs	Sat Nov 5 09:23:51 2016 +0200	Update Changelogs
+f5277c7	Leon Jacobs	Sat Nov 5 09:20:51 2016 +0200	Remove base controller as we can exterd straigh out of core now.
+46c9f42	Leon Jacobs	Tue Nov 1 06:14:37 2016 +0200	Update Changelogs
+f0ae9f2	Leon Jacobs	Sat Oct 29 16:11:54 2016 +0200	Update README
+a85b609	Leon Jacobs	Sat Oct 29 16:06:37 2016 +0200	Update README to include versions
+a1aa28e	Leon Jacobs	Sat Oct 29 15:58:11 2016 +0200	Format changelogs as txt files
+591a96c	Leon Jacobs	Sat Oct 29 15:54:45 2016 +0200	Add changelogs
+171a650	Leon Jacobs	Sun Oct 23 15:12:43 2016 +0200	Re-enable the ApiServiceProvider
+6791c38	Leon Jacobs	Sun Oct 23 09:41:07 2016 +0200	Add flag to log queries to the log file
+2b9ade7	Leon Jacobs	Fri Oct 21 20:56:17 2016 +0200	Disable `ONLY_FULL_GROUP_BY` constraint
+0eea8f0	Leon Jacobs	Tue Oct 18 17:54:30 2016 +0200	Import Exception class
+21ab024	Leon Jacobs	Sat Oct 15 16:05:31 2016 +0200	Update readme.md
+148a6b9	Leon Jacobs	Sat Oct 15 15:38:54 2016 +0200	Upgrade to Laravel 5.3
+2940be7	Leon Jacobs	Tue Sep 6 07:24:01 2016 +0200	Merge pull request #133 from warlof/config
+0c9b5b1	elfaus	Mon Sep 5 07:56:47 2016 +0200	set log as daily log by default in order to make smaller file and help to track issues by time
+821ec7f	Leon Jacobs	Sat Jul 23 14:56:58 2016 +0200	Add screenshots
+13738be	Leon Jacobs	Wed Jul 20 08:20:59 2016 +0200	Remove erroneous [
+6fc7bfd	Leon Jacobs	Wed Jul 20 08:19:25 2016 +0200	Update README
+eaf83a3	Leon Jacobs	Sun Jun 26 16:20:14 2016 +0200	Fix markdown syntax
+6872975	Leon Jacobs	Sun Jun 26 16:19:05 2016 +0200	Add link to finding logs etc
+27b2b48	Leon Jacobs	Sat May 14 07:36:08 2016 +0200	Update readme.md
+b067bd3	Leon Jacobs	Fri May 13 16:53:06 2016 +0200	Add configuration items for EVE SSO
+3c8e6cc	Leon Jacobs	Fri May 6 08:23:58 2016 +0200	Add link to contact info for general enquiries.
+bfde328	Leon Jacobs	Thu Mar 17 20:41:10 2016 +0200	Update ISSUE_TEMPLATE to be cleaner
+c41637c	Leon Jacobs	Thu Mar 17 20:09:40 2016 +0200	Fix eveseat/seat#80 by updating with upstream Laravel & Composer changes
+f8ee744	Leon Jacobs	Tue Mar 1 18:46:51 2016 +0200	Add docs badge
+75ab31e	Leon Jacobs	Fri Feb 19 11:14:07 2016 +0200	Add ISSUE_TEMPLATE
+f50c26f	Leon Jacobs	Wed Jan 27 15:09:06 2016 +0200	Give Redis a day before moving form `reserved` to `main`
+45b491f	Leon Jacobs	Wed Jan 6 06:20:13 2016 +0200	Add comment block to help placing package service providers
+9c5bcd6	Leon Jacobs	Wed Jan 6 06:18:33 2016 +0200	Default to Redis cache driver
+0a91d38	Leon Jacobs	Thu Dec 17 20:48:08 2015 +0200	Bump PHP version requirement due to PHP Late Static Binding Bug
+82e486c	Leon Jacobs	Thu Dec 17 12:11:17 2015 +0200	Default to redis Queue driver
+35acb28	Leon Jacobs	Sat Dec 5 18:15:42 2015 +0200	Ship with debug mode disabled
+45c31c1	Leon Jacobs	Fri Dec 4 22:16:36 2015 +0200	Include pheal cache dir
+3eb6883	Leon Jacobs	Fri Dec 4 15:07:42 2015 +0200	Update favico
+15c2a70	Leon Jacobs	Fri Dec 4 14:56:23 2015 +0200	Update readme.md
+018dc9d	Leon Jacobs	Fri Dec 4 09:49:32 2015 +0200	Ensure the sde storage directory is available
+496a73f	Leon Jacobs	Fri Dec 4 08:59:16 2015 +0200	Fix #2
+782f543	Leon Jacobs	Wed Dec 2 21:11:46 2015 +0200	Update readme
+29f1993	Leon Jacobs	Wed Dec 2 20:25:28 2015 +0200	Add notifications
+a712bfc	Leon Jacobs	Wed Dec 2 16:50:10 2015 +0200	Set a default from
+e53e723	Leon Jacobs	Wed Dec 2 10:27:52 2015 +0200	Load command schedules from the DB
+67fa32b	Leon Jacobs	Wed Dec 2 10:27:30 2015 +0200	Remove the hardcoded seeder
+650c7de	Leon Jacobs	Tue Dec 1 08:51:17 2015 +0200	Update readme
+8b158d4	Leon Jacobs	Mon Nov 30 08:14:14 2015 +0200	Add API repo
+d854c33	Leon Jacobs	Sun Nov 29 10:19:17 2015 +0200	Exclude auth from Csrf checks
+4c0ea1e	Leon Jacobs	Sun Nov 29 09:40:10 2015 +0200	Bypass Csrf checks for API calls
+f646309	Leon Jacobs	Sun Nov 29 00:55:01 2015 +0200	Bootstrap the SeAT API Service Provider
+ab10f46	Leon Jacobs	Sat Nov 28 14:25:45 2015 +0200	Update with minimum stability
+cb617ba	Leon Jacobs	Fri Nov 27 16:41:43 2015 +0200	Set dependencies to 1.* versions
+822fbc1	Leon Jacobs	Fri Oct 30 16:23:55 2015 +0200	Add the Notification Seeder
+e412f6c	Leon Jacobs	Tue Oct 6 13:55:18 2015 +0200	Set default queue driver
+c14940e	Leon Jacobs	Fri Oct 2 17:07:50 2015 +0200	Set session cookie name
+ca43fc5	Leon Jacobs	Fri Oct 2 17:06:05 2015 +0200	Redirect home to start SeAT Web UI
+be3fac7	Leon Jacobs	Fri Oct 2 10:13:52 2015 +0200	Override to allow requests
+5071eb8	Leon Jacobs	Sun Sep 27 14:22:37 2015 +0200	ADD README
+f559e3e	Leon Jacobs	Sun Sep 27 14:19:03 2015 +0200	Set password reset email view
+523f4cb	Leon Jacobs	Sun Sep 27 11:22:51 2015 +0200	Include eveseat/web dependency
+364c57a	Leon Jacobs	Sat Sep 26 15:27:55 2015 +0200	Update config to make use of the Use model in eveseat/web
+6af6aac	Leon Jacobs	Sat Sep 26 10:34:01 2015 +0200	Add friendly error messages
+6d4bb73	Leon Jacobs	Fri Sep 25 21:26:36 2015 +0200	Apply framework changes for Laravel 5.1.11+
+dd81d71	Leon Jacobs	Fri Sep 25 21:04:56 2015 +0200	Add new dependencies
+24da1b1	Leon Jacobs	Fri Sep 25 21:03:06 2015 +0200	Add new service providers
+3d3c649	Leon Jacobs	Wed Sep 23 21:14:34 2015 +0200	Prepare for packagist publish
+5976bf9	Leon Jacobs	Wed Sep 23 21:10:20 2015 +0200	Add Console and API Updater packages as dependencies
+973b6d5	Leon Jacobs	Sun Aug 30 15:54:16 2015 +0200	Add Map Updater Schedule
+7fcf178	Leon Jacobs	Sat Aug 29 22:17:04 2015 +0200	Schedule eve:update-eve daily
+a56d3ad	Leon Jacobs	Sat Aug 29 14:00:40 2015 +0200	Schedule the eve:update-server-status command
+c2812cf	Leon Jacobs	Sat Aug 29 00:05:25 2015 +0200	Set a few defaults
+c0bf82e	Leon Jacobs	Sat Aug 29 00:04:57 2015 +0200	Remove unused command
+58ff3c6	Leon Jacobs	Sat Aug 29 00:03:25 2015 +0200	Remove composer.lock
+aea4c7c	Leon Jacobs	Sat Aug 29 00:01:51 2015 +0200	Rename back to artisan
+9806f4a	Leon Jacobs	Sat Aug 29 00:01:16 2015 +0200	Update gitignore
+5658a92	Leon Jacobs	Fri Aug 28 20:36:20 2015 +0200	Revert to App namespace
+3424caf	Leon Jacobs	Fri Aug 28 20:14:02 2015 +0200	Ignore packages/
+c8a5b6e	Leon Jacobs	Fri Aug 28 20:06:50 2015 +0200	Move namespace from App -> Seat
+57487e8	Leon Jacobs	Sat Aug 22 11:35:46 2015 +0200	Update .gitignore
+644f3a9	Leon Jacobs	Sat Aug 22 11:34:41 2015 +0200	Add license and update .gitignore
+0bba931	Leon Jacobs	Sat Aug 22 11:16:53 2015 +0200	first commit

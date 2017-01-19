@@ -1,95 +1,95 @@
-5e0fd35 (HEAD -> master, tag: 2.0.3, origin/master) Version Bump
-a0dc02d Update styleci config
-197d773 Apply fixes from StyleCI (#2)
-3774d3f Add StyleCI badge
-aa138a7 Add StyleCI Configuration
-429b084 Style fixes
-9c80eee (tag: 2.0.2) Version bump
-ca24d69 Give the server status call priority
-352d6ae (tag: 2.0.1) Version Bump
-4112603 Slightly increase wait time
-7cba4f1 Add `seat:keys:tail` command
-868adc3 Make clearing the pheal cache require a flag.
-6f57fa6 (tag: 2.0.0) Version Bump! 2.0.0! ⚡️
-05ec623 Formatting and style fixes.
-e5eee71 Ensure the admin user is enabled when resetting the password.
-a01282a (tag: 2.0.0-alpha2) Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
-81c6385 (tag: 2.0.0-alpha1) Update composer for 2.0 packages and version 2.0.0-alpha1
-2952e40 Code formatting fixes
-9d189dc Rename Pillow to AccessManager and update calls argument list
-cebd0ef Update to match new class names in eveapi repo
-e1a95e9 Correctly identify the current user running the command.
-e83fb0e Use `dispatch()` helper instead of Trait
-953d790 Update PHP, Laravel & Guzzle dependencies
-950768a (tag: 1.0.17) Version bump
-5b6c15c Escape any special characters a password.
-ffc04bf Code style and language fixes
-bf32149 Merge pull request #1 from warlof/master
-5c7f85b (origin/pr/1, pr/1) add a control for SDE version in order to avoid downloading it again allow the user to force an SDE re-installation using --force argument
-c356fd3 (tag: 1.0.16) Version Bump
-ebbebf2 Default to 6 hours to reap jobs
-40707ef Add missing trait
-43fc0b2 (tag: 1.0.15) Version Bump
-a1da1a0 Remove string concatenation causing systax errors
-57132cf (tag: 1.0.14) Version Bump
-8c9abec Fix eveseat/seat#127 by removing string concatenation in Class property
-974cfad (tag: 1.0.13) Version Bump
-f3f44dc Add analytics hit information.
-161cdee Add ClearExpired command
-a87e8d0 Add `seat:queue:clear-expired` command.
-a6e5e54 (tag: 1.0.12) Version Bump
-0c9f1c7 Add a console command to set the admin email address
-53fda6e (tag: 1.0.11) Version Bump
-bb9841c Fix eveseat/seat#83 by ensuring seat:admin:reset recovers admin roles
-8fb5ad1 (tag: 1.0.10) Version Bump
-3e1dca5 Update copyright
-d4b2b6f Code style fix
-68e5638 (tag: 1.0.9) Version Bump
-8b3aef9 Use `class` notation
-6a6d779 (tag: 1.0.8) Version Bump
-643479f Update diagnose with some more useful debug info
-0132b4e Add Github version lookup
-18bf548 (tag: 1.0.7) Version Bump
-8934a36 Specify versions with ~
-3f541b4 (tag: 1.0.6) Version Bump
-a49d908 Revert b7cac27ebe4a1de8
-7e1d13d (tag: 1.0.5) Version Bump
-b7cac27 Drop guzzle version to match that of phealng
-91f2e03 Cleanups
-6361651 Add diagnose command
-123bc36 Update README.md
-338a397 (tag: 1.0.4) Cleanup outputs and sink to a filehandler instead.
-0f83a18 (tag: 1.0.3) Version Bump
-d0f6d31 Display versions in a table
-3d472d4 Add notifications version
-65f650d (tag: 1.0.2) Versino Bump
-2a2a350 (tag: 1.0.1) Add web and api versions
-8cc907d (tag: 1.0.0) Update required eveseat package versions
-81fde9f Version Bump
-fe0da9e (tag: 1.0-pre-alpha) Update README
-05e59b3 Add a cache clearing command
-41081d9 Add the UpdateSDE command
-9af76fb use ::class format
-7e0bae5 Add seat:admin:reset command
-9f4e15f Update to match eveseat/eveapi model refacto
-ee48a61 Add services version lookup
-5d7ca5f Add a 'live' status command
-bcd1feb Add command to update a single key
-ee43dc5 Add seat:keys:show command
-f72ba13 Style fix
-b4bcc04 Add the console.config and update version command
-8fe529d Refactor updater commands to the Eve\ namespace
-cc92c10 Ensure only enabled keys are queued for updates
-8f93faf Update to new eveapi version information location
-fa5513d Queue Jobs using the UpdatePublic Job
-887b89c Update readme with badges
-74f82f5 Prepare for packagist publish.
-a782121 Add the command to queue updates for API keys
-14edaa8 Make all commands honor the Job Container
-12538ef Add command for the Api CallList update
-31e0d06 Add EVE Map Update command
-20aa008 Add eve:update-eve command
-b9b7545 Add the EveUpdateServerStatus command
-c978b94 Add the add:job command for testing
-c01ddd9 Start the Console package
-f42ac27 first commit
+5e0fd35	Leon Jacobs	Thu Jan 12 21:47:16 2017 +0200	Version Bump
+a0dc02d	Leon Jacobs	Wed Jan 4 08:39:30 2017 +0200	Update styleci config
+197d773	Leon Jacobs	Mon Jan 2 13:47:22 2017 +0200	Apply fixes from StyleCI (#2)
+3774d3f	Leon Jacobs	Mon Jan 2 13:45:12 2017 +0200	Add StyleCI badge
+aa138a7	Leon Jacobs	Mon Jan 2 13:43:19 2017 +0200	Add StyleCI Configuration
+429b084	Leon Jacobs	Sun Jan 1 16:28:18 2017 +0200	Style fixes
+9c80eee	Leon Jacobs	Thu Dec 22 16:52:07 2016 +0200	Version bump
+ca24d69	Leon Jacobs	Thu Dec 22 16:51:04 2016 +0200	Give the server status call priority
+352d6ae	Leon Jacobs	Wed Dec 21 10:51:24 2016 +0200	Version Bump
+4112603	Leon Jacobs	Wed Dec 21 10:49:52 2016 +0200	Slightly increase wait time
+7cba4f1	Leon Jacobs	Wed Dec 21 10:46:54 2016 +0200	Add `seat:keys:tail` command
+868adc3	Leon Jacobs	Mon Dec 12 17:02:07 2016 +0200	Make clearing the pheal cache require a flag.
+6f57fa6	Leon Jacobs	Thu Dec 8 22:22:59 2016 +0200	Version Bump! 2.0.0! ⚡️
+05ec623	Leon Jacobs	Tue Nov 29 10:27:21 2016 +0200	Formatting and style fixes.
+e5eee71	Leon Jacobs	Mon Nov 28 08:13:37 2016 +0200	Ensure the admin user is enabled when resetting the password.
+a01282a	Leon Jacobs	Sat Nov 26 09:08:40 2016 +0200	Drop minimum stability, add prefer-stable and bump to 2.0.0-alpha2.
+81c6385	Leon Jacobs	Sat Nov 26 08:24:43 2016 +0200	Update composer for 2.0 packages and version 2.0.0-alpha1
+2952e40	Leon Jacobs	Sat Nov 5 12:48:20 2016 +0200	Code formatting fixes
+9d189dc	Leon Jacobs	Thu Nov 3 15:52:10 2016 +0200	Rename Pillow to AccessManager and update calls argument list
+cebd0ef	Leon Jacobs	Sat Oct 29 15:15:38 2016 +0200	Update to match new class names in eveapi repo
+e1a95e9	Leon Jacobs	Thu Oct 27 18:02:28 2016 +0200	Correctly identify the current user running the command.
+e83fb0e	Leon Jacobs	Sun Oct 23 17:01:10 2016 +0200	Use `dispatch()` helper instead of Trait
+953d790	Leon Jacobs	Sun Oct 23 16:09:02 2016 +0200	Update PHP, Laravel & Guzzle dependencies
+950768a	Leon Jacobs	Thu Oct 13 14:35:24 2016 +0200	Version bump
+5b6c15c	Leon Jacobs	Fri Aug 26 15:12:53 2016 +0200	Escape any special characters a password.
+ffc04bf	Leon Jacobs	Thu Aug 25 08:54:06 2016 +0200	Code style and language fixes
+bf32149	Leon Jacobs	Thu Aug 25 07:37:56 2016 +0200	Merge pull request #1 from warlof/master
+5c7f85b	elfaus	Tue Aug 23 21:34:56 2016 +0200	add a control for SDE version in order to avoid downloading it again allow the user to force an SDE re-installation using --force argument
+c356fd3	Leon Jacobs	Wed Jul 27 06:26:50 2016 +0200	Version Bump
+ebbebf2	Leon Jacobs	Wed Jul 27 06:25:01 2016 +0200	Default to 6 hours to reap jobs
+40707ef	Leon Jacobs	Wed Jul 27 06:24:37 2016 +0200	Add missing trait
+43fc0b2	Leon Jacobs	Tue Jul 26 18:30:26 2016 +0200	Version Bump
+a1da1a0	Leon Jacobs	Tue Jul 26 18:29:38 2016 +0200	Remove string concatenation causing systax errors
+57132cf	Leon Jacobs	Tue Jul 26 06:17:04 2016 +0200	Version Bump
+8c9abec	Leon Jacobs	Tue Jul 26 06:14:12 2016 +0200	Fix eveseat/seat#127 by removing string concatenation in Class property
+974cfad	Leon Jacobs	Sat Jul 23 15:12:25 2016 +0200	Version Bump
+f3f44dc	Leon Jacobs	Sat Jul 23 10:10:51 2016 +0200	Add analytics hit information.
+161cdee	Leon Jacobs	Fri Jul 22 08:47:34 2016 +0200	Add ClearExpired command
+a87e8d0	Leon Jacobs	Mon Jul 18 18:25:53 2016 +0200	Add `seat:queue:clear-expired` command.
+a6e5e54	Leon Jacobs	Thu May 5 21:46:23 2016 +0200	Version Bump
+0c9f1c7	Leon Jacobs	Sun May 1 15:14:59 2016 +0200	Add a console command to set the admin email address
+53fda6e	Leon Jacobs	Fri Apr 29 21:22:58 2016 +0200	Version Bump
+bb9841c	Leon Jacobs	Fri Apr 29 14:48:49 2016 +0200	Fix eveseat/seat#83 by ensuring seat:admin:reset recovers admin roles
+8fb5ad1	Leon Jacobs	Tue Jan 26 18:10:09 2016 +0200	Version Bump
+3e1dca5	Leon Jacobs	Tue Jan 26 17:00:27 2016 +0200	Update copyright
+d4b2b6f	Leon Jacobs	Wed Jan 6 06:30:57 2016 +0200	Code style fix
+68e5638	Leon Jacobs	Tue Dec 29 15:47:21 2015 +0200	Version Bump
+8b3aef9	Leon Jacobs	Tue Dec 29 15:45:24 2015 +0200	Use `class` notation
+6a6d779	Leon Jacobs	Sat Dec 26 23:31:10 2015 +0200	Version Bump
+643479f	Leon Jacobs	Sat Dec 26 23:30:01 2015 +0200	Update diagnose with some more useful debug info
+0132b4e	Leon Jacobs	Sat Dec 26 21:44:51 2015 +0200	Add Github version lookup
+18bf548	Leon Jacobs	Thu Dec 24 23:07:47 2015 +0200	Version Bump
+8934a36	Leon Jacobs	Thu Dec 24 23:06:48 2015 +0200	Specify versions with ~
+3f541b4	Leon Jacobs	Tue Dec 8 16:26:59 2015 +0200	Version Bump
+a49d908	Leon Jacobs	Tue Dec 8 16:23:48 2015 +0200	Revert b7cac27ebe4a1de8
+7e1d13d	Leon Jacobs	Mon Dec 7 19:50:04 2015 +0200	Version Bump
+b7cac27	Leon Jacobs	Mon Dec 7 19:48:28 2015 +0200	Drop guzzle version to match that of phealng
+91f2e03	Leon Jacobs	Mon Dec 7 07:06:24 2015 +0200	Cleanups
+6361651	Leon Jacobs	Sat Dec 5 19:07:48 2015 +0200	Add diagnose command
+123bc36	Leon Jacobs	Fri Dec 4 14:59:33 2015 +0200	Update README.md
+338a397	Leon Jacobs	Fri Dec 4 10:34:59 2015 +0200	Cleanup outputs and sink to a filehandler instead.
+0f83a18	Leon Jacobs	Wed Dec 2 21:34:21 2015 +0200	Version Bump
+d0f6d31	Leon Jacobs	Wed Dec 2 21:04:48 2015 +0200	Display versions in a table
+3d472d4	Leon Jacobs	Wed Dec 2 20:59:50 2015 +0200	Add notifications version
+65f650d	Leon Jacobs	Tue Dec 1 10:03:57 2015 +0200	Versino Bump
+2a2a350	Leon Jacobs	Mon Nov 30 23:09:13 2015 +0200	Add web and api versions
+8cc907d	Leon Jacobs	Sat Nov 28 14:07:49 2015 +0200	Update required eveseat package versions
+81fde9f	Leon Jacobs	Sat Nov 28 14:07:11 2015 +0200	Version Bump
+fe0da9e	Leon Jacobs	Fri Nov 27 16:28:35 2015 +0200	Update README
+05e59b3	Leon Jacobs	Fri Nov 20 12:45:51 2015 +0200	Add a cache clearing command
+41081d9	Leon Jacobs	Tue Nov 3 08:03:26 2015 +0200	Add the UpdateSDE command
+9af76fb	Leon Jacobs	Fri Oct 2 16:59:11 2015 +0200	use ::class format
+7e0bae5	Leon Jacobs	Fri Oct 2 16:54:53 2015 +0200	Add seat:admin:reset command
+9f4e15f	Leon Jacobs	Mon Sep 28 17:48:28 2015 +0200	Update to match eveseat/eveapi model refacto
+ee48a61	Leon Jacobs	Thu Sep 24 19:08:08 2015 +0200	Add services version lookup
+5d7ca5f	Leon Jacobs	Thu Sep 24 18:42:21 2015 +0200	Add a 'live' status command
+bcd1feb	Leon Jacobs	Thu Sep 24 17:13:27 2015 +0200	Add command to update a single key
+ee43dc5	Leon Jacobs	Thu Sep 24 12:09:10 2015 +0200	Add seat:keys:show command
+f72ba13	Leon Jacobs	Thu Sep 24 09:31:13 2015 +0200	Style fix
+b4bcc04	Leon Jacobs	Thu Sep 24 09:30:10 2015 +0200	Add the console.config and update version command
+8fe529d	Leon Jacobs	Thu Sep 24 09:26:27 2015 +0200	Refactor updater commands to the Eve\ namespace
+cc92c10	Leon Jacobs	Wed Sep 23 21:03:39 2015 +0200	Ensure only enabled keys are queued for updates
+8f93faf	Leon Jacobs	Wed Sep 23 20:52:30 2015 +0200	Update to new eveapi version information location
+fa5513d	Leon Jacobs	Wed Sep 23 18:38:44 2015 +0200	Queue Jobs using the UpdatePublic Job
+887b89c	Leon Jacobs	Wed Sep 16 14:35:07 2015 +0200	Update readme with badges
+74f82f5	Leon Jacobs	Wed Sep 16 14:21:40 2015 +0200	Prepare for packagist publish.
+a782121	Leon Jacobs	Fri Sep 4 22:34:52 2015 +0200	Add the command to queue updates for API keys
+14edaa8	Leon Jacobs	Fri Sep 4 16:11:40 2015 +0200	Make all commands honor the Job Container
+12538ef	Leon Jacobs	Thu Sep 3 08:36:33 2015 +0200	Add command for the Api CallList update
+31e0d06	Leon Jacobs	Sun Aug 30 15:52:26 2015 +0200	Add EVE Map Update command
+20aa008	Leon Jacobs	Sat Aug 29 19:42:57 2015 +0200	Add eve:update-eve command
+b9b7545	Leon Jacobs	Sat Aug 29 13:54:34 2015 +0200	Add the EveUpdateServerStatus command
+c978b94	Leon Jacobs	Sat Aug 29 00:05:57 2015 +0200	Add the add:job command for testing
+c01ddd9	Leon Jacobs	Fri Aug 28 22:13:31 2015 +0200	Start the Console package
+f42ac27	Leon Jacobs	Fri Aug 28 20:53:17 2015 +0200	first commit
