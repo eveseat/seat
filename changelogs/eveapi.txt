@@ -1,3 +1,4 @@
+7b80128	Leon Jacobs	Fri Jan 20 13:41:06 2017 +0200	Add codeclimate configuration
 73a778f	Leon Jacobs	Thu Jan 12 21:48:37 2017 +0200	Version Bump
 f7b9b8e	freedenizen	Thu Jan 12 11:26:13 2017 -0800	Character Assets are now pulled recursively (#12)
 91508da	Leon Jacobs	Thu Jan 12 21:01:50 2017 +0200	Style fix

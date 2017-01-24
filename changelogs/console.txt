@@ -1,3 +1,4 @@
+a9a25d9	Leon Jacobs	Fri Jan 20 13:37:08 2017 +0200	Add codeclimate configuration
 5e0fd35	Leon Jacobs	Thu Jan 12 21:47:16 2017 +0200	Version Bump
 a0dc02d	Leon Jacobs	Wed Jan 4 08:39:30 2017 +0200	Update styleci config
 197d773	Leon Jacobs	Mon Jan 2 13:47:22 2017 +0200	Apply fixes from StyleCI (#2)

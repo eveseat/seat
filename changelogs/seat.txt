@@ -1,3 +1,6 @@
+92a02bd	Leon Jacobs	Sun Jan 22 13:23:03 2017 +0200	Update issue template to be more readable
+22f4473	Leon Jacobs	Fri Jan 20 13:29:56 2017 +0200	Add Eseye package
+f4769a3	Leon Jacobs	Thu Jan 19 08:05:16 2017 +0200	Update changelogs
 78b5755	Leon Jacobs	Thu Jan 12 21:58:30 2017 +0200	Update changelogs
 460bc00	Leon Jacobs	Wed Jan 4 08:42:44 2017 +0200	Update StyleCI configuration
 70a0654	Leon Jacobs	Mon Jan 2 14:26:01 2017 +0200	Update StyleCI configuration

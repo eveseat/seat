@@ -1,3 +1,11 @@
+052ab31	Leon Jacobs	Sun Jan 22 13:31:06 2017 +0200	Version Bump
+b3c3cf3	Leon Jacobs	Sun Jan 22 12:48:48 2017 +0200	Apply fixes from StyleCI (#62)
+be689d2	Leon Jacobs	Sun Jan 22 12:46:49 2017 +0200	Load assets contents using ajax requests
+666d353	Leon Jacobs	Sun Jan 22 10:36:11 2017 +0200	Include the original title and sent date when parsed headers arent ok
+5692799	Leon Jacobs	Sun Jan 22 10:24:01 2017 +0200	Improve 'inverse' tag on permissions and affiliations
+ab28861	Leon Jacobs	Sun Jan 22 10:16:56 2017 +0200	Fix eveseat/seat#181 by ensuring that permission inverses are checked
+c3fa810	Loïc LEUILLIOT	Sun Jan 22 08:37:31 2017 +0100	Fix ACL issue on menu display if menu is requiring permission affiliation (#61)
+b669fbb	Leon Jacobs	Fri Jan 20 13:46:07 2017 +0200	Add codeclimate configuration
 0b890f6	Leon Jacobs	Thu Jan 12 21:56:26 2017 +0200	Version Bump
 aa88df0	Leon Jacobs	Thu Jan 12 21:31:30 2017 +0200	Fix eveseat/seat#173 by adding a unique constriant to emails
 183389f	freedenizen	Thu Jan 12 11:27:09 2017 -0800	Characterassets update (#60)

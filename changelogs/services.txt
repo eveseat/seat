@@ -1,3 +1,7 @@
+f0074be	Leon Jacobs	Sun Jan 22 13:29:39 2017 +0200	Version Bump
+9144305	Leon Jacobs	Sun Jan 22 13:28:20 2017 +0200	Apply fixes from StyleCI (#17)
+f29b680	Leon Jacobs	Sun Jan 22 13:27:41 2017 +0200	Add `childContentCount` field for assets
+42adef9	Leon Jacobs	Fri Jan 20 13:43:39 2017 +0200	Add codeclimate configuration
 462fd5c	Leon Jacobs	Thu Jan 12 21:54:10 2017 +0200	Version Bump
 0be2e39	freedenizen	Thu Jan 12 11:53:10 2017 -0800	Character assets (#16)
 44c6db5	Leon Jacobs	Wed Jan 4 08:41:07 2017 +0200	Update styleci config
