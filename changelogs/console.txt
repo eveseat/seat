@@ -1,3 +1,5 @@
+8d09f93	Leon Jacobs	Thu Jan 26 06:55:49 2017 +0200	Version Bump
+d4d1160	mrurb	Wed Jan 25 20:36:18 2017 +0100	Fixed UpdateSde not using port (#3)
 a9a25d9	Leon Jacobs	Fri Jan 20 13:37:08 2017 +0200	Add codeclimate configuration
 5e0fd35	Leon Jacobs	Thu Jan 12 21:47:16 2017 +0200	Version Bump
 a0dc02d	Leon Jacobs	Wed Jan 4 08:39:30 2017 +0200	Update styleci config
