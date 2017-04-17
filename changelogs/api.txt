@@ -1,3 +1,5 @@
+88a519c	Leon Jacobs	Mon Apr 17 20:55:35 2017 +0200	Version Bump
+85f2c98	Leon Jacobs	Mon Apr 17 13:19:37 2017 +0200	Apply fixes from StyleCI (#7)
 f345da5	Leon Jacobs	Mon Apr 17 13:14:50 2017 +0200	Small cleanup
 645a369	Loïc LEUILLIOT	Mon Apr 17 13:13:18 2017 +0200	Keys duplication (#6)
 1b16132	NoMercy82	Wed Mar 29 19:03:06 2017 +0100	Updating routes.php to include member tracking url (#5)

@@ -1,3 +1,4 @@
+9a5bba9	Leon Jacobs	Mon Apr 17 13:42:52 2017 +0200	Update changelogs
 61739d1	Leon Jacobs	Thu Jan 26 06:56:46 2017 +0200	Update changelogs
 2a2518c	Leon Jacobs	Tue Jan 24 06:48:31 2017 +0200	Update changelogs
 92a02bd	Leon Jacobs	Sun Jan 22 13:23:03 2017 +0200	Update issue template to be more readable
@@ -112,6 +113,8 @@ c8a5b6e	Leon Jacobs	Fri Aug 28 20:06:50 2015 +0200	Move namespace from App -> Se
 57487e8	Leon Jacobs	Sat Aug 22 11:35:46 2015 +0200	Update .gitignore
 644f3a9	Leon Jacobs	Sat Aug 22 11:34:41 2015 +0200	Add license and update .gitignore
 0bba931	Leon Jacobs	Sat Aug 22 11:16:53 2015 +0200	first commit
+88a519c	Leon Jacobs	Mon Apr 17 20:55:35 2017 +0200	Version Bump
+85f2c98	Leon Jacobs	Mon Apr 17 13:19:37 2017 +0200	Apply fixes from StyleCI (#7)
 f345da5	Leon Jacobs	Mon Apr 17 13:14:50 2017 +0200	Small cleanup
 645a369	Loïc LEUILLIOT	Mon Apr 17 13:13:18 2017 +0200	Keys duplication (#6)
 1b16132	NoMercy82	Wed Mar 29 19:03:06 2017 +0100	Updating routes.php to include member tracking url (#5)
@@ -293,6 +296,7 @@ b9b7545	Leon Jacobs	Sat Aug 29 13:54:34 2015 +0200	Add the EveUpdateServerStatus
 c978b94	Leon Jacobs	Sat Aug 29 00:05:57 2015 +0200	Add the add:job command for testing
 c01ddd9	Leon Jacobs	Fri Aug 28 22:13:31 2015 +0200	Start the Console package
 f42ac27	Leon Jacobs	Fri Aug 28 20:53:17 2015 +0200	first commit
+dc0473a	Leon Jacobs	Mon Apr 17 20:57:27 2017 +0200	Version Bump
 f68007a	Loïc LEUILLIOT	Mon Apr 17 13:22:16 2017 +0200	avoid duplicate entry on character notification update (#17)
 c80e611	Loïc LEUILLIOT	Mon Apr 17 13:21:47 2017 +0200	fix an issue which allow an empty response to be processed (#16)
 57cefe6	Leon Jacobs	Sun Feb 19 16:08:21 2017 +0200	Version bump
@@ -668,6 +672,7 @@ fd76941	Leon Jacobs	Wed Dec 2 19:26:13 2015 +0200	Fix typo
 a5f93e7	Leon Jacobs	Wed Dec 2 19:25:39 2015 +0200	Update README
 c22a837	Leon Jacobs	Wed Dec 2 19:18:06 2015 +0200	First iteration of the notification package
 032bebf	Leon Jacobs	Tue Dec 1 21:08:40 2015 +0200	first commit
+1095543	Leon Jacobs	Mon Apr 17 20:59:15 2017 +0200	Version Bump
 dc46c73	moe-alabel	Sun Feb 19 13:01:43 2017 -0500	Modified cron statements to proper format. Changed from 6 positions to 5 (#18)
 f0074be	Leon Jacobs	Sun Jan 22 13:29:39 2017 +0200	Version Bump
 9144305	Leon Jacobs	Sun Jan 22 13:28:20 2017 +0200	Apply fixes from StyleCI (#17)
@@ -894,6 +899,8 @@ ea84fb0	Leon Jacobs	Thu Sep 24 18:51:41 2015 +0200	Add Queue Data Source
 467fb42	Leon Jacobs	Thu Sep 24 11:36:42 2015 +0200	Update badges
 5779eff	Leon Jacobs	Thu Sep 24 10:15:19 2015 +0200	Prepare repository for packagist
 a46f437	Leon Jacobs	Thu Sep 24 09:12:30 2015 +0200	Initial commit
+0f9e10d	Leon Jacobs	Mon Apr 17 21:01:07 2017 +0200	Version Bump
+dd9fddd	Leon Jacobs	Mon Apr 17 13:06:04 2017 +0200	Apply fixes from StyleCI (#78)
 c90f111	Leon Jacobs	Mon Apr 17 13:04:58 2017 +0200	Simplify the character_id and corporation_id lookups.
 763684a	Loïc LEUILLIOT	Mon Apr 17 12:43:20 2017 +0200	fix acl minor issue related to job dashboard access from header buttons (#77)
 6916be3	Leon Jacobs	Mon Apr 17 11:52:31 2017 +0200	Remove wildcard checks as this is done with `hasSuperUser`.

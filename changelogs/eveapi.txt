@@ -1,3 +1,4 @@
+dc0473a	Leon Jacobs	Mon Apr 17 20:57:27 2017 +0200	Version Bump
 f68007a	Loïc LEUILLIOT	Mon Apr 17 13:22:16 2017 +0200	avoid duplicate entry on character notification update (#17)
 c80e611	Loïc LEUILLIOT	Mon Apr 17 13:21:47 2017 +0200	fix an issue which allow an empty response to be processed (#16)
 57cefe6	Leon Jacobs	Sun Feb 19 16:08:21 2017 +0200	Version bump

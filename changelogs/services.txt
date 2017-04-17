@@ -1,3 +1,4 @@
+1095543	Leon Jacobs	Mon Apr 17 20:59:15 2017 +0200	Version Bump
 dc46c73	moe-alabel	Sun Feb 19 13:01:43 2017 -0500	Modified cron statements to proper format. Changed from 6 positions to 5 (#18)
 f0074be	Leon Jacobs	Sun Jan 22 13:29:39 2017 +0200	Version Bump
 9144305	Leon Jacobs	Sun Jan 22 13:28:20 2017 +0200	Apply fixes from StyleCI (#17)

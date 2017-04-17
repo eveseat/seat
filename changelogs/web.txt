@@ -1,3 +1,5 @@
+0f9e10d	Leon Jacobs	Mon Apr 17 21:01:07 2017 +0200	Version Bump
+dd9fddd	Leon Jacobs	Mon Apr 17 13:06:04 2017 +0200	Apply fixes from StyleCI (#78)
 c90f111	Leon Jacobs	Mon Apr 17 13:04:58 2017 +0200	Simplify the character_id and corporation_id lookups.
 763684a	Loïc LEUILLIOT	Mon Apr 17 12:43:20 2017 +0200	fix acl minor issue related to job dashboard access from header buttons (#77)
 6916be3	Leon Jacobs	Mon Apr 17 11:52:31 2017 +0200	Remove wildcard checks as this is done with `hasSuperUser`.
