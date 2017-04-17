@@ -1,3 +1,4 @@
+61739d1	Leon Jacobs	Thu Jan 26 06:56:46 2017 +0200	Update changelogs
 2a2518c	Leon Jacobs	Tue Jan 24 06:48:31 2017 +0200	Update changelogs
 92a02bd	Leon Jacobs	Sun Jan 22 13:23:03 2017 +0200	Update issue template to be more readable
 22f4473	Leon Jacobs	Fri Jan 20 13:29:56 2017 +0200	Add Eseye package

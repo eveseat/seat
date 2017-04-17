@@ -1,3 +1,4 @@
+61739d1	Leon Jacobs	Thu Jan 26 06:56:46 2017 +0200	Update changelogs
 2a2518c	Leon Jacobs	Tue Jan 24 06:48:31 2017 +0200	Update changelogs
 92a02bd	Leon Jacobs	Sun Jan 22 13:23:03 2017 +0200	Update issue template to be more readable
 22f4473	Leon Jacobs	Fri Jan 20 13:29:56 2017 +0200	Add Eseye package
@@ -111,6 +112,11 @@ c8a5b6e	Leon Jacobs	Fri Aug 28 20:06:50 2015 +0200	Move namespace from App -> Se
 57487e8	Leon Jacobs	Sat Aug 22 11:35:46 2015 +0200	Update .gitignore
 644f3a9	Leon Jacobs	Sat Aug 22 11:34:41 2015 +0200	Add license and update .gitignore
 0bba931	Leon Jacobs	Sat Aug 22 11:16:53 2015 +0200	first commit
+f345da5	Leon Jacobs	Mon Apr 17 13:14:50 2017 +0200	Small cleanup
+645a369	Loïc LEUILLIOT	Mon Apr 17 13:13:18 2017 +0200	Keys duplication (#6)
+1b16132	NoMercy82	Wed Mar 29 19:03:06 2017 +0100	Updating routes.php to include member tracking url (#5)
+18a75cc	Leon Jacobs	Tue Jan 31 19:12:20 2017 +0200	Version Bump
+2716318	Loïc LEUILLIOT	Tue Jan 31 18:07:00 2017 +0100	fix middleware flow for bouncer null exception (#4)
 24ec51c	Leon Jacobs	Sun Jan 22 13:25:08 2017 +0200	Version Bump
 56c550e	Leon Jacobs	Sun Jan 22 13:03:27 2017 +0200	Apply fixes from StyleCI (#3)
 5d0b17f	Leon Jacobs	Sun Jan 22 13:02:21 2017 +0200	Add groups/ and groups/{id} endpoints.
@@ -287,6 +293,10 @@ b9b7545	Leon Jacobs	Sat Aug 29 13:54:34 2015 +0200	Add the EveUpdateServerStatus
 c978b94	Leon Jacobs	Sat Aug 29 00:05:57 2015 +0200	Add the add:job command for testing
 c01ddd9	Leon Jacobs	Fri Aug 28 22:13:31 2015 +0200	Start the Console package
 f42ac27	Leon Jacobs	Fri Aug 28 20:53:17 2015 +0200	first commit
+f68007a	Loïc LEUILLIOT	Mon Apr 17 13:22:16 2017 +0200	avoid duplicate entry on character notification update (#17)
+c80e611	Loïc LEUILLIOT	Mon Apr 17 13:21:47 2017 +0200	fix an issue which allow an empty response to be processed (#16)
+57cefe6	Leon Jacobs	Sun Feb 19 16:08:21 2017 +0200	Version bump
+f7d0f14	Leon Jacobs	Sun Feb 19 15:52:04 2017 +0200	Dont enable job logging by default
 7b80128	Leon Jacobs	Fri Jan 20 13:41:06 2017 +0200	Add codeclimate configuration
 73a778f	Leon Jacobs	Thu Jan 12 21:48:37 2017 +0200	Version Bump
 f7b9b8e	freedenizen	Thu Jan 12 11:26:13 2017 -0800	Character Assets are now pulled recursively (#12)
@@ -582,6 +592,8 @@ ca0a6d7	Leon Jacobs	Sat Aug 29 11:03:49 2015 +0200	Add generated docblocks
 b6991b9	Leon Jacobs	Sat Aug 29 00:07:22 2015 +0200	Start a few things to test job workers
 40d4948	Leon Jacobs	Fri Aug 28 20:31:21 2015 +0200	Start composer package
 af4f12f	Leon Jacobs	Fri Aug 28 20:14:44 2015 +0200	first commit
+b25146f	Leon Jacobs	Tue Jan 31 19:13:54 2017 +0200	Version Bump
+f26e906	Loïc LEUILLIOT	Tue Jan 31 18:06:39 2017 +0100	fix middleware flow in order to avoid null exception on bouncer (#5)
 bbc09a0	Leon Jacobs	Fri Jan 20 13:43:06 2017 +0200	Add codeclimate configuration
 b7a8ed2	Leon Jacobs	Thu Jan 12 21:50:47 2017 +0200	Version Bump
 b5126d3	Leon Jacobs	Wed Jan 4 08:40:34 2017 +0200	Update styleci config
@@ -656,6 +668,7 @@ fd76941	Leon Jacobs	Wed Dec 2 19:26:13 2015 +0200	Fix typo
 a5f93e7	Leon Jacobs	Wed Dec 2 19:25:39 2015 +0200	Update README
 c22a837	Leon Jacobs	Wed Dec 2 19:18:06 2015 +0200	First iteration of the notification package
 032bebf	Leon Jacobs	Tue Dec 1 21:08:40 2015 +0200	first commit
+dc46c73	moe-alabel	Sun Feb 19 13:01:43 2017 -0500	Modified cron statements to proper format. Changed from 6 positions to 5 (#18)
 f0074be	Leon Jacobs	Sun Jan 22 13:29:39 2017 +0200	Version Bump
 9144305	Leon Jacobs	Sun Jan 22 13:28:20 2017 +0200	Apply fixes from StyleCI (#17)
 f29b680	Leon Jacobs	Sun Jan 22 13:27:41 2017 +0200	Add `childContentCount` field for assets
@@ -881,6 +894,19 @@ ea84fb0	Leon Jacobs	Thu Sep 24 18:51:41 2015 +0200	Add Queue Data Source
 467fb42	Leon Jacobs	Thu Sep 24 11:36:42 2015 +0200	Update badges
 5779eff	Leon Jacobs	Thu Sep 24 10:15:19 2015 +0200	Prepare repository for packagist
 a46f437	Leon Jacobs	Thu Sep 24 09:12:30 2015 +0200	Initial commit
+c90f111	Leon Jacobs	Mon Apr 17 13:04:58 2017 +0200	Simplify the character_id and corporation_id lookups.
+763684a	Loïc LEUILLIOT	Mon Apr 17 12:43:20 2017 +0200	fix acl minor issue related to job dashboard access from header buttons (#77)
+6916be3	Leon Jacobs	Mon Apr 17 11:52:31 2017 +0200	Remove wildcard checks as this is done with `hasSuperUser`.
+36247bf	moe-alabel	Sun Feb 19 12:41:48 2017 -0500	Modified cron statements to proper format. Changed from 6 positions to 5 (#70)
+6adfb30	Leon Jacobs	Sun Feb 19 16:09:26 2017 +0200	Version Bump
+a179b5e	BenH	Sun Feb 19 14:53:15 2017 +0100	improved lisibility on the skill sheet of a character (#69)
+fe3fac6	Leon Jacobs	Sun Feb 19 15:51:47 2017 +0200	Show status of job logging
+76f4e27	Leon Jacobs	Sun Feb 19 14:33:49 2017 +0200	Add space
+a95747d	Loïc LEUILLIOT	Sun Feb 19 13:28:26 2017 +0100	Use font-awesome package instead raw import in order to get always last provided icons (#68)
+d7bd1fd	Loïc LEUILLIOT	Fri Feb 10 08:25:34 2017 +0100	Add a third menu level into sidebar (#66)
+b1b685c	BenH	Fri Feb 10 08:12:42 2017 +0100	Improved Tools>People Groups layout (#65)
+deaec02	Leon Jacobs	Thu Feb 2 06:21:04 2017 +0200	Add comments
+4f5af78	BenHUET	Thu Feb 2 05:19:37 2017 +0100	Allow to add custom content from a child template to <head> (#64)
 052ab31	Leon Jacobs	Sun Jan 22 13:31:06 2017 +0200	Version Bump
 b3c3cf3	Leon Jacobs	Sun Jan 22 12:48:48 2017 +0200	Apply fixes from StyleCI (#62)
 be689d2	Leon Jacobs	Sun Jan 22 12:46:49 2017 +0200	Load assets contents using ajax requests

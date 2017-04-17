@@ -1,3 +1,7 @@
+f68007a	Loïc LEUILLIOT	Mon Apr 17 13:22:16 2017 +0200	avoid duplicate entry on character notification update (#17)
+c80e611	Loïc LEUILLIOT	Mon Apr 17 13:21:47 2017 +0200	fix an issue which allow an empty response to be processed (#16)
+57cefe6	Leon Jacobs	Sun Feb 19 16:08:21 2017 +0200	Version bump
+f7d0f14	Leon Jacobs	Sun Feb 19 15:52:04 2017 +0200	Dont enable job logging by default
 7b80128	Leon Jacobs	Fri Jan 20 13:41:06 2017 +0200	Add codeclimate configuration
 73a778f	Leon Jacobs	Thu Jan 12 21:48:37 2017 +0200	Version Bump
 f7b9b8e	freedenizen	Thu Jan 12 11:26:13 2017 -0800	Character Assets are now pulled recursively (#12)

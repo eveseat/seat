@@ -1,3 +1,8 @@
+f345da5	Leon Jacobs	Mon Apr 17 13:14:50 2017 +0200	Small cleanup
+645a369	Loïc LEUILLIOT	Mon Apr 17 13:13:18 2017 +0200	Keys duplication (#6)
+1b16132	NoMercy82	Wed Mar 29 19:03:06 2017 +0100	Updating routes.php to include member tracking url (#5)
+18a75cc	Leon Jacobs	Tue Jan 31 19:12:20 2017 +0200	Version Bump
+2716318	Loïc LEUILLIOT	Tue Jan 31 18:07:00 2017 +0100	fix middleware flow for bouncer null exception (#4)
 24ec51c	Leon Jacobs	Sun Jan 22 13:25:08 2017 +0200	Version Bump
 56c550e	Leon Jacobs	Sun Jan 22 13:03:27 2017 +0200	Apply fixes from StyleCI (#3)
 5d0b17f	Leon Jacobs	Sun Jan 22 13:02:21 2017 +0200	Add groups/ and groups/{id} endpoints.
