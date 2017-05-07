@@ -1,3 +1,5 @@
+017729d	Leon Jacobs	Sun May 7 20:01:51 2017 +0200	Version Bump
+24e19c1	Leon Jacobs	Sun May 7 19:26:15 2017 +0200	Remvove characterID & corporationID checks.
 dc0473a	Leon Jacobs	Mon Apr 17 20:57:27 2017 +0200	Version Bump
 f68007a	Loïc LEUILLIOT	Mon Apr 17 13:22:16 2017 +0200	avoid duplicate entry on character notification update (#17)
 c80e611	Loïc LEUILLIOT	Mon Apr 17 13:21:47 2017 +0200	fix an issue which allow an empty response to be processed (#16)

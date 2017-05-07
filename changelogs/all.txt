@@ -1,3 +1,4 @@
+fe65eab	Leon Jacobs	Mon Apr 17 21:02:02 2017 +0200	Update changelogs
 9a5bba9	Leon Jacobs	Mon Apr 17 13:42:52 2017 +0200	Update changelogs
 61739d1	Leon Jacobs	Thu Jan 26 06:56:46 2017 +0200	Update changelogs
 2a2518c	Leon Jacobs	Tue Jan 24 06:48:31 2017 +0200	Update changelogs
@@ -296,6 +297,8 @@ b9b7545	Leon Jacobs	Sat Aug 29 13:54:34 2015 +0200	Add the EveUpdateServerStatus
 c978b94	Leon Jacobs	Sat Aug 29 00:05:57 2015 +0200	Add the add:job command for testing
 c01ddd9	Leon Jacobs	Fri Aug 28 22:13:31 2015 +0200	Start the Console package
 f42ac27	Leon Jacobs	Fri Aug 28 20:53:17 2015 +0200	first commit
+017729d	Leon Jacobs	Sun May 7 20:01:51 2017 +0200	Version Bump
+24e19c1	Leon Jacobs	Sun May 7 19:26:15 2017 +0200	Remvove characterID & corporationID checks.
 dc0473a	Leon Jacobs	Mon Apr 17 20:57:27 2017 +0200	Version Bump
 f68007a	Loïc LEUILLIOT	Mon Apr 17 13:22:16 2017 +0200	avoid duplicate entry on character notification update (#17)
 c80e611	Loïc LEUILLIOT	Mon Apr 17 13:21:47 2017 +0200	fix an issue which allow an empty response to be processed (#16)
@@ -596,6 +599,9 @@ ca0a6d7	Leon Jacobs	Sat Aug 29 11:03:49 2015 +0200	Add generated docblocks
 b6991b9	Leon Jacobs	Sat Aug 29 00:07:22 2015 +0200	Start a few things to test job workers
 40d4948	Leon Jacobs	Fri Aug 28 20:31:21 2015 +0200	Start composer package
 af4f12f	Leon Jacobs	Fri Aug 28 20:14:44 2015 +0200	first commit
+bd9bbb0	Leon Jacobs	Sun May 7 20:00:42 2017 +0200	Version Bump
+6ff4a1b	Leon Jacobs	Sun May 7 18:53:41 2017 +0200	Reduce one level of indentation.
+ce58c03	Loïc LEUILLIOT	Sun May 7 18:49:12 2017 +0200	Starbase Siphon alert hotfix (#6)
 b25146f	Leon Jacobs	Tue Jan 31 19:13:54 2017 +0200	Version Bump
 f26e906	Loïc LEUILLIOT	Tue Jan 31 18:06:39 2017 +0100	fix middleware flow in order to avoid null exception on bouncer (#5)
 bbc09a0	Leon Jacobs	Fri Jan 20 13:43:06 2017 +0200	Add codeclimate configuration

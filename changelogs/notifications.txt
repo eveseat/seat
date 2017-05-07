@@ -1,3 +1,6 @@
+bd9bbb0	Leon Jacobs	Sun May 7 20:00:42 2017 +0200	Version Bump
+6ff4a1b	Leon Jacobs	Sun May 7 18:53:41 2017 +0200	Reduce one level of indentation.
+ce58c03	Loïc LEUILLIOT	Sun May 7 18:49:12 2017 +0200	Starbase Siphon alert hotfix (#6)
 b25146f	Leon Jacobs	Tue Jan 31 19:13:54 2017 +0200	Version Bump
 f26e906	Loïc LEUILLIOT	Tue Jan 31 18:06:39 2017 +0100	fix middleware flow in order to avoid null exception on bouncer (#5)
 bbc09a0	Leon Jacobs	Fri Jan 20 13:43:06 2017 +0200	Add codeclimate configuration
