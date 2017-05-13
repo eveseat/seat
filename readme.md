@@ -49,5 +49,8 @@ Please refer to the [documentation](http://seat-docs.rtfd.org) for installation 
 ## security
 If you find any security vulnerabilities within SeAT, please send an email to theninjabag@gmail.com to address instead of creating a public Github issue.
 
+## sponsors
+![phpstorm](https://i.imgur.com/M6yP6R7.png) Integrated Development Environment proudly sponsored by Jetbrains.
+
 ## donate
 If you like SeAT, please consider donating ISK in game to [qu1ckkkk](https://gate.eveonline.com/Profile/qu1ckkkk) or via [paypal](https://www.paypal.me/leonjza).
