@@ -1,3 +1,11 @@
+4658230	Leon Jacobs	Sat Aug 12 13:28:09 2017 +0200	Version Bump
+d1bc5b3	Leon Jacobs	Sat Aug 12 11:55:14 2017 +0200	Remove an unused variable and style fixes.
+654e4da	Loïc LEUILLIOT	Sat Aug 12 11:53:26 2017 +0200	add ACL filters on dashboard stats (#25)
+a65f4a4	Leon Jacobs	Sat Aug 12 11:51:13 2017 +0200	Style fixes
+f4e1c22	Loïc LEUILLIOT	Sat Aug 12 11:49:13 2017 +0200	optimise top mail query by dropping join table and exploit getAffiliationMap in order to retrieve the user character IDs (#24)
+3feccc6	Leon Jacobs	Sun Jul 2 13:08:28 2017 +0200	Version Bump
+eb02e76	Loïc LEUILLIOT	Sun Jul 2 12:54:32 2017 +0200	avoid null exception on assetlist_locations for starbases trait (#22)
+4358497	BenH	Sun Jul 2 12:52:16 2017 +0200	Added support for the 'Render' type (#23)
 1095543	Leon Jacobs	Mon Apr 17 20:59:15 2017 +0200	Version Bump
 dc46c73	moe-alabel	Sun Feb 19 13:01:43 2017 -0500	Modified cron statements to proper format. Changed from 6 positions to 5 (#18)
 f0074be	Leon Jacobs	Sun Jan 22 13:29:39 2017 +0200	Version Bump

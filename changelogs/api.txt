@@ -1,3 +1,7 @@
+36c8592	Leon Jacobs	Sat Aug 12 13:25:02 2017 +0200	Version Bump
+8c6e4e3	Leon Jacobs	Sat Aug 12 12:52:35 2017 +0200	Style fixes.
+91c33bf	Loïc LEUILLIOT	Sat Aug 12 12:51:24 2017 +0200	Update role (#8)
+38d0fc8	Loïc LEUILLIOT	Sat Aug 12 11:40:31 2017 +0200	fix api log issue (#10)
 88a519c	Leon Jacobs	Mon Apr 17 20:55:35 2017 +0200	Version Bump
 85f2c98	Leon Jacobs	Mon Apr 17 13:19:37 2017 +0200	Apply fixes from StyleCI (#7)
 f345da5	Leon Jacobs	Mon Apr 17 13:14:50 2017 +0200	Small cleanup

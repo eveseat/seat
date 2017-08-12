@@ -1,3 +1,5 @@
+0fac589	Leon Jacobs	Sat May 13 08:07:26 2017 +0200	Update readme
+4e1d776	Leon Jacobs	Sun May 7 20:02:51 2017 +0200	Update changelogs
 fe65eab	Leon Jacobs	Mon Apr 17 21:02:02 2017 +0200	Update changelogs
 9a5bba9	Leon Jacobs	Mon Apr 17 13:42:52 2017 +0200	Update changelogs
 61739d1	Leon Jacobs	Thu Jan 26 06:56:46 2017 +0200	Update changelogs
@@ -114,6 +116,10 @@ c8a5b6e	Leon Jacobs	Fri Aug 28 20:06:50 2015 +0200	Move namespace from App -> Se
 57487e8	Leon Jacobs	Sat Aug 22 11:35:46 2015 +0200	Update .gitignore
 644f3a9	Leon Jacobs	Sat Aug 22 11:34:41 2015 +0200	Add license and update .gitignore
 0bba931	Leon Jacobs	Sat Aug 22 11:16:53 2015 +0200	first commit
+36c8592	Leon Jacobs	Sat Aug 12 13:25:02 2017 +0200	Version Bump
+8c6e4e3	Leon Jacobs	Sat Aug 12 12:52:35 2017 +0200	Style fixes.
+91c33bf	Loïc LEUILLIOT	Sat Aug 12 12:51:24 2017 +0200	Update role (#8)
+38d0fc8	Loïc LEUILLIOT	Sat Aug 12 11:40:31 2017 +0200	fix api log issue (#10)
 88a519c	Leon Jacobs	Mon Apr 17 20:55:35 2017 +0200	Version Bump
 85f2c98	Leon Jacobs	Mon Apr 17 13:19:37 2017 +0200	Apply fixes from StyleCI (#7)
 f345da5	Leon Jacobs	Mon Apr 17 13:14:50 2017 +0200	Small cleanup
@@ -297,6 +303,10 @@ b9b7545	Leon Jacobs	Sat Aug 29 13:54:34 2015 +0200	Add the EveUpdateServerStatus
 c978b94	Leon Jacobs	Sat Aug 29 00:05:57 2015 +0200	Add the add:job command for testing
 c01ddd9	Leon Jacobs	Fri Aug 28 22:13:31 2015 +0200	Start the Console package
 f42ac27	Leon Jacobs	Fri Aug 28 20:53:17 2015 +0200	first commit
+e763e48	Leon Jacobs	Sat Aug 12 13:27:03 2017 +0200	Version Bump
+8d0eced	Leon Jacobs	Sat Aug 12 13:01:00 2017 +0200	Style fixes.
+9e36c80	Loïc LEUILLIOT	Sat Aug 12 12:59:15 2017 +0200	add industry jobs history to industry job and fix CCP shit on job status (#21)
+465e6cf	Loïc LEUILLIOT	Sat Aug 12 11:49:02 2017 +0200	optimise dashboard query for top mail badge by adding an index on sentDate (#20)
 017729d	Leon Jacobs	Sun May 7 20:01:51 2017 +0200	Version Bump
 24e19c1	Leon Jacobs	Sun May 7 19:26:15 2017 +0200	Remvove characterID & corporationID checks.
 dc0473a	Leon Jacobs	Mon Apr 17 20:57:27 2017 +0200	Version Bump
@@ -599,6 +609,12 @@ ca0a6d7	Leon Jacobs	Sat Aug 29 11:03:49 2015 +0200	Add generated docblocks
 b6991b9	Leon Jacobs	Sat Aug 29 00:07:22 2015 +0200	Start a few things to test job workers
 40d4948	Leon Jacobs	Fri Aug 28 20:31:21 2015 +0200	Start composer package
 af4f12f	Leon Jacobs	Fri Aug 28 20:14:44 2015 +0200	first commit
+e760f9d	Leon Jacobs	Sat Aug 12 15:31:01 2017 +0200	Version bump
+49d515e	Leon Jacobs	Sat Aug 12 15:30:18 2017 +0200	Update wording.
+cbfac3e	Leon Jacobs	Sat Aug 12 15:28:23 2017 +0200	Remove debug line.
+8632037	Leon Jacobs	Sat Aug 12 13:29:17 2017 +0200	Version Bump
+5172e72	Leon Jacobs	Sat Aug 12 12:28:55 2017 +0200	Formatting, language and style fixes.
+19b57dd	Loïc LEUILLIOT	Sat Aug 12 12:17:32 2017 +0200	improve slack notification for killmail (#7)
 bd9bbb0	Leon Jacobs	Sun May 7 20:00:42 2017 +0200	Version Bump
 6ff4a1b	Leon Jacobs	Sun May 7 18:53:41 2017 +0200	Reduce one level of indentation.
 ce58c03	Loïc LEUILLIOT	Sun May 7 18:49:12 2017 +0200	Starbase Siphon alert hotfix (#6)
@@ -678,6 +694,14 @@ fd76941	Leon Jacobs	Wed Dec 2 19:26:13 2015 +0200	Fix typo
 a5f93e7	Leon Jacobs	Wed Dec 2 19:25:39 2015 +0200	Update README
 c22a837	Leon Jacobs	Wed Dec 2 19:18:06 2015 +0200	First iteration of the notification package
 032bebf	Leon Jacobs	Tue Dec 1 21:08:40 2015 +0200	first commit
+4658230	Leon Jacobs	Sat Aug 12 13:28:09 2017 +0200	Version Bump
+d1bc5b3	Leon Jacobs	Sat Aug 12 11:55:14 2017 +0200	Remove an unused variable and style fixes.
+654e4da	Loïc LEUILLIOT	Sat Aug 12 11:53:26 2017 +0200	add ACL filters on dashboard stats (#25)
+a65f4a4	Leon Jacobs	Sat Aug 12 11:51:13 2017 +0200	Style fixes
+f4e1c22	Loïc LEUILLIOT	Sat Aug 12 11:49:13 2017 +0200	optimise top mail query by dropping join table and exploit getAffiliationMap in order to retrieve the user character IDs (#24)
+3feccc6	Leon Jacobs	Sun Jul 2 13:08:28 2017 +0200	Version Bump
+eb02e76	Loïc LEUILLIOT	Sun Jul 2 12:54:32 2017 +0200	avoid null exception on assetlist_locations for starbases trait (#22)
+4358497	BenH	Sun Jul 2 12:52:16 2017 +0200	Added support for the 'Render' type (#23)
 1095543	Leon Jacobs	Mon Apr 17 20:59:15 2017 +0200	Version Bump
 dc46c73	moe-alabel	Sun Feb 19 13:01:43 2017 -0500	Modified cron statements to proper format. Changed from 6 positions to 5 (#18)
 f0074be	Leon Jacobs	Sun Jan 22 13:29:39 2017 +0200	Version Bump
@@ -905,6 +929,19 @@ ea84fb0	Leon Jacobs	Thu Sep 24 18:51:41 2015 +0200	Add Queue Data Source
 467fb42	Leon Jacobs	Thu Sep 24 11:36:42 2015 +0200	Update badges
 5779eff	Leon Jacobs	Thu Sep 24 10:15:19 2015 +0200	Prepare repository for packagist
 a46f437	Leon Jacobs	Thu Sep 24 09:12:30 2015 +0200	Initial commit
+0450d6c	Leon Jacobs	Sat Aug 12 15:33:06 2017 +0200	Version bump
+ac49aa9	Loïc LEUILLIOT	Sat Aug 12 15:28:53 2017 +0200	fix merge issue due to conflicting dom property between indie filter PR and paginate duplication PR (#86)
+66edf32	Leon Jacobs	Sat Aug 12 13:38:06 2017 +0200	Version bump
+fe45072	Loïc LEUILLIOT	Sat Aug 12 13:37:39 2017 +0200	add status filters on industry tables for both character and corporation (#82)
+68e3c93	Leon Jacobs	Sat Aug 12 12:50:33 2017 +0200	Style fixes.
+6879b29	Loïc LEUILLIOT	Sat Aug 12 12:49:34 2017 +0200	allow SeAT owner to overload theme using two custom css file (#84)
+eb367cf	Loïc LEUILLIOT	Sat Aug 12 12:02:26 2017 +0200	pugx service is dead, replace all badge by shields.io (#85)
+f116ff1	Leon Jacobs	Sat Aug 12 12:00:10 2017 +0200	Style fixes.
+2391377	Loïc LEUILLIOT	Sat Aug 12 11:59:40 2017 +0200	hide enable/disable account status if the instance is not requiring mail activation (#83)
+d1b1527	Loïc LEUILLIOT	Sat Aug 12 11:29:15 2017 +0200	improve tables usability by adding paginate on both header and footer as well as filter feature (#80)
+c6ee343	Leon Jacobs	Sun Jul 2 13:09:50 2017 +0200	Version Bump
+758cb4c	Viola	Sun Jul 2 05:50:12 2017 -0500	add language Chinese (#79)
+c66c132	Loïc LEUILLIOT	Fri Jun 30 16:59:50 2017 +0200	the current delete statement is not firing the delete event from eloquent (#81)
 0f9e10d	Leon Jacobs	Mon Apr 17 21:01:07 2017 +0200	Version Bump
 dd9fddd	Leon Jacobs	Mon Apr 17 13:06:04 2017 +0200	Apply fixes from StyleCI (#78)
 c90f111	Leon Jacobs	Mon Apr 17 13:04:58 2017 +0200	Simplify the character_id and corporation_id lookups.

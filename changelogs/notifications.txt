@@ -1,3 +1,9 @@
+e760f9d	Leon Jacobs	Sat Aug 12 15:31:01 2017 +0200	Version bump
+49d515e	Leon Jacobs	Sat Aug 12 15:30:18 2017 +0200	Update wording.
+cbfac3e	Leon Jacobs	Sat Aug 12 15:28:23 2017 +0200	Remove debug line.
+8632037	Leon Jacobs	Sat Aug 12 13:29:17 2017 +0200	Version Bump
+5172e72	Leon Jacobs	Sat Aug 12 12:28:55 2017 +0200	Formatting, language and style fixes.
+19b57dd	Loïc LEUILLIOT	Sat Aug 12 12:17:32 2017 +0200	improve slack notification for killmail (#7)
 bd9bbb0	Leon Jacobs	Sun May 7 20:00:42 2017 +0200	Version Bump
 6ff4a1b	Leon Jacobs	Sun May 7 18:53:41 2017 +0200	Reduce one level of indentation.
 ce58c03	Loïc LEUILLIOT	Sun May 7 18:49:12 2017 +0200	Starbase Siphon alert hotfix (#6)

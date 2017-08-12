@@ -1,3 +1,16 @@
+0450d6c	Leon Jacobs	Sat Aug 12 15:33:06 2017 +0200	Version bump
+ac49aa9	Loïc LEUILLIOT	Sat Aug 12 15:28:53 2017 +0200	fix merge issue due to conflicting dom property between indie filter PR and paginate duplication PR (#86)
+66edf32	Leon Jacobs	Sat Aug 12 13:38:06 2017 +0200	Version bump
+fe45072	Loïc LEUILLIOT	Sat Aug 12 13:37:39 2017 +0200	add status filters on industry tables for both character and corporation (#82)
+68e3c93	Leon Jacobs	Sat Aug 12 12:50:33 2017 +0200	Style fixes.
+6879b29	Loïc LEUILLIOT	Sat Aug 12 12:49:34 2017 +0200	allow SeAT owner to overload theme using two custom css file (#84)
+eb367cf	Loïc LEUILLIOT	Sat Aug 12 12:02:26 2017 +0200	pugx service is dead, replace all badge by shields.io (#85)
+f116ff1	Leon Jacobs	Sat Aug 12 12:00:10 2017 +0200	Style fixes.
+2391377	Loïc LEUILLIOT	Sat Aug 12 11:59:40 2017 +0200	hide enable/disable account status if the instance is not requiring mail activation (#83)
+d1b1527	Loïc LEUILLIOT	Sat Aug 12 11:29:15 2017 +0200	improve tables usability by adding paginate on both header and footer as well as filter feature (#80)
+c6ee343	Leon Jacobs	Sun Jul 2 13:09:50 2017 +0200	Version Bump
+758cb4c	Viola	Sun Jul 2 05:50:12 2017 -0500	add language Chinese (#79)
+c66c132	Loïc LEUILLIOT	Fri Jun 30 16:59:50 2017 +0200	the current delete statement is not firing the delete event from eloquent (#81)
 0f9e10d	Leon Jacobs	Mon Apr 17 21:01:07 2017 +0200	Version Bump
 dd9fddd	Leon Jacobs	Mon Apr 17 13:06:04 2017 +0200	Apply fixes from StyleCI (#78)
 c90f111	Leon Jacobs	Mon Apr 17 13:04:58 2017 +0200	Simplify the character_id and corporation_id lookups.

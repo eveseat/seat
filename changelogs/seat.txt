@@ -1,3 +1,5 @@
+0fac589	Leon Jacobs	Sat May 13 08:07:26 2017 +0200	Update readme
+4e1d776	Leon Jacobs	Sun May 7 20:02:51 2017 +0200	Update changelogs
 fe65eab	Leon Jacobs	Mon Apr 17 21:02:02 2017 +0200	Update changelogs
 9a5bba9	Leon Jacobs	Mon Apr 17 13:42:52 2017 +0200	Update changelogs
 61739d1	Leon Jacobs	Thu Jan 26 06:56:46 2017 +0200	Update changelogs

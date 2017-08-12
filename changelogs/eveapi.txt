@@ -1,3 +1,7 @@
+e763e48	Leon Jacobs	Sat Aug 12 13:27:03 2017 +0200	Version Bump
+8d0eced	Leon Jacobs	Sat Aug 12 13:01:00 2017 +0200	Style fixes.
+9e36c80	Loïc LEUILLIOT	Sat Aug 12 12:59:15 2017 +0200	add industry jobs history to industry job and fix CCP shit on job status (#21)
+465e6cf	Loïc LEUILLIOT	Sat Aug 12 11:49:02 2017 +0200	optimise dashboard query for top mail badge by adding an index on sentDate (#20)
 017729d	Leon Jacobs	Sun May 7 20:01:51 2017 +0200	Version Bump
 24e19c1	Leon Jacobs	Sun May 7 19:26:15 2017 +0200	Remvove characterID & corporationID checks.
 dc0473a	Leon Jacobs	Mon Apr 17 20:57:27 2017 +0200	Version Bump
