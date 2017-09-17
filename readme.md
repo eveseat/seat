@@ -16,6 +16,11 @@ SeAT: A Simple, EVE Online API Tool and Corporation Manager
 
 SeAT is a simple, [EVE Online](https://www.eveonline.com/) Corporation and API management tool, built using [Laravel](https://laravel.com/). SeAT allows you to keep an eye on all things related to your corporation; from wallets, to mail, to assets for both characters and corporations. Notifications can be sent based on starbase fuel levels and a fully featured role based access control system allows you to tightly control who has access to what. This repository contains the main SeAT Repository. It can be seen as the 'glue' for all of the SeAT core packages.
 
+## note
+For the latest version of SeAT, please refer to the master branch.
+
+This branch contains the base repository for SeAT 2.x which was still based on the old XML EVE API. CCP has since released [ESI](https://esi.tech.ccp.is/latest/) which is a JSON based API supporting many new features such as writing back to the games state.
+
 ## screenshots
 ![character view](https://i.imgur.com/hxfcYll.png)
 ![starbase view](https://i.imgur.com/qFX2lDS.png)
