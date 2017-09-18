@@ -17,7 +17,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-
+        //
     ];
 
     /**
@@ -30,6 +30,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
 
+
         // Check that the schedules table exists. This
         // could cause a fatal error if the app is
         // still being setup or the db has not yet
@@ -41,11 +42,11 @@ class Kernel extends ConsoleKernel
             DB::connection();
             if (! Schema::hasTable('schedules'))
                 throw new Exception('Schema schedules does not exist');
+
         } catch (Exception $e) {
 
             return;
         }
-
         // Load the schedule from the database
         foreach (DbSchedule::all() as $job) {
 
@@ -70,12 +71,14 @@ class Kernel extends ConsoleKernel
     }
 
     /**
-     * Register the Closure based commands for the application.
+     * Register the commands for the application.
      *
      * @return void
      */
     protected function commands()
     {
+
+        $this->load(__DIR__ . '/Commands');
 
         require base_path('routes/console.php');
     }
