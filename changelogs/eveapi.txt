@@ -1,3 +1,6 @@
+8a00bfa	Leon Jacobs	Wed Oct 25 21:05:52 2017 +0200	Version Bump.
+e5729f6	Leon Jacobs	Wed Oct 25 18:49:06 2017 +0200	Small formatting fixes and add missing function comment.
+025f51a	Loïc LEUILLIOT	Wed Oct 25 18:46:44 2017 +0200	provide hotfix for people & group when a key is deleted (#22)
 e763e48	Leon Jacobs	Sat Aug 12 13:27:03 2017 +0200	Version Bump
 8d0eced	Leon Jacobs	Sat Aug 12 13:01:00 2017 +0200	Style fixes.
 9e36c80	Loïc LEUILLIOT	Sat Aug 12 12:59:15 2017 +0200	add industry jobs history to industry job and fix CCP shit on job status (#21)
