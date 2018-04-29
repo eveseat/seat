@@ -10,7 +10,7 @@
   ],
   "license": "GPL-2.0",
   "type": "project",
-  "minimum-stability": "stable",
+  "minimum-stability": "alpha",
   "prefer-stable": true,
   "require": {
     "php": ">=7.1.0",
