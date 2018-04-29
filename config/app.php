@@ -164,6 +164,17 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+
+        /*
+         * SeAT Service Providers
+         */
+        Seat\Api\ApiServiceProvider::class,
+        Seat\Console\ConsoleServiceProvider::class,
+        Seat\Eveapi\EveapiServiceProvider::class,
+        Seat\Notifications\NotificationsServiceProvider::class,
+        Seat\Services\ServicesServiceProvider::class,
+        Seat\Web\WebServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
