@@ -8,7 +8,6 @@ SeAT: A Simple, EVE Online API Tool and Corporation Manager
 <a href="https://packagist.org/packages/eveseat/seat"><img src="https://poser.pugx.org/eveseat/seat/v/stable" /></a>
 <a href="https://packagist.org/packages/eveseat/seat"><img src="https://poser.pugx.org/eveseat/seat/v/unstable" /></a>
 <a href="https://packagist.org/packages/eveseat/seat"><img src="https://poser.pugx.org/eveseat/seat/license" /></a>
-<a href="http://seat-docs.readthedocs.org/en/latest/"><img src="https://readthedocs.org/projects/seat-docs/badge/?version=latest" /></a>
 <a href="https://eveseat-slack.herokuapp.com/"><img src="https://eveseat-slack.herokuapp.com/badge.svg" /></a>
 <a href="https://styleci.io/repos/41199860"><img src="https://styleci.io/repos/41199860/shield?branch=master" alt="StyleCI"></a>
 
@@ -49,7 +48,7 @@ For the **actual** SeAT source, please refer to the following package repositori
 | [web](https://github.com/eveseat/web) | [![Latest Stable Version](https://poser.pugx.org/eveseat/web/v/stable)](https://packagist.org/packages/eveseat/web) | [![Total Downloads](https://poser.pugx.org/eveseat/web/downloads)](https://packagist.org/packages/eveseat/web) | [![Code Climate](https://codeclimate.com/github/eveseat/web/badges/gpa.svg)](https://codeclimate.com/github/eveseat/web) |
 
 ## documentation & installation
-Please refer to the [documentation](http://seat-docs.rtfd.org) for installation instructions, upgrade guides and more.
+Please refer to the [documentation](https://eveseat.github.io/docs/) for installation instructions, upgrade guides and more.
 
 ## security
 If you find any security vulnerabilities within SeAT, please send an email to theninjabag@gmail.com to address instead of creating a public Github issue.
@@ -59,3 +58,4 @@ If you find any security vulnerabilities within SeAT, please send an email to th
 
 ## donate
 If you like SeAT, please consider donating ISK in game to [qu1ckkkk](https://gate.eveonline.com/Profile/qu1ckkkk) or via [paypal](https://www.paypal.me/leonjza).
+
