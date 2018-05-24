@@ -38,10 +38,15 @@ return [
     // If you want to make use of SSO via EVEOnline, create
     // an application at https://developers.eveonline.com/applications
     // and fill in the ClientID and ClientSecret in the .env file
+    'evelogin' => [
+        'client_id'     => env('LOGIN_CLIENT_ID'),
+        'client_secret' => env('LOGIN_CLIENT_SECRET'),
+        'redirect'      => env('LOGIN_CALLBACK_URL'),
+    ],
+    
     'eveonline' => [
         'client_id'     => env('EVE_CLIENT_ID'),
         'client_secret' => env('EVE_CLIENT_SECRET'),
-        'redirect'      => env('EVE_CALLBACK_URL'),
     ],
 
 ];
