@@ -16,24 +16,28 @@ SeAT: A Simple, EVE Online API Tool and Corporation Manager
 SeAT is a simple, [EVE Online](https://www.eveonline.com/) Corporation and API management tool, built using [Laravel](https://laravel.com/). SeAT allows you to keep an eye on all things related to your corporation; from wallets, to mail, to assets for both characters and corporations. Notifications can be sent based on starbase fuel levels and a fully featured role based access control system allows you to tightly control who has access to what. This repository contains the main SeAT Repository. It can be seen as the 'glue' for all of the SeAT core packages.
 
 # SeAT 3 / ESI Update
+
 SeAT plans to fully support ESI. Please refer to [this](https://github.com/eveseat/seat/issues/262) issue for progress tracking and other status updates. For the latest news, please join us on [Slack](https://eve-seat.slack.com/).
 
 For a development instance of SeAT 3, check out the docker-compose configuration [here](https://github.com/eveseat/scripts/tree/master/docker-compose-dev).
 
 ## screenshots
+
 ![character view](https://i.imgur.com/hxfcYll.png)
 ![starbase view](https://i.imgur.com/qFX2lDS.png)
 
 ## demo
-It is possible to have a free (2 hour limit) demo of SeAT using [https://dply.co](https://dply.co/b/hN6lzMWo). All you need is a valid [Github](github.com) account with an SSH key.
 
-To start a demo, simply click the **dply** button below, signing with your [Github](github.com) account and give the server a name. Then, just hit *Create Server*.
+It is possible to have a free (2 hour limit) demo of SeAT using [https://dply.co](https://dply.co/b/b0cmAwyf). All you need is a valid [Github](github.com) account with an SSH key.
 
-[![Dply](https://dply.co/b.svg)](https://dply.co/b/hN6lzMWo)
+To start a demo, simply click the **dply** button below, signing in with your [Github](github.com) account and giving the server a name. Then, just hit *Create Server*.
 
-Setup can take a few minutes. Check the logfile at `/var/log/cloud-init-output.log` for when it says *[OK] Installation complete!*, then reset the admin password using `php /var/www/seat/artisan seat:admin:reset` and browse to the IP of your server!
+[![Dply](https://dply.co/b.svg)](https://dply.co/b/b0cmAwyf)
+
+Setup can take a few minutes. Once done, it will be available at `http://<ip address>:8080/`. Create an administrator login by running `docker-compose exec seat-app php artisan seat:admin:login` from an SSH session in the `/opt/seat-docker` path.
 
 ## packages
+
 For the **actual** SeAT source, please refer to the following package repositories:  
 
 | Package Name   | Version       | Downloads | Code Climate |
@@ -48,14 +52,17 @@ For the **actual** SeAT source, please refer to the following package repositori
 | [web](https://github.com/eveseat/web) | [![Latest Stable Version](https://poser.pugx.org/eveseat/web/v/stable)](https://packagist.org/packages/eveseat/web) | [![Total Downloads](https://poser.pugx.org/eveseat/web/downloads)](https://packagist.org/packages/eveseat/web) | [![Code Climate](https://codeclimate.com/github/eveseat/web/badges/gpa.svg)](https://codeclimate.com/github/eveseat/web) |
 
 ## documentation & installation
+
 Please refer to the [documentation](https://eveseat.github.io/docs/) for installation instructions, upgrade guides and more.
 
 ## security
+
 If you find any security vulnerabilities within SeAT, please send an email to theninjabag@gmail.com to address instead of creating a public Github issue.
 
 ## sponsors
+
 ![phpstorm](https://i.imgur.com/M6yP6R7.png) Integrated Development Environment proudly sponsored by Jetbrains.
 
 ## donate
-If you like SeAT, please consider donating ISK in game to [qu1ckkkk](https://gate.eveonline.com/Profile/qu1ckkkk) or via [paypal](https://www.paypal.me/leonjza).
 
+If you like SeAT, please consider donating ISK in game to [qu1ckkkk](https://gate.eveonline.com/Profile/qu1ckkkk) or via [paypal](https://www.paypal.me/leonjza).
