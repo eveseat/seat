@@ -1,4 +1,4 @@
-![SeAT](http://i.imgur.com/aPPOxSK.png)
+![SeAT](https://i.imgur.com/aPPOxSK.png)
 
 <h2 align="center">
 SeAT: A Simple, EVE Online API Tool and Corporation Manager
@@ -8,17 +8,24 @@ SeAT: A Simple, EVE Online API Tool and Corporation Manager
 <a href="https://packagist.org/packages/eveseat/seat"><img src="https://poser.pugx.org/eveseat/seat/v/stable" /></a>
 <a href="https://packagist.org/packages/eveseat/seat"><img src="https://poser.pugx.org/eveseat/seat/v/unstable" /></a>
 <a href="https://packagist.org/packages/eveseat/seat"><img src="https://poser.pugx.org/eveseat/seat/license" /></a>
-<a href="https://eveseat-slack.herokuapp.com/"><img src="https://eveseat-slack.herokuapp.com/badge.svg" /></a>
 <a href="https://styleci.io/repos/41199860"><img src="https://styleci.io/repos/41199860/shield?branch=master" alt="StyleCI"></a>
 
 </h2>
 
-SeAT is a simple, [EVE Online](https://www.eveonline.com/) Corporation and API management tool, built using [Laravel](https://laravel.com/). SeAT allows you to keep an eye on all things related to your corporation; from wallets, to mail, to assets for both characters and corporations. Notifications can be sent based on starbase fuel levels and a fully featured role based access control system allows you to tightly control who has access to what. This repository contains the main SeAT Repository. It can be seen as the 'glue' for all of the SeAT core packages.
+SeAT is a simple, [EVE Online](https://www.eveonline.com/) Corporation and API management tool. SeAT allows you to keep an eye on all things related to your corporation; from wallets, to mail, to assets for both characters and corporations.
+
+## documentation
+
+Please refer to the [documentation](https://eveseat.github.io/docs/) for installation instructions, upgrade guides and more. Consider joining our [Slack community](https://eveseat.github.io/docs/about/contact/) too!
+
+## donate
+
+If you like SeAT, please consider donating ISK in game to [qu1ckkkk](https://gate.eveonline.com/Profile/qu1ckkkk) or via [paypal](https://www.paypal.me/leonjza).
 
 ## screenshots
 
-![character view](https://i.imgur.com/hxfcYll.png)
-![starbase view](https://i.imgur.com/qFX2lDS.png)
+![dashboard](https://i.imgur.com/PXHOYCp.png)
+![character view](https://i.imgur.com/Cd5SuIm.png)
 
 ## demo
 
@@ -45,10 +52,6 @@ For the **actual** SeAT source, please refer to the following package repositori
 | [services](https://github.com/eveseat/services) | [![Latest Stable Version](https://poser.pugx.org/eveseat/services/v/stable)](https://packagist.org/packages/eveseat/services) | [![Total Downloads](https://poser.pugx.org/eveseat/services/downloads)](https://packagist.org/packages/eveseat/services) | [![Code Climate](https://codeclimate.com/github/eveseat/services/badges/gpa.svg)](https://codeclimate.com/github/eveseat/services) |
 | [web](https://github.com/eveseat/web) | [![Latest Stable Version](https://poser.pugx.org/eveseat/web/v/stable)](https://packagist.org/packages/eveseat/web) | [![Total Downloads](https://poser.pugx.org/eveseat/web/downloads)](https://packagist.org/packages/eveseat/web) | [![Code Climate](https://codeclimate.com/github/eveseat/web/badges/gpa.svg)](https://codeclimate.com/github/eveseat/web) |
 
-## documentation & installation
-
-Please refer to the [documentation](https://eveseat.github.io/docs/) for installation instructions, upgrade guides and more.
-
 ## security
 
 If you find any security vulnerabilities within SeAT, please send an email to theninjabag@gmail.com to address instead of creating a public Github issue.
@@ -56,7 +59,3 @@ If you find any security vulnerabilities within SeAT, please send an email to th
 ## sponsors
 
 ![phpstorm](https://i.imgur.com/M6yP6R7.png) Integrated Development Environment proudly sponsored by Jetbrains.
-
-## donate
-
-If you like SeAT, please consider donating ISK in game to [qu1ckkkk](https://gate.eveonline.com/Profile/qu1ckkkk) or via [paypal](https://www.paypal.me/leonjza).
