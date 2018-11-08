@@ -27,16 +27,6 @@ If you like SeAT, please consider donating ISK in game to [qu1ckkkk](https://gat
 ![dashboard](https://i.imgur.com/PXHOYCp.png)
 ![character view](https://i.imgur.com/Cd5SuIm.png)
 
-## demo
-
-It is possible to have a free (2 hour limit) demo of SeAT using [https://dply.co](https://dply.co/b/b0cmAwyf). All you need is a valid [Github](github.com) account with an SSH key.
-
-To start a demo, simply click the **dply** button below, signing in with your [Github](github.com) account and giving the server a name. Then, just hit *Create Server*.
-
-[![Dply](https://dply.co/b.svg)](https://dply.co/b/b0cmAwyf)
-
-Setup can take a few minutes. Once done, it will be available at `http://<ip address>:8080/`. Create an administrator login by running `docker-compose exec seat-app php artisan seat:admin:login` from an SSH session in the `/opt/seat-docker` path.
-
 ## packages
 
 For the **actual** SeAT source, please refer to the following package repositories:  
