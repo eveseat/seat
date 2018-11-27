@@ -1,6 +1,6 @@
 ---
 name: Core Bug
-about: "Report a bug you have encountered using SeAT. Are considered as bugs everything including ACL outage, security outage, Exception, etc... **Note:** Issues related to SeAT API must be reported on the API Issue template. If you're encountering issues while attempting to install SeAT itself, please go to our Slack in #support channel which will be a better please to sort such problems : [Get an invite](https://eveseat-slack.herokuapp.com)"
+about: "Report a bug you have encountered using SeAT. Are considered as bugs everything including ACL outage, Exception, etc... **Note:** Issues related to SeAT API must be reported on the API Issue template. If you're encountering issues while attempting to install SeAT itself, please go to our Slack in #support channel which will be a better place to sort such problems: [Get an invite](https://eveseat-slack.herokuapp.com). **IMPORTANT**: If you found a security outage, please relay it to [theninjabag@gmail.com](mailto:theninjabag@gmail.com)"
 ---
 
 # Bug
@@ -9,7 +9,7 @@ about: "Report a bug you have encountered using SeAT. Are considered as bugs eve
 *In this space, please provide a short description of the bug you've encountered.
 This should help us to understood what you've did while you get the error. E.g.:*
 
-When I'm going on the character list, I'm getting a popup with the following message :
+When I'm going on the character list, I'm getting a popup with the following message:
 ```
 DatatTables warning:
 table id=character-list - Ajax Error.
@@ -24,11 +24,11 @@ I should get a list of all registered characters with their name, corporation, a
 
 ## Logs
 
-*Please attach the content of the following files to your bugs report :*
+*Please attach the content of the following files to your bugs report:*
  - *laravel-{date}.log (this file will contains all information regarding to error in code)*
  - *eseye-{date}.log (this file will contains all information regarding eseye endpoint, methods and attached HTTP response code)*
 
-*Those files can be found in the following directory : `/var/www/seat/storage/logs/`*
+*Those files can be found in the following directory: `/var/www/seat/storage/logs/`*
 *(for detailed instructions about how to retrieve them on either blade or Docker installation, please refer to the [documentation](https://eveseat.github.io/docs/troubleshooting/#checking-log-files))*
 
 *In case you're not providing the complete file, please surround the content with three grave accent before and after the content (```)*
@@ -83,9 +83,10 @@ Stack trace:
 
 # Checklist
 
-Check all boxes that apply to this issue :
+Check all boxes that apply to this issue:
  - [ ] Bug description is provided
  - [ ] Expected comportment is provided
  - [ ] Laravel log is provided
  - [ ] Eseye log is provided
  - [ ] Package versions are provided
+ - [ ] Server specification are provided

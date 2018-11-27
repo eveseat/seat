@@ -11,7 +11,7 @@ This should help us to understood what you've did while you get the error. E.g.:
 
 When I'm sending a request to `/roles/affiliation/character` I got a success response but the user still not have the role attached to him.
 
-*Side note: If you can, please attach a gist version or a link to a repository where is your script.*
+*Side note: If you are using SeAT API programmatically, please attach a gist version or a link to your repository.*
 
 ## Expected
 
@@ -73,15 +73,15 @@ true
 
 ## Logs
 
-*Please attach the content of the following files to your bugs report :*
+*Please attach the content of the following files to your bugs report:*
  - *laravel-{date}.log (this file will contains all information regarding to error in code)*
 
-*Those files can be found in the following directory : `/var/www/seat/storage/logs/`*
+*Those files can be found in the following directory: `/var/www/seat/storage/logs/`*
 *For detailed instructions about how to retrieve them on either blade or Docker installation, please refer to the [documentation](https://eveseat.github.io/docs/troubleshooting/#checking-log-files)*
 
 *In case you're not providing the complete file, please surround the content with three grave accent before and after the content (```)*
 
-*Furthermore, ensure you're providing the full exception stack and not only the first or last line. Lines regarding an exception are numbered from 1 to infinite and preceded by two lines like :*
+*Furthermore, ensure you're providing the full exception stack and not only the first or last line. Lines regarding an exception are numbered from 1 to infinite and preceded by two lines like:*
 ```
 Some\Weired\Thing\StuffException in /path/to/the/file.php:14
 Stack trace:
@@ -104,13 +104,13 @@ Stack trace:
 
 # Checklist
 
-Check all boxes that apply to this issue :
+Check all boxes that apply to this issue:
  - [ ] Bug description is provided
  - [ ] Expected comportment is provided
  - [ ] Request Path is provided
  - [ ] Request Method is provided
  - [ ] Request Headers are provided
- - [ ] Request Body is provided (for POST and PATCH requests only)
+ - [ ] Request Body is provided (for `POST` and `PATCH` requests only)
  - [ ] Response Status is provided
  - [ ] Response Headers are provided
  - [ ] Response Body is provided
