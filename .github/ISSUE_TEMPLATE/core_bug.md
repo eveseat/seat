@@ -33,7 +33,7 @@ I should get a list of all registered characters with their name, corporation, a
 
 *In case you're not providing the complete file, please surround the content with three grave accent before and after the content (```)*
 
-*Furthermore, ensure you're providing the full exception stack and not only the first or last line. Lines regarding an exception are numbered from 1 to infinite and preceded by two lines like :*
+*Furthermore, ensure you're providing the full exception stack and not only the first or last line. Lines regarding an exception are numbered from 1 to infinite and preceded by two lines like:*
 ```
 Some\Weired\Thing\StuffException in /path/to/the/file.php:14
 Stack trace:
