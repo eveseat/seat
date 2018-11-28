@@ -6,7 +6,7 @@ about: "Report a bug you have encountered using SeAT API."
 # Bug
 *This template contains an example bug report. Please replace all text except for the checklist and the section headers (they start with \#). Thank you for your contribution to improving SeAT.*
 
-*In this space, please provide a short description of the bug you've encountered.
+*In this section, please provide a short description of the bug you've encountered.
 This should help us to understood what you've did while you get the error. E.g.:*
 
 When I'm sending a request to `/roles/affiliation/character` I got a success response but the user still not have the role attached to him.
