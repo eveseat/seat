@@ -17,6 +17,7 @@
     "fideloper/proxy": "~3.3",
     "laravel/framework": "5.5.*",
     "laravel/tinker": "~1.0",
+    "microsoft/application-insights": "0.4.*",
     "predis/predis": "^1.1",
     "eveseat/api": "~3",
     "eveseat/console": "~3",

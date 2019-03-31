@@ -2,7 +2,10 @@
 
 namespace App\Exceptions;
 
+use ApplicationInsights\Telemetry_Client;
 use Exception;
+use GuzzleHttp\Client;
+use Illuminate\Contracts\Container\Container;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 class Handler extends ExceptionHandler
@@ -13,7 +16,7 @@ class Handler extends ExceptionHandler
      * @var array
      */
     protected $dontReport = [
-
+        \Symfony\Component\Console\Exception\CommandNotFoundException::class,
     ];
 
     /**
@@ -25,6 +28,26 @@ class Handler extends ExceptionHandler
         'password',
         'password_confirmation',
     ];
+
+    private $telemetryClient;
+
+    public function __construct(Container $container)
+    {
+        parent::__construct($container);
+
+        $app_insight_token = env('AZURE_APP_INSIGHT_KEY');
+
+        if (is_null($app_insight_token)) {
+
+            $server_ip = array_key_exists('SERVER_ADDR', $_SERVER) ? $_SERVER['SERVER_ADDR'] : '127.0.0.1';
+
+            $this->telemetryClient = new Telemetry_Client();
+            $this->telemetryClient->getContext()->setInstrumentationKey($app_insight_token);
+            $this->telemetryClient->getContext()->getLocationContext()->setIp($server_ip);
+            $this->telemetryClient->getChannel()->SetClient(new Client());
+
+        }
+    }
 
     /**
      * Report or log an exception.
@@ -39,6 +62,12 @@ class Handler extends ExceptionHandler
     {
 
         parent::report($exception);
+
+        if (is_null($exception) || is_null(env('AZURE_APP_INSIGHT_KEY')))
+            return;
+
+       $this->telemetryClient->trackException($exception);
+       $this->telemetryClient->flush();
     }
 
     /**
