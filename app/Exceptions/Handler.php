@@ -37,7 +37,7 @@ class Handler extends ExceptionHandler
 
         $app_insight_token = env('AZURE_APP_INSIGHT_KEY');
 
-        if (is_null($app_insight_token)) {
+        if (! is_null($app_insight_token)) {
 
             $server_ip = array_key_exists('SERVER_ADDR', $_SERVER) ? $_SERVER['SERVER_ADDR'] : '127.0.0.1';
 
