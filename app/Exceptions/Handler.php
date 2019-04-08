@@ -17,6 +17,7 @@ class Handler extends ExceptionHandler
      */
     protected $dontReport = [
         \Symfony\Component\Console\Exception\CommandNotFoundException::class,
+        \Illuminate\Foundation\Http\Exceptions\MaintenanceModeException::class,
     ];
 
     /**
