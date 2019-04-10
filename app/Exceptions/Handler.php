@@ -67,8 +67,10 @@ class Handler extends ExceptionHandler
         if (is_null($exception) || is_null(env('AZURE_APP_INSIGHT_KEY')))
             return;
 
-       $this->telemetryClient->trackException($exception);
-       $this->telemetryClient->flush();
+        if (setting('allow_tracking', true)) {
+            $this->telemetryClient->trackException($exception);
+            $this->telemetryClient->flush();
+        }
     }
 
     /**
