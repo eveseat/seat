@@ -37,7 +37,7 @@ use Seat\Services\Exceptions\SettingException;
 class AzureApplicationInsight
 {
     /**
-     * Determine the number of metrics which will put on the side before being sent to Azure Application Insight
+     * Determine the number of metrics which will put on the side before being sent to Azure Application Insight.
      */
     const MAXIMUM_QUEUE_SIZE = 10;
 
