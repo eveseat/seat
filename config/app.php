@@ -173,6 +173,7 @@ return [
         Seat\Notifications\NotificationsServiceProvider::class,
         Seat\Services\ServicesServiceProvider::class,
         Seat\Web\WebServiceProvider::class,
+        App\Providers\AzureApplicationInsightProvider::class,
 
         /*
          * Application Service Providers...

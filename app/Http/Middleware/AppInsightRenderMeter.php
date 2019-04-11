@@ -22,9 +22,7 @@
 
 namespace App\Http\Middleware;
 
-use ApplicationInsights\Telemetry_Client;
 use Closure;
-use GuzzleHttp\Client;
 
 /**
  * Class AppInsightRenderMeter.
@@ -45,26 +43,9 @@ class AppInsightRenderMeter
     /**
      * @param $request
      * @param $response
-     * @throws \Seat\Services\Exceptions\SettingException
      */
     public function terminate($request, $response)
     {
-        $app_insight_token = env('AZURE_APP_INSIGHT_KEY');
-
-        if (! is_null($app_insight_token) && setting('allow_tracking', true)) {
-
-            $server_ip = array_key_exists('SERVER_ADDR', $_SERVER) ? $_SERVER['SERVER_ADDR'] : '127.0.0.1';
-
-            $telemetry_client = new Telemetry_Client();
-            $telemetry_client->getContext()->setInstrumentationKey($app_insight_token);
-            $telemetry_client->getContext()->getLocationContext()->setIp($server_ip);
-            $telemetry_client->getChannel()->SetClient(new Client());
-
-            $uid = sha1(implode('|', [$request->method(), $request->path()]));
-
-            $telemetry_client->trackRequest($uid, substr($request->fullUrl(), 0, 2048), LARAVEL_START, (microtime(true) - LARAVEL_START), $response->getStatusCode(), $response->isSuccessful());
-            $telemetry_client->flush();
-
-        }
+        app('app-insight')->trackRequest($request, $response);
     }
 }
