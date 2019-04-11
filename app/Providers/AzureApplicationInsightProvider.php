@@ -39,9 +39,6 @@ class AzureApplicationInsightProvider extends ServiceProvider
      */
     protected $defer = false;
 
-    /**
-     *
-     */
     public function boot()
     {
         Queue::before(function (JobProcessing $event) {
@@ -63,9 +60,6 @@ class AzureApplicationInsightProvider extends ServiceProvider
         ];
     }
 
-    /**
-     *
-     */
     public function register()
     {
         $this->app->singleton('app-insight', function ($app) {

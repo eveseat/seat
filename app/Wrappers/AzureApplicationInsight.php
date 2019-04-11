@@ -54,6 +54,9 @@ class AzureApplicationInsight
         $this->initContainer();
     }
 
+    /**
+     * AzureApplicationInsight destructor.
+     */
     public function __destruct()
     {
         // send all remaining queue elements to the telemetry platform
@@ -65,7 +68,7 @@ class AzureApplicationInsight
     }
 
     /**
-     * Determine if yes or no the monitoring service is online
+     * Determine if yes or no the monitoring service is online.
      *
      * @return bool
      */
@@ -170,7 +173,7 @@ class AzureApplicationInsight
     }
 
     /**
-     * Init the container with a new Telemetry Client
+     * Init the container with a new Telemetry Client.
      */
     private function initContainer()
     {
@@ -188,7 +191,7 @@ class AzureApplicationInsight
     }
 
     /**
-     * Ensure telemetry service is active or attempt to init it
+     * Ensure telemetry service is active or attempt to init it.
      *
      * @return bool
      */
@@ -204,15 +207,11 @@ class AzureApplicationInsight
     }
 
     /**
-     * Send telemetry data to Azure Application Insight if we've reached the maximum queue size
+     * Send telemetry data to Azure Application Insight if we've reached the maximum queue size.
      */
     private function afterTrackTelemetry()
     {
         if (count($this->telemetryClient->getChannel()->getQueue()) >= self::MAXIMUM_QUEUE_SIZE) {
-
-            logger()->debug('TELEMETRY', [
-                $this->telemetryClient->getChannel()->getSerializedQueue(),
-            ]);
 
             try {
                 $this->telemetryClient->flush();
