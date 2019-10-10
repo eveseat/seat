@@ -22,7 +22,8 @@
     "eveseat/eveapi": "4.0.x-dev",
     "eveseat/notifications": "4.0.x-dev",
     "eveseat/services": "4.0.x-dev",
-    "eveseat/web": "4.0.x-dev"
+    "eveseat/web": "4.0.x-dev",
+    "ext-pdo": "*"
   },
   "require-dev": {
     "facade/ignition": "^1.4",
