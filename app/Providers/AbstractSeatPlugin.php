@@ -158,4 +158,23 @@ abstract class AbstractSeatPlugin extends ServiceProvider
             $this->getPackagistVendorName(),
             $this->getPackagistPackageName());
     }
+
+    /**
+     * Register new permissions into the core to the specified scope.
+     *
+     * A valid permission must be structured as followed :
+     *  $permission_name => [
+     *      'label' => $permission_label_translation_key,
+     *      'description' => $permission_description_translation_key,
+     *  ]
+     *
+     * @param string $permissions_path A path to permissions elements.
+     * @param string $scope An optional scope into which register permissions (global will be used if not specified).
+     */
+    final public function registerPermissions(string $permissions_path, string $scope = 'global')
+    {
+        $key = sprintf('seat.permissions.%s', $scope);
+
+        $this->mergeConfigFrom($permissions_path, $key);
+    }
 }
