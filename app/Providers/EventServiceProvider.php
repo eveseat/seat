@@ -16,7 +16,7 @@ class EventServiceProvider extends ServiceProvider
             'App\Listeners\EventListener',
         ],
         \SocialiteProviders\Manager\SocialiteWasCalled::class => [
-            'Seat\Web\Extentions\Socialite\EveOnline\EveOnlineExtendSocialite@handle',
+            'Seat\Services\Socialite\EveOnline\EveOnlineExtendSocialite@handle',
         ],
     ];
 
