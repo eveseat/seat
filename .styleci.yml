@@ -8,7 +8,7 @@ enabled:
   - no_empty_comment
 
 disabled:
-  - braces
+  - psr2_braces
   - phpdoc_no_package
   - concat_without_spaces
   - length_ordered_imports
