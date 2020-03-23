@@ -181,9 +181,9 @@ abstract class AbstractSeatPlugin extends ServiceProvider
     /**
      * Register new path to annotations dictionary used by Swagger API Documentation.
      *
-     * @param string $path
+     * @param string|string[] $paths
      */
-    final public function registerApiAnnotationsPath(string $path)
+    final public function registerApiAnnotationsPath($paths)
     {
         // ensure current annotation setting is an array of path or transform into it
         $current_annotations = config('l5-swagger.paths.annotations', []);
@@ -191,11 +191,12 @@ abstract class AbstractSeatPlugin extends ServiceProvider
         if (! is_array($current_annotations))
             $current_annotations = [$current_annotations];
 
+        if (! is_array($paths))
+            $paths = [$paths];
+
         // merge paths together and update config
         config([
-            'l5-swagger.paths.annotations' => array_unique(array_merge($current_annotations, [
-                $path,
-            ])),
+            'l5-swagger.paths.annotations' => array_unique(array_merge($current_annotations, $paths)),
         ]);
     }
 }
