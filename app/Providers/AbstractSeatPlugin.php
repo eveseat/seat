@@ -199,4 +199,22 @@ abstract class AbstractSeatPlugin extends ServiceProvider
             'l5-swagger.paths.annotations' => array_unique(array_merge($current_annotations, $paths)),
         ]);
     }
+
+    /**
+     * Register extra tables to downloaded SDE.
+     * Provided tables must be available on https://www.fuzzwork.co.uk/dump/latest/.
+     *
+     * @param string|string[] $tables
+     */
+    final public function registerSdeTables($tables)
+    {
+        $current_tables = config('seat.sde.tables', []);
+
+        if (! is_array($tables))
+            $tables = [$tables];
+
+        config([
+            'seat.sde.tables' => array_unique(array_merge($current_tables, $tables)),
+        ]);
+    }
 }
