@@ -17,12 +17,12 @@
     "fideloper/proxy": "^4.0",
     "laravel/framework": "^6.2",
     "laravel/tinker": "^1.0",
-    "eveseat/api": "4.0.x-dev",
-    "eveseat/console": "4.0.x-dev",
-    "eveseat/eveapi": "4.0.x-dev",
-    "eveseat/notifications": "4.0.x-dev",
-    "eveseat/services": "4.0.x-dev",
-    "eveseat/web": "4.0.x-dev",
+    "eveseat/api": "^4.0",
+    "eveseat/console": "^4.0",
+    "eveseat/eveapi": "^4.0",
+    "eveseat/notifications": "^4.0",
+    "eveseat/services": "^4.0",
+    "eveseat/web": "^4.0",
     "ext-pdo": "*"
   },
   "require-dev": {
