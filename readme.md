@@ -9,6 +9,7 @@ SeAT: A Simple, EVE Online API Tool and Corporation Manager
 <a href="https://packagist.org/packages/eveseat/seat"><img src="https://poser.pugx.org/eveseat/seat/v/unstable" /></a>
 <a href="https://packagist.org/packages/eveseat/seat"><img src="https://poser.pugx.org/eveseat/seat/license" /></a>
 <a href="https://styleci.io/repos/41199860"><img src="https://styleci.io/repos/41199860/shield?branch=master" alt="StyleCI"></a>
+<a href="https://hub.docker.com/r/eveseat/seat"><img alt="Docker Cloud Build Status" src="https://img.shields.io/docker/cloud/build/eveseat/seat"></a>
 ![gh-pages-deploy](https://github.com/eveseat/docs/workflows/gh-pages-deploy/badge.svg)
 
 </h2>
