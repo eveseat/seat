@@ -3,6 +3,7 @@
 namespace App\Exceptions;
 
 use Exception;
+use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 class Handler extends ExceptionHandler
@@ -37,6 +38,9 @@ class Handler extends ExceptionHandler
      */
     public function report(Exception $exception)
     {
+        // in case exception is relate to ACL, dispatch a security log event
+        if ($exception instanceof AuthorizationException)
+            event('security.log', [$exception->getMessage(), 'authorization']);
 
         parent::report($exception);
     }
