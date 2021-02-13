@@ -16,7 +16,7 @@
     "php": "^7.3",
     "fideloper/proxy": "^4.0",
     "laravel/framework": "^6.2",
-    "laravel/tinker": "^1.0",
+    "laravel/tinker": "^2.5",
     "eveseat/api": "^4.0",
     "eveseat/console": "^4.0",
     "eveseat/eveapi": "^4.0",
