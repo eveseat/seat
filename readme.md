@@ -18,7 +18,7 @@ SeAT is a simple, [EVE Online](https://www.eveonline.com/) Corporation and API m
 
 ## documentation
 
-Please refer to the [documentation](https://eveseat.github.io/docs/) for installation instructions, upgrade guides and more. Consider joining our [Slack community](https://eveseat.github.io/docs/about/contact/) too!
+Please refer to the [documentation](https://eveseat.github.io/docs/) for installation instructions, upgrade guides and more. To get in touch, check out our [contact page](https://eveseat.github.io/docs/about/contact/).
 
 ## donate
 
