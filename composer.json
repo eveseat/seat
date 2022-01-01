@@ -13,33 +13,29 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "php": "^7.3",
+    "php": "^8.1",
     "fideloper/proxy": "^4.0",
     "fruitcake/laravel-cors": "^2.0",
-    "laravel/framework": "^7.0",
-    "laravel/tinker": "^2.5",
-    "eveseat/api": "^4.0",
-    "eveseat/console": "^4.0",
-    "eveseat/eveapi": "^4.0",
-    "eveseat/notifications": "^4.0",
-    "eveseat/services": "^4.0",
-    "eveseat/web": "^4.0",
+    "laravel/framework": "^8.0",
+    "laravel/tinker": "^2.6",
+    "eveseat/api": "5.0.x-dev",
+    "eveseat/eveapi": "5.0.x-dev",
+    "eveseat/notifications": "5.0.x-dev",
+    "eveseat/services": "5.0.x-dev",
+    "eveseat/web": "5.0.x-dev",
     "ext-pdo": "*"
   },
   "require-dev": {
     "facade/ignition": "^2.5",
     "fakerphp/faker": "^1.9.1",
     "mockery/mockery": "^1.0",
-    "nunomaduro/collision": "^4.0",
+    "nunomaduro/collision": "^5.0",
     "phpunit/phpunit": "^9.3.3"
   },
   "autoload": {
-    "classmap": [
-      "database/seeds",
-      "database/factories"
-    ],
     "psr-4": {
-      "App\\": "app/"
+      "App\\": "app/",
+      "Seat\\Core\\Database\\Seeders\\": "database/seeders/"
     }
   },
   "autoload-dev": {
