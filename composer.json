@@ -15,7 +15,8 @@
   "require": {
     "php": "^7.3",
     "fideloper/proxy": "^4.0",
-    "laravel/framework": "^6.2",
+    "fruitcake/laravel-cors": "^2.0",
+    "laravel/framework": "^7.0",
     "laravel/tinker": "^2.5",
     "eveseat/api": "^4.0",
     "eveseat/console": "^4.0",
