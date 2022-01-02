@@ -1,24 +1,20 @@
-php:
-  preset: laravel
-  version: 8
-  enabled:
-    - concat_with_spaces
-    - no_empty_comment
-  disabled:
-    - laravel_braces
-    - phpdoc_no_package
-    - concat_without_spaces
-    - no_blank_lines_after_class_opening
-    - no_blank_lines_after_throw
-  finder:
-    exclude:
-      - tests
-    name:
-      - "*.php"
-    not-name:
-      - index.php
-js:
-  finder:
-    not-name:
-      - webpack.mix.js
-css: true
+preset: laravel
+
+risky: false
+
+enabled:
+  - concat_with_spaces
+  - no_empty_comment
+
+disabled:
+  - laravel_braces
+  - phpdoc_no_package
+  - concat_without_spaces
+  - no_blank_lines_after_class_opening
+  - no_blank_lines_after_throw
+  
+finder:
+  exclude:
+    - "tests"
+  name:
+    - "*.php"
