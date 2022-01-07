@@ -23,9 +23,6 @@
 namespace Seat\Core\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Seat\Eveapi\Database\Seeders\ScheduleSeeder as EveApiScheduleSeeder;
-use Seat\Notifications\Database\Seeders\ScheduleSeeder as NotificationsScheduleSeeder;
-use Seat\Web\Database\Seeders\ScheduleSeeder as WebScheduleSeeder;
 
 /**
  * Class DatabaseSeeder.
@@ -39,10 +36,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call([
-            EveApiScheduleSeeder::class,
-            NotificationsScheduleSeeder::class,
-            WebScheduleSeeder::class,
-        ]);
+        // collect seeders from config
+        $seeders = config('seat.seeders', []);
+
+        if (empty($seeders))
+            return;
+
+        // run seeders
+        $this->call($seeders);
     }
 }
