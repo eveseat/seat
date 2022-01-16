@@ -1,4 +1,4 @@
-Please don't log issues for general discussions or non code problems. Instead, join us on Slack for a chat.
+Please don't log issues for general discussions or non code problems. Instead, join us on Discord for a chat.
 
 https://eveseat.github.io/docs/about/contact/
 
