@@ -12,15 +12,6 @@ use Seat\Services\Models\Schedule as DbSchedule;
 class Kernel extends ConsoleKernel
 {
     /**
-     * The Artisan commands provided by your application.
-     *
-     * @var array
-     */
-    protected $commands = [
-
-    ];
-
-    /**
      * Define the application's command schedule.
      *
      * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
@@ -28,8 +19,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-
-        // Check that the schedules table exists. This
+        // Check that the schedule's table exists. This
         // could cause a fatal error if the app is
         // still being setup or the db has not yet
         // been configured. This is a relatively ugly
@@ -66,18 +56,5 @@ class Kernel extends ConsoleKernel
                 $command->thenPing($job['ping_after']);
 
         }
-    }
-
-    /**
-     * Register the commands for the application.
-     *
-     * @return void
-     */
-    protected function commands()
-    {
-
-        $this->load(__DIR__ . '/Commands');
-
-        require base_path('routes/console.php');
     }
 }
