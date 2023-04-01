@@ -47,7 +47,3 @@ For the **actual** SeAT source, please refer to the following package repositori
 ## security
 
 If you find any security vulnerabilities within SeAT, please send an email to theninjabag@gmail.com to address instead of creating a public Github issue.
-
-## sponsors
-
-![phpstorm](https://i.imgur.com/M6yP6R7.png) Integrated Development Environment proudly sponsored by Jetbrains.
