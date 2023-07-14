@@ -15,11 +15,11 @@
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.0",
         "laravel/tinker": "^2.7",
-        "eveseat/api": "^5.0.x-dev",
-        "eveseat/eveapi": "^5.0.x-dev",
-        "eveseat/notifications": "^5.0.x-dev",
-        "eveseat/services": "^5.0.x-dev",
-        "eveseat/web": "^5.0.x-dev",
+        "eveseat/api": "^5.0",
+        "eveseat/eveapi": "^5.0",
+        "eveseat/notifications": "^5.0",
+        "eveseat/services": "^5.0",
+        "eveseat/web": "^5.0",
         "ext-pdo": "*"
     },
     "require-dev": {
