@@ -3,6 +3,8 @@
 /packages
 /public/hot
 /public/storage
+/public/vendor/horizon
+/public/vendor/log-viewer
 /storage/*.key
 /storage/database.sqlite
 /vendor
