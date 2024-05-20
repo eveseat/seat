@@ -8,7 +8,7 @@ jobs:
     name: Checkout and tag
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           repository: eveseat/seat-docker
           ref: 'master'
@@ -18,8 +18,9 @@ jobs:
           git config user.email github-actions@github.com
           currver=`cat version`
           a=(${currver//./ })
-          ((a[2]++))
-          newver="${a[0]}.${a[1]}.${a[2]}"
+          newrelease=${a[2]}
+          newrelease=$((newrelease+1))
+          newver="${a[0]}.${a[1]}.${newrelease}"
           echo $newver > version
           git add version
           git commit -m "bump to version $newver"
